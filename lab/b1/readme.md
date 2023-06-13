@@ -78,10 +78,8 @@ Blast can also be run locally, through the command line interface. This allows w
 or collections of genomes to be scanned very fast. However, it takes a bit more bioinformatics
 expertise to go through the very large files that are produced, so we'll do this in a slightly
 simplified way this time. Let's look for RNA-polymerases, that is, the enzymes that transcribe
-DNA into RNA. They have already been downloaded from NCBI as described [here]
-(https://www.youtube.com/watch?v=OC74-DpkWjE), using "Bacteria" and "RNA polymerase"
-as keywords. You can retrieve this file directly from Canvas as Modules → Computer
-exercises → Input files → polymerases.fasta
+DNA into RNA. They have already been downloaded from NCBI as described [here](https://www.youtube.com/watch?v=OC74-DpkWjE), using "Bacteria" and "RNA polymerase"
+as keywords. You can retrieve this file directly as [`polymerases.fasta`](polymerases.fasta)
 Now look into this fasta file. A lot of the sequences are described as “CDS”.
 * Q9 What does that mean? What is the difference between CDS, EST and ORF?
 * Q10 How many sequences are there in the fasta file? This can be quickly counted through
@@ -110,10 +108,8 @@ Now look at the e-values and compare them to what you had before.
 do you explain that?
 Not all polymerases are the same. Let's compare a few of the ones in the database. You can
 find all of them in the smaller dataset. For this, you can go back to using online Blast. For thesimplified way this time. Let's look for RNA-polymerases, that is, the enzymes that transcribe
-DNA into RNA. They have already been downloaded from NCBI as described [here](
-https://www.youtube.com/watch?v=OC74-DpkWjE), using “Bacteria” and “RNA polymerase”
-as keywords. You can retrieve this file directly from Canvas as Modules → Computer
-exercises → Input files → polymerases.fasta
+DNA into RNA. They have already been downloaded from NCBI as described [here](https://www.youtube.com/watch?v=OC74-DpkWjE), using “Bacteria” and “RNA polymerase”
+as keywords. You can retrieve this file directly from [polymerases.fasta](polymerases.fasta).
 Now look into this fasta file. A lot of the sequences are described as “CDS”.
 * Q9 What does that mean? What is the difference between CDS, EST and ORF?
 * Q10 How many sequences are there in the fasta file? This can be quickly counted through
