@@ -98,7 +98,7 @@ Now that the database is ready, it's time to run nucleotide Blast.
 genome? Give its position within the genome, together with its e-value, length and bit-score.  
 _Hint: You might get several hits for the same region, but take into account that a good hit
 should have more or less the same length as the sequence it is matching to!_
-Now download from Canvas the file [`fewer_polymerases.fasta`](fewer_polymerases.fasta). This file contains only 50 of the
+Now download the file [`fewer_polymerases.fasta`](fewer_polymerases.fasta). This file contains only 50 of the
 sequences from the polymerase database. Format a Blast database from this file, too, and
 run Blast using it.  
 * Q15 Which commands did you run? Are there any differences compared to what you did
