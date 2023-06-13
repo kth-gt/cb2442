@@ -1,0 +1,27 @@
+name: cb2442-binder
+channels:
+  - defaults
+  - bioconda
+dependencies:
+  # Core
+  - pip
+  - python
+  - jupyter
+  # Lectures
+  - statsmodels
+  - networkx
+  # Lab 1
+  - pandas
+  - numpy
+  - scipy
+  - seaborn
+  - matplotlib
+  - ipywidgets
+  # Lab 2
+  - scikit-learn
+  - gseapy
+  # Lab 3
+  - cobra
+  - escher
+  - pytest
+  - pytest-benchmark
