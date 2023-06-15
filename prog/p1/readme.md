@@ -17,7 +17,7 @@ $ code .
 
 ### Implementation
 
-Add a python function to the file labp1.py named
+Add a python function to the file `labp1.py` named
 
 ```python
 def dna2aa(dna_str):
