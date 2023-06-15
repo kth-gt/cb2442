@@ -4,6 +4,17 @@ This is an introductory lab for the programming part of the course.
 Your task is to write a function that can convert mRNA sequence to amino acid sequence.
 To your help you have a scaffold of python code that you should use as to validate your code and also to make sure you follow a standard that the TAs can automatically validate.
 
+### Installation
+
+Begin with downloading the project to your local computer by using this [link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fkth-gt%2Fcb2442%2Ftree%2Fmain%2Fprog%2Fp1). 
+
+
+Unzip the files into a directory and open the directory in VScode. 
+```bash
+$ unzip 'kth-gt cb2442 main prog-p1.zip'
+$ code .
+```
+
 ### Implementation
 
 Add a python function to the file labp1.py named
