@@ -21,15 +21,42 @@ codon2aa = {
     'TTA': 'L', 'TTC': 'F', 'TTG': 'L', 'TTT': 'F'
 }
 
-## Here is a function that translates an RNA string into a protein string
+## Here is an example implementation of a function that translates
+# an RNA string into a protein string
 def dna2aa(dna_str):
     aa_str = ''
     for i in range(0, len(dna_str), 3):
         codon = dna_str[i:i+3]
-        if len(codon) == 3:
-            aa = codon2aa[codon]
-            aa_str += aa
+        if codon not in codon2aa:
+            continue
+        aa = codon2aa[codon]
+        aa_str += aa
     return aa_str
+
+## Here is an example implementation of an extended function that
+# handles three frames and returns the longest ORF
+def dna2aa_3frame(dna_str):
+    aa_str, longest_orf = '', 0
+    for frame in range(0, 3):
+        frame_longest_orf, frame_aa_str = 0, ''
+        len_orf = 0
+        for i in range(frame, len(dna_str), 3):
+            codon = dna_str[i:i+3]
+            if codon not in codon2aa:
+                continue
+            aa = codon2aa[codon]
+            if aa == '*':
+                if len_orf > longest_orf:
+                    frame_longest_orf = len_orf
+                    len_orf = 0
+                else:
+                    len_orf += 1
+            frame_aa_str += aa
+        if frame_longest_orf > longest_orf:
+            longest_orf = frame_longest_orf
+            aa_str = frame_aa_str
+    return aa_str
+
 
 ## Here is a function that reads a FASTA file and returns strings containing tupples of (sequence name, sequence)
 def read_fasta(filename):
@@ -62,3 +89,11 @@ def dna2aa_fasta(dna_filename, protein_filename):
     for name, seq in seqs:
         protein_seqs.append((name, dna2aa(seq)))
     write_fasta(protein_filename, protein_seqs)
+
+
+# Test code for the dna2aa function. 
+# Will only be executed if this file is run directly
+if __name__ == "__main__":
+    dna2aa("ATGATGATG")
+    dna2aa_fasta('cdna.faa', 'output.faa')
+
