@@ -10,6 +10,7 @@ description: "Here we store material for the Data Analysis part of the CB2442, B
 logo: assets/image/kth_logo.png
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-relative-links
   - jekyll-jupyter-notebook
 relative_links:
