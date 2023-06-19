@@ -1,4 +1,4 @@
-# LAB 4: Gene finding, Blast and sequence alignment
+# LAB B1: Gene finding, Blast and sequence alignment
 
 ## LAB PREPARATION
 
