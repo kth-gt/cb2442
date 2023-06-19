@@ -1,8 +1,8 @@
-theme: jekyll-theme-minimal
+theme: just-the-docs
+#theme: jekyll-theme-minimal
 title: "CB2442"
-description: "Here we store material for the Data Analysis part of the CB2030, Systems Biology course."
+description: "Here we store material for the Data Analysis part of the CB2442, Bioinformatics course."
 logo: assets/image/kth_logo.png
-google_analytics: UA-150816058-1
 
 plugins:
   - jekyll-relative-links
