@@ -1,4 +1,9 @@
-theme: just-the-docs
+# Remote Setting
+baseurl: "/guidelines"
+
+# Theme
+remote_theme: pmarsceill/just-the-docs
+#theme: just-the-docs
 #theme: jekyll-theme-minimal
 title: "CB2442"
 description: "Here we store material for the Data Analysis part of the CB2442, Bioinformatics course."
