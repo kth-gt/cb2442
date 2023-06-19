@@ -8,16 +8,18 @@ There is an outbreak of mysterious infectious diseases in your town. Doctors do 
 what is causing it, but they do know it is spreading fast. Patients come into the hospital
 presenting very different symptoms and doctors suspect that there might be more than one
 pathogen behind it. There are three variations of the mysterious disease:
-Disease 1 mostly affects children and their families. It is a severe form of diarrhoea that can
+
+* Disease 1 mostly affects children and their families. It is a severe form of diarrhoea that can
 lead to death if the patient isn't carefully rehydrated. Many, but not all, patients also present
 vomiting.
-Disease 2 seems to be sexually transmitted. It causes the skin or mucosa of the affected
+* Disease 2 seems to be sexually transmitted. It causes the skin or mucosa of the affected
 areas to form blisters, similar to burning. These open wounds in the anal-genital area often
 lead to other infections. Many patients have to take intravenous serum instead of normal food,
 and some must be kept under total isolation in the intensive care unit.
-Disease 3 has been spreading the fastest. Patients initially have flu-like symptoms, but in a
+* Disease 3 has been spreading the fastest. Patients initially have flu-like symptoms, but in a
 matter of days or weeks it evolves to a life-threatening pneumonia, associated to chest pain
-and bloody coughs.
+and bloody coughs.  
+
 Doctors have been able to isolate bacteria from the blood of a few patients from each of these
 conditions (healthy individuals usually do not have any bacteria in the blood stream). They
 have extracted DNA from the bacteria and had it sequenced. DNA sequencing produces very
@@ -25,15 +27,17 @@ small reads that have to be assembled (put together) into longer fragments of co
 bases, called contigs. A bioinformatician at the sequencing centre has already done the initial
 work. It is now up to you and your colleagues to find out as much as possible about this
 pathogen. The patients are counting on you!
-Preparation questions
+
+### Preparation questions
+
 We will start each lab discussing a few preparatory questions. You will not gain or lose points
 from them, but you might be called to discuss them in front of your classmates, so be
 prepared!
 
-i. What is genome annotation? What is its goal?
-ii. What is an Open Reading Frame? How does this relate to genome annotation?
-iii. What does it mean to “align two sequences”? What is the goal?
-iv. What is a p-value? How is that different from an e-value (expectation value)?
+1. What is genome annotation? What is its goal?
+1. What is an Open Reading Frame? How does this relate to genome annotation?
+1. What does it mean to “align two sequences”? What is the goal?
+1. What is a p-value? How is that different from an e-value (expectation value)?
 
 ## Lab Instructions
 
@@ -58,12 +62,14 @@ content, we have to study the functions of its genes. The first step for doing s
 gene sequences within the genome. Fortunately, there are tools that can find the genes inside
 a genome, based on certain sequence characteristics. Check the Bioinformatics Tools booklet
 and look for online tools for gene finding.
-#### Q3 
+
+#### Q3
 
 Which tools did you find?
 Take a look at their websites. Feel free to explore them for a few minutes. Then, pick one tool
 to use in this assignment. It’s important to have the nucleotide sequences as output.
-#### Q4 
+
+#### Q4
 
 Which tool did you choose? Why? Did you change any parameters from the default
 settings? Which, how, and why?
@@ -81,6 +87,7 @@ finder you employed), we can start studying their functions. One approach for do
 compare these new sequences with sequences from better known organisms. A very popular
 tool for doing this is Blast. Check the Bioinformatics Tools booklet on instructions in how to
 use online Blast for nucleotides. Blast the first 5 genes you have found.
+
 #### Q6
 
 Which Blast variant have you chosen? Why? Did you change any parameters from the
@@ -122,10 +129,12 @@ one contains all of your queries (the sequences to be identified).
 Which of these files should be the database, and which one should be the query?
 Why? What would happen if you did it the other way around?
 Look into the Bioinformatics Tools booklet to see how to prepare a Blast database.
+
 #### Q12
 
 Which command did you run? Describe what each part of it does.
 Now that the database is ready, it's time to run nucleotide Blast.
+
 #### Q13
 
 Which command did you run? Describe what each part of it does.
