@@ -2,12 +2,13 @@
 baseurl: "/cb2442"
 
 # Theme
-remote_theme: pmarsceill/just-the-docs
+remote_theme: chrisrhymes/bulma-clean-theme
+#remote_theme: pmarsceill/just-the-docs
 #theme: just-the-docs
 #theme: jekyll-theme-minimal
 title: "CB2442"
 description: "Here we store material for the Data Analysis part of the CB2442, Bioinformatics course."
-logo: assets/image/kth_logo.png
+logo: assets/images/kth_logo.png
 
 plugins:
   - jekyll-remote-theme
@@ -16,3 +17,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
+defaults:
+  - show_sidebar: true
