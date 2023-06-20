@@ -1,13 +1,8 @@
 # Remote Setting
 baseurl: "/cb2442"
-
-# Theme
 remote_theme: pages-themes/dinky@v0.2.0
-#remote_theme: pmarsceill/just-the-docs
-#theme: just-the-docs
-#theme: jekyll-theme-minimal
 title: "CB2442"
-description: "Here we store material for the Data Analysis part of the CB2442, Bioinformatics course."
+description: "Here we store material for the course CB2442, Bioinformatics."
 logo: assets/images/kth_logo.png
 
 plugins:
@@ -17,6 +12,3 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-
-defaults:
-  - show_sidebar: true
