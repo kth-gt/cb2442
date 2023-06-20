@@ -17,6 +17,9 @@
   <body>
     <div class="wrapper">
       <header>
+        {% if site.logo %}
+        <ul><li><img src="{{site.logo | relative_url}}" alt="Logo" height="50" width="50"/></li></ul>
+        {% endif %}
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -37,9 +40,6 @@
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
           </ul>
         {% endif %}
-        {% if site.logo %}
-        <ul><li><img src="{{site.logo | relative_url}}" alt="Logo" width="50"/></li></ul>
-        {% endif %}
 
       </header>
 
@@ -48,7 +48,7 @@
       </section>
 
       <footer>
-        <p><small>Source available at <a href="{{ site.github.repository_url }}{{ site.github.source.path }}">GitHub</a>.</small></p>
+        <p><small>Source available at <a href="{{ site.github.repository_url }}{{ site.github.source.path }}{{ page.url }}">GitHub</a>.</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
