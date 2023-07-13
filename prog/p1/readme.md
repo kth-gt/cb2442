@@ -24,7 +24,7 @@ def dna2aa(dna_str):
 ```
 
 that takes a dna sequence as input and returns an amino acid sequence. You may use the dictionary `codon2aa`. which translates tripplets of bases into amino acid symbols.
-Also, set the list authors to contain all the group members names.  
+Also, set the list `authors` to contain all the group members names.  
 
 ### Test
 
