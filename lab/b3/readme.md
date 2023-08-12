@@ -7,8 +7,12 @@ See the ‘Practicals’ document for more information.
 
 1. Based on just the hydrophobicity/hydrophilicity of the amino acid side chains, which parts of the hypothetical membrane protein LIFIRDNDEPTLIF will be inside the membrane and which will be outside?
 1. Look up what the Hamming distance is and calculate the Hamming distance between the aligned sequences (where a "-" indicates a deletion):  
-`PRI-LFDNRLDEFL  
-DRINLFRNR--NRL`
+  
+   ```verbatim
+   PRI-LFDNRLDEFL  
+   DRINLFRNR--NRL
+   ```
+
 1. Look up how the UPGMA clustering method works and draw the dendrogram for the following distance matrix:
 
 |    | Seq1 | Seq2 | Seq3 | Seq4|
@@ -26,13 +30,13 @@ As was mentioned in the previous lab, one of the mechanisms of antibiotic resist
 
 In the last lab you found some non-matching genes in the bacterial genome you chose to examine. Four of these corresponded to antibiotic resistance genes and two to a toxin. If you did not find these six genes in the previous lab, use the files [AB_Resistance_GeneMarkS_proteins.fasta](AB_Resistance_GeneMarkS_proteins.fasta), [toxin_Bact1_aminoacids.fasta](toxin_Bact1_aminoacids.fasta), [toxin_Bact2_aminoacids.fasta](toxin_Bact2_aminoacids.fasta), and [toxin_Bact3_aminoacids.fasta](toxin_Bact3_aminoacids.fasta).
 
-Run one of the tools from your tools booklet to find out if any of the antibiotic resistance genes have a transmembrane efflux pump candidate. Note that you might have to translate the nucleotide sequence to an amino acid sequence for the tool to work.
+Run one of the tools from your [tools booklet](../biotoolsbooklet.md) to find out if any of the antibiotic resistance genes have a transmembrane efflux pump candidate. Note that you might have to translate the nucleotide sequence to an amino acid sequence for the tool to work.
 
 #### Q1
 
 Which tool did you use? Which of the genes had TM helices? What is the 2D structure of this candidate (e.g. how many TM helices are there; does the protein start/end inside/outside the cell)?
 
-One way of finding out the function of a protein is to search the Pfam database, which contains information about functionality of protein families and domains and their protein structure.
+One way of finding out the function of a protein is to search the Pfam database, which contains information about the functionality of protein families and domains and their protein structure.
 
 #### Q2
 
