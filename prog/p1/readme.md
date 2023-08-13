@@ -1,7 +1,7 @@
 # Programming Lab P1
 
 This is an introductory lab for the programming part of the course.
-Your task is to write a function that can convert mRNA sequence to amino acid sequence.
+Your task is to write a function that can convert DNA sequence to amino acid sequence.
 To your help you have a scaffold of python code that you should use as to validate your code and also to make sure you follow a standard that the TAs can automatically validate.
 
 ### Installation
