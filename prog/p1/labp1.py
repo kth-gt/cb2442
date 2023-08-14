@@ -13,7 +13,7 @@ authors = ['A. Student', 'B. Helper']
 
 # Edit this function to return the amino acid sequence of a provided DNA sequence
 def dna2aa(dna_str):
-    aa_str = ''
+    aa_str = 'WAITING FOR IMPLEMENTATION'
     return aa_str
 
 # A dictionary converting codons to amino acids
@@ -75,6 +75,6 @@ def dna2aa_fasta(dna_filename, protein_filename):
 # Test code for the dna2aa function. 
 # Will only be executed if this file is run directly e.g. with "python labp1.py"
 if __name__ == "__main__":
-    dna2aa("ATGATGATG")
+    print(dna2aa("ATGATGATG"))
     dna2aa_fasta('cdna.faa', 'output.faa')
 

@@ -1,8 +1,6 @@
 # Programming Lab P1
 
-This is an introductory lab for the programming part of the course.
-Your task is to write a function that can convert DNA sequence to amino acid sequence.
-To your help you have a scaffold of python code that you should use as to validate your code and also to make sure you follow a standard that the TAs can automatically validate.
+This is an introductory lab for the programming part of the course. Your task is to write a function that can convert DNA sequence to amino acid sequence. To your help you have a scaffold of python code that you should use as to validate your code and also to make sure you follow a standard that the TAs can automatically validate.
 
 ## Preparations
 
@@ -12,10 +10,10 @@ If you are not yet familiar with the VScode software, watch for example this [sh
 
 ### Code Installation
 
-Begin with downloading the project to your local computer by using this [link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fkth-gt%2Fcb2442%2Ftree%2Fmain%2Fprog%2Fp1). 
+Begin with downloading the project to your local computer by using this [link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fkth-gt%2Fcb2442%2Ftree%2Fmain%2Fprog%2Fp1).
 
+Unzip the files into a directory and open the directory in VScode.
 
-Unzip the files into a directory and open the directory in VScode. 
 ```bash
 $ unzip 'kth-gt cb2442 main prog-p1.zip'
 $ code .
@@ -34,16 +32,16 @@ Also, set the list `authors` to contain all the group members names.
 
 ### Test
 
-You can make an initial execution of your `dna2aa` function by running the ain function of the python file itself by executing the line,
+You can make an initial execution of your `dna2aa` function by running the python file itself directly as top-level code by executing the line,
 
 ```bash
-$ python3 labp1.py
+$ python labp1.py
 ```
 
-However ther final test of the code is done by executing the `runner.py` executable, which can be exected from command line as, 
+However ther final test of the code is done by executing the `runner.py` executable, which can be exected from command line as,
 
 ```bash
-$ python3 runner.py
+$ python runner.py
 ```
 
 or just
