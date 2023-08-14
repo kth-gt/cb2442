@@ -1,6 +1,18 @@
-# A dictionary converting codons to amino acids
+
+# LAB P1
+
+# This file contains the code for the first lab assignment.
+# Please read the assignment carefully and implement the functions blank function.
+# You can run the code by typing "python labp1.py" in the terminal.
+# A more advanced test suite is available by executing "python runner.py".
+
+# This list contains the names of the authors of this program. 
+# Please change the names to your names.
 
 authors = ['A. Student', 'B. Helper']
+
+
+# A dictionary converting codons to amino acids
 
 codon2aa = {
     'AAA': 'K', 'AAC': 'N', 'AAG': 'K', 'AAT': 'N',
@@ -21,8 +33,8 @@ codon2aa = {
     'TTA': 'L', 'TTC': 'F', 'TTG': 'L', 'TTT': 'F'
 }
 
-## Here is an example implementation of a function that translates
-# an RNA string into a protein string
+
+# Edit this function to return the amino acid sequence of a provided DNA sequence
 def dna2aa(dna_str):
     aa_str = ''
     for i in range(0, len(dna_str), 3):
@@ -35,6 +47,8 @@ def dna2aa(dna_str):
 
 ## Here is an example implementation of an extended function that
 # handles three frames and returns the longest ORF
+# This is not a manitory part of the assignment, 
+# but it is a nice excercise if the students have extra time
 def dna2aa_3frame(dna_str):
     aa_str, longest_orf = '', 0
     for frame in range(0, 3):
@@ -58,7 +72,8 @@ def dna2aa_3frame(dna_str):
     return aa_str
 
 
-## Here is a function that reads a FASTA file and returns strings containing tupples of (sequence name, sequence)
+# Here is a function that reads a FASTA file and returns strings containing tupples of (sequence name, sequence)
+# In our case the sequences will be a DNA sequences
 def read_fasta(filename):
     seqs = []
     with open(filename) as f:
@@ -82,7 +97,9 @@ def write_fasta(filename, seqs):
             f.write('>' + name + '\n')
             f.write(seq + '\n')
 
-## Here is a function that reads a RNA FASTA and writes a protein FASTA
+# Here is a function that reads a DNA FASTA and writes a protein FASTA
+# It uses the functions above, and hence sdepends on your implementation 
+# of dna2aa()
 def dna2aa_fasta(dna_filename, protein_filename):
     seqs = read_fasta(dna_filename)
     protein_seqs = []
@@ -92,7 +109,7 @@ def dna2aa_fasta(dna_filename, protein_filename):
 
 
 # Test code for the dna2aa function. 
-# Will only be executed if this file is run directly
+# Will only be executed if this file is run directly e.g. with "python labp1.py"
 if __name__ == "__main__":
     dna2aa("ATGATGATG")
     dna2aa_fasta('cdna.faa', 'output.faa')
