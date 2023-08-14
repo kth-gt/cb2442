@@ -11,9 +11,12 @@
 
 authors = ['A. Student', 'B. Helper']
 
+# Edit this function to return the amino acid sequence of a provided DNA sequence
+def dna2aa(dna_str):
+    aa_str = ''
+    return aa_str
 
 # A dictionary converting codons to amino acids
-
 codon2aa = {
     'AAA': 'K', 'AAC': 'N', 'AAG': 'K', 'AAT': 'N',
     'ACA': 'T', 'ACC': 'T', 'ACG': 'T', 'ACT': 'T',
@@ -32,45 +35,6 @@ codon2aa = {
     'TGA': '*', 'TGC': 'C', 'TGG': 'W', 'TGT': 'C',
     'TTA': 'L', 'TTC': 'F', 'TTG': 'L', 'TTT': 'F'
 }
-
-
-# Edit this function to return the amino acid sequence of a provided DNA sequence
-def dna2aa(dna_str):
-    aa_str = ''
-    for i in range(0, len(dna_str), 3):
-        codon = dna_str[i:i+3]
-        if codon not in codon2aa:
-            continue
-        aa = codon2aa[codon]
-        aa_str += aa
-    return aa_str
-
-## Here is an example implementation of an extended function that
-# handles three frames and returns the longest ORF
-# This is not a manitory part of the assignment, 
-# but it is a nice excercise if the students have extra time
-def dna2aa_3frame(dna_str):
-    aa_str, longest_orf = '', 0
-    for frame in range(0, 3):
-        frame_longest_orf, frame_aa_str = 0, ''
-        len_orf = 0
-        for i in range(frame, len(dna_str), 3):
-            codon = dna_str[i:i+3]
-            if codon not in codon2aa:
-                continue
-            aa = codon2aa[codon]
-            if aa == '*':
-                if len_orf > longest_orf:
-                    frame_longest_orf = len_orf
-                    len_orf = 0
-                else:
-                    len_orf += 1
-            frame_aa_str += aa
-        if frame_longest_orf > longest_orf:
-            longest_orf = frame_longest_orf
-            aa_str = frame_aa_str
-    return aa_str
-
 
 # Here is a function that reads a FASTA file and returns strings containing tupples of (sequence name, sequence)
 # In our case the sequences will be a DNA sequences
