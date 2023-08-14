@@ -37,7 +37,7 @@ prepared!
 1. What is genome annotation? What is its goal?
 1. What is an Open Reading Frame? How does this relate to genome annotation?
 1. What does it mean to “align two sequences”? What is the goal?
-1. What is a p-value? How is that different from an e-value (expectation value)?
+1. What is a p-value? How is that different from an e-value (expectation value) in BLAST?
 
 ## Lab Instructions
 
