@@ -63,33 +63,27 @@ and look for online tools for gene finding.
 Take a look at their websites. Feel free to explore them for a few minutes. Then, pick one tool
 to use in this assignment. It’s important to have the nucleotide sequences as output.
 
-#### Q4
-
-Which tool did you choose? Why? Did you change any parameters from the default
+**Q4** Which tool did you choose? Why? Did you change any parameters from the default
 settings? Which, how, and why?
+
 Make a fasta file of all the candidate genes you’ve found. Make sure to erase all comments or
 other lines that don’t fit the fasta format.
 
-#### Q5
-
-How many genes did this tool find? Is this a good estimate for the number of genes in
+**Q5** How many genes did this tool find? Is this a good estimate for the number of genes in
 this organism? Why/why not?
+
 Now download the total set of predicted genes. If this is not possible, select everything with
 the mouse, paste it to a plain text document and save it.
 Now that we have identified the genes (at least the most likely genes according to the gene
 finder you employed), we can start studying their functions. One approach for doing this is to
-compare these new sequences with sequences from better known organisms. A very popular
-tool for doing this is Blast. Check the Bioinformatics Tools booklet on instructions in how to
+compare these new sequences with annotated sequences from other organisms. A very popular
+tool for doing this is Blast. Check the [Bioinformatics Tools Booklet](../biotoolsbooklet.md) for instructions on how to
 use online Blast for nucleotides. Blast the first 5 genes you have found.
 
-#### Q6
-
-Which Blast variant have you chosen? Why? Did you change any parameters from the
+**Q6** Which Blast variant have you chosen? Why? Did you change any parameters from the
 default settings? Which, how, and why?
 
-#### Q7
-
-How many hits did you find for each gene? What do they correspond to? Does this
+**Q7** How many hits did you find for each gene? What do they correspond to? Does this
 make sense?
 _Note: if there are too many hits, just describe the top ones!_
 
