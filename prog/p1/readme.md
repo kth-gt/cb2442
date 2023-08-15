@@ -19,14 +19,14 @@ If you are not yet familiar with the VScode software, watch for example this [sh
 
 ### Implementation
 
-Add a python function to the file `labp1.py` named
+In the Python script file `labp1.py`, edit the function named
 
 ```python
 def dna2aa(dna_str):
 ```
 
-that takes a dna sequence as input and returns an amino acid sequence. You may use the dictionary `codon2aa`. which translates tripplets of bases into amino acid symbols.
-Also, set the list `authors` to contain all the group members names.  
+so that it takes a DNA sequence as input and returns an amino acid sequence. You may use the dictionary `codon2aa`. which translates triplets of bases into amino acid symbols.
+Also, set the list `authors` to contain all the group members' names.  
 
 ### Test
 
