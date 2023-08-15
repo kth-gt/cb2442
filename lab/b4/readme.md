@@ -31,23 +31,19 @@ The first step in an RNA-seq data analysis is to align the FASTQ files against a
 Before starting any actual analysis, let us take a look at how SAM files are
 organized. Upload the [sample.sam](./sample.sam) file to Galaxy and take a look at it. The beginning of the file starts with a header which, among other things, lists the chromosomal and/or contig names of the reference genome that the sequences were aligned to.
 
-#### Q3
+**Q3** Why are there more chromosomes/contigs in the reference genome than there are in the actual human genome?
+	*Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!*
 
-Why are there more chromosomes/contigs in the reference genome than there are in the actual human genome?
-	Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!
+Now, look at how the aligned sequences are organized in the SAM file. The first column contains the sequence names, the second column contains the SAM flags, and the third column contains the chromosome that each read was aligned to, followed by the actual location on the chromosome in the fourth column. Further on you can see the actual sequence, quality score, and a list of additional attributes.
 
-Now, look at how the aligned sequences are organized in the SAM file. The first column contains the sequence names, the second column contains the SAM flags, and the third column contains the chromosome that each read was aligned to, followed by the actual location on the chromosome in the forth column. Further on you can see the actual sequence, quality score, and a list of additional attributes.
+**Q4** Find up to six different SAM flags in your file and explain their meaning.
+*Hint:* https://broadinstitute.github.io/picard/explain-flags.html
 
-#### Q4
-
-Find up to six different SAM flags in your file and explain their meaning.
-Hint: https://broadinstitute.github.io/picard/explain-flags.html
-Note on paired-end data: Today, RNA-sequencing is often paired-end, which means that transcripts are sequenced from both ends. Paired-end sequencing typically results in more robust alignments and variant calling.
+Note on paired-end data: Today, RNA-seq is often paired-end, which means that transcripts are sequenced from both ends. Paired-end sequencing typically results in more robust alignments and variant calling.
 
 ![](./53seq.png "Paired end reads")
 
-
-Usually, SAM files contain tens or hundreds of million reads. To be better equipped to work with such large files, they are converted into the binary BAM format previously mentioned. BAM files take up much less space than SAM files but are not human-readable. Upload the six BAM files that contain the aligned sequences before and after treatment and run the SAMtools IdxStats software on one of them.
+Usually, SAM files contain tens or hundreds of million reads. To be better equipped to work with such large files, they are converted into the binary BAM format previously mentioned. BAM files take up much less space than SAM files but are not human-readable. Upload the six BAM files (in this folder) that contain the aligned sequences before and after treatment and run the SAMtools IdxStats software on one of them.
 
 #### Q5
 
