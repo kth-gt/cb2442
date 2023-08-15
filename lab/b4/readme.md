@@ -32,7 +32,8 @@ Before starting any actual analysis, let us take a look at how SAM files are
 organized. Upload the [sample.sam](./sample.sam) file to Galaxy and take a look at it. The beginning of the file starts with a header which, among other things, lists the chromosomal and/or contig names of the reference genome that the sequences were aligned to.
 
 **Q3** Why are there more chromosomes/contigs in the reference genome than there are in the actual human genome?
-	*Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!*
+
+*Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!*
 
 Now, look at how the aligned sequences are organized in the SAM file. The first column contains the sequence names, the second column contains the SAM flags, and the third column contains the chromosome that each read was aligned to, followed by the actual location on the chromosome in the fourth column. Further on you can see the actual sequence, quality score, and a list of additional attributes.
 
