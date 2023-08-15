@@ -43,21 +43,17 @@ Note on paired-end data: Today, RNA-seq is often paired-end, which means that tr
 
 ![](./53seq.png "Paired end reads")
 
-Usually, SAM files contain tens or hundreds of million reads. To be better equipped to work with such large files, they are converted into the binary BAM format previously mentioned. BAM files take up much less space than SAM files but are not human-readable. Upload the six BAM files (in this folder) that contain the aligned sequences before and after treatment and run the SAMtools IdxStats software on one of them.
+Usually, SAM files contain tens or hundreds of million reads. To be better equipped to work with such large files, they are converted into the binary BAM format previously mentioned. BAM files take up much less space than SAM files but are not human-readable. Upload the six BAM files that you can find in the Computer exercises module on Canvas that contain the aligned sequences before and after treatment and run the SAMtools IdxStats software on one of them.
 
-#### Q5
-
-To what chromosomes are the sequences aligned? How many are the aligned sequences?
+**Q5** To what chromosomes are the sequences aligned? How many are the aligned sequences?
 
 Next, run the SAMtools flagstat program on the same data.
 
-#### Q6
+**Q6** Are the number of aligned sequences the same as from Q5? What are singletons?
 
-Are the number of aligned sequences the same as from question five? What are singletons?
+Now it is time for the actual differential expression analysis. The idea is to compare the expression profiles between the samples that have been treated with the new drug to those samples that are untreated. To accomplish this, we use a program called Cuffdiff. Start by uploading the supplied GTF file [annot_chr2_50M.gtf](./annot_chr2_50M.gtf) to Galaxy.
 
-Now it is time for the actual differential expression analysis. The idea is to compare the expression profiles between the samples that have been treated with the new drug to those samples that are untreated. To accomplish this, we use a program called Cuffdiff. Start by uploading the supplied GTF file to Galaxy.
-
-#### Q7
+**Q7**
 
 What is a gene annotation? What information is in a GTF file?
 
