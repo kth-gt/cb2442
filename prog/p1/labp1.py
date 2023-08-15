@@ -75,6 +75,6 @@ def dna2aa_fasta(dna_filename, protein_filename):
 # Test code for the dna2aa function. 
 # Will only be executed if this file is run directly e.g. with "python labp1.py"
 if __name__ == "__main__":
-    print(dna2aa("ATGATGATG"))
+    print(dna2aa("GGCCGCGAAGCGACCTAA"))
     dna2aa_fasta('cdna.faa', 'output.faa')
 
