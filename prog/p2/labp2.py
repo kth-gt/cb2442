@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
+# Replace these names with your names
 authors = ['A. Student', 'B. Helper']
 
 # Initiating dynamic programming matrices, S and trace,
@@ -15,43 +16,26 @@ def initiate_global_dp(m,n):
     #   trace(x,y,1) indicates an insert in x,y (fix column)
     #   trace(x,y,2) indicates a delete in x,y (fix row)
     trace = np.zeros((m+1, n+1, 3), dtype=np.bool8) # An (m+1)*(n+1)*3 boolean matrix, initiated with (False,False,False)
-    # First initiate the origin (0,0)
-    S[0,0] = 0.
-    trace[0,0,:] = (False, False, False) # This is not nececair as the trace matrix is already
-    # set to zeroes, but I put it here for clarity
+    # First initiate the origin (0,0) here:
+
     # Now, fill in the first row and the first column of the matrix
-    # Initiate the first column
-    for i in range(1,m+1):
-        S[i,0] = i * gap_penalty()
-        trace[i,0,2] = True
-    # Initiate the first row
-    for j in range(1,n+1):
-        S[0,j] = j * gap_penalty()
-        trace[0,j,1] = True
-    return S,trace
+    # Initiate the first column of S and trace here:
+
+    # Initiate the first row of S and trace here:
+
+    # Return the initiated matrices
+    return S, trace
 
 # Fill in the dynamic programming matrix and the trace
 def global_align(seqA,seqB):
     # Initiating variables
     m, n = len(seqA), len(seqB)
     S,trace = initiate_global_dp(m,n)
-    # Fill in the rest of the dynamic programming matrix
-    for i in range(1,m+1):
-        for j in range(1,n+1):
-            # Note the subtraction of 1 for the sequence position
-            # In python sequences are indexed from 0 to len-1
-            match = S[i-1, j-1] + match_score(seqA[i-1],seqB[j-1]) 
-            insert = S[i, j-1] + match_score('-',seqB[j-1]) 
-            delete = S[i-1, j] + match_score(seqA[i-1],'-') 
-            S[i,j] = max(match, delete, insert)
-            if match >= max(insert, delete):
-                trace[i, j, 0] = True
-            if insert >= max(delete, match):
-                trace[i, j, 1] = True
-            if delete >= max(insert, match):
-                trace[i, j, 2] = True
-    return S, trace, S[-1,-1]
+    # Fill in the rest of the dynamic programming matrix, and the trace
 
+    return S, trace, score_of_the_alignment
+
+## The following functioins are give to you as a help
 # Return the gap penalty
 def gap_penalty():
     return -2.0
