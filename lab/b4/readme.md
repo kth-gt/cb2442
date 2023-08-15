@@ -31,8 +31,7 @@ The first step in an RNA-seq data analysis is to align the FASTQ files against a
 Before starting any actual analysis, let us take a look at how SAM files are
 organized. Upload the [sample.sam](./sample.sam) file to Galaxy and take a look at it. The beginning of the file starts with a header which, among other things, lists the chromosomal and/or contig names of the reference genome that the sequences were aligned to.
 
-**Q3** Why are there more chromosomes/contigs in the reference genome than there are in the actual human genome?
-	*Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!*
+**Q3** Why are there more chromosomes/contigs in the reference genome than there are in the actual human genome? *Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!*
 
 Now, look at how the aligned sequences are organized in the SAM file. The first column contains the sequence names, the second column contains the SAM flags, and the third column contains the chromosome that each read was aligned to, followed by the actual location on the chromosome in the fourth column. Further on you can see the actual sequence, quality score, and a list of additional attributes.
 
@@ -59,28 +58,20 @@ Open the Cuffdiff program. You need to supply it with the relevant files for eac
 
 [^1]: Isoforms arise from alternative splicing sites in eukaryote genomes. This means that the same gene can give rise to more than one transcript and, if it is protein coding, give rise to more than one protein [(see the wikipedia entry)](http://en.wikipedia.org/wiki/Gene_isoform).
 
-#### Q8
+**Q8** What is the length of the longest and shortest transcripts in this dataset and what are the names of the transcripts? (The Filter and Sort programs can be helpful here)
 
-What is the length of the longest and shortest transcripts in this dataset and what are the names of the transcripts? (The Filter and Sort programs can be helpful here)
+**Q9** What is miRNA?
 
-#### Q9 
-
-What is miRNA?
-
-#### Q10
-
-Which transcripts have the highest expression in each condition? Are these numbers reasonable?
+**Q10** Which transcripts have the highest expression in each condition? Are these numbers reasonable?
 
 We now switch to the results on the gene level. Look into the gene differential
 expression testing results.
 
-#### Q11
+**Q11** How many genes are found to be differentially expressed? How many of those have a higher expression in the untreated samples?
 
-How many genes are found to be differentially expressed? How many of those have a higher expression in the untreated samples?
+Export the differential gene expression data to a text file. Download the Python script [volcano.py](./volcano.py). This is a script that creates a so-called volcano plot of the differential expression analysis. The plot shows the -log(p-value) against the log2(fold change) for all genes (the statistically significant genes are highlighted in red, according to an FDR threshold).
 
-Export the differential gene expression data to a text file. Download the python script “volcano.py” from Canvas. This is a script that creates a so-called volcano plot of the differential expression analysis. The plot shows the -log(p-value) against the log2(fold change) for all genes (the statistically significant genes are highlighted in red, according to an FDR threshold).
-
-Edit the volcano.py file to take the path to your downloaded file as input data and (optionally) change the FDR threshold (it is evident in the file where you need to change things).
+Open the volcano.py file in VS Code (or a text editor) and edit it to take the path to your downloaded file as input data and (optionally) change the FDR threshold (it is evident in the file where you need to change things).
 
 Before running the script, activate your Conda environment and install the necessary dependencies:
 
@@ -95,18 +86,12 @@ You can then run the file like so:
 $ python volcano.py
 ```
 
-#### Q12
+**Q12** Show your volcano plot with significant DEGs highlighted. Can you draw any conclusions regarding the effectiveness of the drug? Would you recommend trying it out on patients?
+*Hint: Copy the gene names and look them up on the internet.*
 
-Show your volcano plot with significant DEGs highlighted. Can you draw any conclusions regarding the effectiveness of the drug? Would you recommend trying it out on patients?
-Hint: Copy the gene names and look them up on the internet.
-
-#### Q13
-
-FPKM values are usually in the range 0.1 – 5000. Can you explain the high FPKM values attained in Q10?
-Hint: Originally, the data was aligned to the whole genome but the data you have been working with was filtered for a small area of interest on chromosome 2.
+**Q13** FPKM values are usually in the range 0.1 – 5000. Can you explain the high FPKM values attained in Q10?
+*Hint: Originally, the data was aligned to the whole genome but the data you have been working with was filtered for a small area of interest on chromosome 2.*
 
 In the beginning of these computer labs, you were given the genome sequences of unknown bacteria. You then discovered that these genomes had foreign toxin and foreign antibiotic resistance genes.
 
-#### Q14
-
-What do you think is the most likely explanation for these foreign genes ending up where they did and for what purpose?
+**Q14** What do you think is the most likely explanation for these foreign genes ending up where they did and for what purpose?

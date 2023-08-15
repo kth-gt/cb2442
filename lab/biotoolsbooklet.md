@@ -86,7 +86,7 @@ $ conda install -c bioconda blast
 
 ## tRNAscan: http://lowelab.ucsc.edu/tRNAscan-SE/
 
-tRNAscan is a tool for identifying transporter RNA in nucleotide sequences. It can be run online or downloaded to be run locally.
+tRNAscan is a tool for identifying transfer RNA in nucleotide sequences. It can be run online or downloaded to be run locally.
 
 tRNAscan is available on Bioconda. To install it, run
 
