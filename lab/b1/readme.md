@@ -45,8 +45,6 @@ Select one of the files [`bacteria1.fasta`](bacteria1.fasta), [`bacteria2.fasta`
 correspond to diseases 1, 2 and 3, respectively. Make a folder called bioinformatics in your
 local computer account, download the fasta file and save it there.  
 
-### Questions
-
 **Q1** Which of the 3 unknown bacteria have you chosen to work with?
 
 Open the fasta file in a text editor such as gedit. Alternatively, view it through the command
@@ -60,9 +58,8 @@ gene sequences within the genome. Fortunately, there are tools that can find the
 a genome, based on certain sequence characteristics. Check the Bioinformatics Tools booklet
 and look for online tools for gene finding.
 
-#### Q3
+**Q3** Which tools did you find?
 
-Which tools did you find?
 Take a look at their websites. Feel free to explore them for a few minutes. Then, pick one tool
 to use in this assignment. It’s important to have the nucleotide sequences as output.
 
