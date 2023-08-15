@@ -53,9 +53,7 @@ Next, run the SAMtools flagstat program on the same data.
 
 Now it is time for the actual differential expression analysis. The idea is to compare the expression profiles between the samples that have been treated with the new drug to those samples that are untreated. To accomplish this, we use a program called Cuffdiff. Start by uploading the supplied GTF file [annot_chr2_50M.gtf](./annot_chr2_50M.gtf) to Galaxy.
 
-**Q7**
-
-What is a gene annotation? What information is in a GTF file?
+**Q7** What is a gene annotation? What information is in a GTF file?
 
 Open the Cuffdiff program. You need to supply it with the relevant files for each of the conditions and their names. Keep other parameters at default values. When it is set up, you should have three replicates for each condition. The program may take several minutes to run and creates many (~11) different files in the process. When the analysis is done, look through the output and delete those results that have no data. You should be left with four different results files, some of which we will look into in more detail. Cuffdiff reports results both on the gene level and on the isoform/transcript level[^1]. We will start by looking at the “transcript FPKM tracking” results.
 
