@@ -6,9 +6,9 @@ N.B! Before starting this lab make sure you are registered and logged into Galax
 
 Study these questions and bring written answers to the lab. See the “Practicals” document for more information.
 
-1. What is RNA sequencing? Is it actually RNA that is being sequenced?
+1. What is RNA sequencing (RNA-seq)? Is it actually RNA that is being sequenced?
 1. What is FPKM value? How is it defined and why is it used?
-1. If you have a total of 25M reads and 500 reads map to a specific gene of length 1.7kbp what would be the FPKM value of that gene? What if the gene were only 500 bp?
+1. If you have a total of 25M reads, and 500 reads map to a specific gene of length 1.7 kbp, what would be the FPKM value of that gene? What if the gene were only 500 bp?
 
 ## Instructions and questions
 
@@ -18,56 +18,42 @@ The data you have at hand is RNA sequencing data from three patients both before
 
 The main data you will be working with is mapped sequencing data in bam format. Before we start working on those, let us get a little bit informed about the process from raw sequencing data to mapped data and learn how to work in the Galaxy environment.
 
-Go to Canvas and save the relevant files from Lab 7 to your local computer. Go to https://usegalaxy.org/ or https://usegalaxy.eu and, from the tools panel, upload the file [sample.fastq](./sample.fastq). When the upload has finished, take a look at the data through the “view data” button.
+Go to https://usegalaxy.org/ or https://usegalaxy.eu and, from the tools panel, upload the file [sample.fastq](./sample.fastq). When the upload has finished, take a look at the data through the “view data” button.
 
-#### Q1
-
-Fastq files contain the sequencing data as it is delivered from the sequencing machine. How is the file organized?
+**Q1** Fastq files contain the sequencing data as it is delivered from the sequencing machine. How is the file organized?
 
 It is a good working practice to check the quality of your sequencing data before starting to work with it. A popular tool for that is FastQC. From the toolbox on the left, find the FastQC tool (you can either browse the tools or use the search field). Run it on your newly uploaded data (you can find more information about FastQC at the Babraham Bioinformatics web-page); when it has finished running, take a look at the results.
 
-#### Q2
-
-What kind of information can you find in the FastQC report? Does the file fail for any of the modules? If such is the case, is this failure expected?
+**Q2** What kind of information can you find in the FastQC report? Does the file fail for any of the modules? If such is the case, is this failure expected?
 
 The first step in an RNA-seq data analysis is to align the FASTQ files against a reference genome, which is in FASTA format. The resulting file from the mapping is a SAM (“Sequence Alignment/Map”) file. There are many tools available to map sequencing reads to a reference genome. Some of the more widely used tools include Tophat and STAR for RNA-seq data, and Bowtie and BWA for DNA data. The process of aligning sequences to a reference genome is a computationally heavy process. Fortunately, we have already carried out the alignment for you and you have the data files at your disposal in BAM format (BAM files are binary versions of SAM files, making them easier to read for the computer).
 
 Before starting any actual analysis, let us take a look at how SAM files are
-organized. Upload the sample.sam file to Galaxy and take a look at it. The beginning of the file starts with a header which, among other things, lists the chromosomal and/or contig names of the reference genome that the sequences were aligned to.
+organized. Upload the [sample.sam](./sample.sam) file to Galaxy and take a look at it. The beginning of the file starts with a header which, among other things, lists the chromosomal and/or contig names of the reference genome that the sequences were aligned to.
 
-#### Q3
+**Q3** Why are there more chromosomes/contigs in the reference genome than there are in the actual human genome?
+	*Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!*
 
-Why are there more chromosomes/contigs in the reference genome than there are in the actual human genome?
-	Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!
+Now, look at how the aligned sequences are organized in the SAM file. The first column contains the sequence names, the second column contains the SAM flags, and the third column contains the chromosome that each read was aligned to, followed by the actual location on the chromosome in the fourth column. Further on you can see the actual sequence, quality score, and a list of additional attributes.
 
-Now, look at how the aligned sequences are organized in the SAM file. The first column contains the sequence names, the second column contains the SAM flags, and the third column contains the chromosome that each read was aligned to, followed by the actual location on the chromosome in the forth column. Further on you can see the actual sequence, quality score, and a list of additional attributes.
+**Q4** Find up to six different SAM flags in your file and explain their meaning.
+*Hint:* https://broadinstitute.github.io/picard/explain-flags.html
 
-#### Q4
-
-Find up to six different SAM flags in your file and explain their meaning.
-Hint: https://broadinstitute.github.io/picard/explain-flags.html
-Note on paired-end data: Today, RNA-sequencing is often paired-end, which means that transcripts are sequenced from both ends. Paired-end sequencing typically results in more robust alignments and variant calling.
+Note on paired-end data: Today, RNA-seq is often paired-end, which means that transcripts are sequenced from both ends. Paired-end sequencing typically results in more robust alignments and variant calling.
 
 ![](./53seq.png "Paired end reads")
 
+Usually, SAM files contain tens or hundreds of million reads. To be better equipped to work with such large files, they are converted into the binary BAM format previously mentioned. BAM files take up much less space than SAM files but are not human-readable. Upload the six BAM files that you can find in the Computer exercises module on Canvas that contain the aligned sequences before and after treatment and run the SAMtools IdxStats software on one of them.
 
-Usually, SAM files contain tens or hundreds of million reads. To be better equipped to work with such large files, they are converted into the binary BAM format previously mentioned. BAM files take up much less space than SAM files but are not human-readable. Upload the six BAM files that contain the aligned sequences before and after treatment and run the SAMtools IdxStats software on one of them.
-
-#### Q5
-
-To what chromosomes are the sequences aligned? How many are the aligned sequences?
+**Q5** To what chromosomes are the sequences aligned? How many are the aligned sequences?
 
 Next, run the SAMtools flagstat program on the same data.
 
-#### Q6
+**Q6** Are the number of aligned sequences the same as from Q5? What are singletons?
 
-Are the number of aligned sequences the same as from question five? What are singletons?
+Now it is time for the actual differential expression analysis. The idea is to compare the expression profiles between the samples that have been treated with the new drug to those samples that are untreated. To accomplish this, we use a program called Cuffdiff. Start by uploading the supplied GTF file [annot_chr2_50M.gtf](./annot_chr2_50M.gtf) to Galaxy.
 
-Now it is time for the actual differential expression analysis. The idea is to compare the expression profiles between the samples that have been treated with the new drug to those samples that are untreated. To accomplish this, we use a program called Cuffdiff. Start by uploading the supplied GTF file to Galaxy.
-
-#### Q7
-
-What is a gene annotation? What information is in a GTF file?
+**Q7** What is a gene annotation? What information is in a GTF file?
 
 Open the Cuffdiff program. You need to supply it with the relevant files for each of the conditions and their names. Keep other parameters at default values. When it is set up, you should have three replicates for each condition. The program may take several minutes to run and creates many (~11) different files in the process. When the analysis is done, look through the output and delete those results that have no data. You should be left with four different results files, some of which we will look into in more detail. Cuffdiff reports results both on the gene level and on the isoform/transcript level[^1]. We will start by looking at the “transcript FPKM tracking” results.
 
