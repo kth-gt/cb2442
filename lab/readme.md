@@ -4,7 +4,7 @@ The bioinformatical labs of the course are stored in this directory. They are ac
 
 The bioinformatics labs are
 
-* [lab b1](b1/)
-* [lab b2](b2/)
-* [lab b3](b3/)
-* [lab b4](b4/)
+* [LAB B1](b1/)
+* [LAB B2](b2/)
+* [LAB B3](b3/)
+* [LAB B4](b4/)
