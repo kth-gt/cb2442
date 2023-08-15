@@ -88,10 +88,10 @@ $ python volcano.py
 ```
 
 **Q12** Show your volcano plot with significant DEGs highlighted. Can you draw any conclusions regarding the effectiveness of the drug? Would you recommend trying it out on patients?
-*Hint:* Copy the gene names and look them up on the internet.
+*Hint: Copy the gene names and look them up on the internet.*
 
 **Q13** FPKM values are usually in the range 0.1 – 5000. Can you explain the high FPKM values attained in Q10?
-*Hint:* Originally, the data was aligned to the whole genome but the data you have been working with was filtered for a small area of interest on chromosome 2.
+*Hint: Originally, the data was aligned to the whole genome but the data you have been working with was filtered for a small area of interest on chromosome 2.*
 
 In the beginning of these computer labs, you were given the genome sequences of unknown bacteria. You then discovered that these genomes had foreign toxin and foreign antibiotic resistance genes.
 
