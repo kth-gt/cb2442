@@ -72,7 +72,7 @@ expression testing results.
 
 Export the differential gene expression data to a text file. Download the Python script [volcano.py](./volcano.py). This is a script that creates a so-called volcano plot of the differential expression analysis. The plot shows the -log(p-value) against the log2(fold change) for all genes (the statistically significant genes are highlighted in red, according to an FDR threshold).
 
-Edit the volcano.py file to take the path to your downloaded file as input data and (optionally) change the FDR threshold (it is evident in the file where you need to change things).
+Open the volcano.py file in VS Code (or a text editor) and edit it to take the path to your downloaded file as input data and (optionally) change the FDR threshold (it is evident in the file where you need to change things).
 
 Before running the script, activate your Conda environment and install the necessary dependencies:
 
