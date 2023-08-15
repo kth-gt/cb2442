@@ -1,4 +1,6 @@
-#! /bin/env python3
+#! /bin/env python
+# -*- coding: utf-8 -*-
+
 import filecmp
 import labp1 as lab
 
