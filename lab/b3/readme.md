@@ -2,9 +2,6 @@
 
 ## Preparation questions
 
-Study these questions and bring written answers to the lab. 
-See the ‘Practicals’ document for more information.
-
 1. Based on just the hydrophobicity/hydrophilicity of the amino acid side chains, which parts of the hypothetical membrane protein LIFIRDNDEPTLIF will be inside the membrane and which will be outside?
 1. Look up what the Hamming distance is and calculate the Hamming distance between the aligned sequences (where a "-" indicates a deletion):  
   
@@ -24,11 +21,11 @@ Seq4 | 5 | 10 | 4 | 0 |
 
 ## Instructions and questions
 
-In the previous lab, we used Blast and multiple sequence alignments to find foreign genes in our pathogenic bacterium. We learned that the cause of the epidemic were foreign toxins and also that the bacteria had some antibiotic resistance genes. Today, we’ll take a closer look at these genes by using different approaches and tools for protein sequence feature prediction.
+In the previous lab, we used Blast and multiple sequence alignment to find foreign genes in our pathogenic bacterium. We learned that the cause of the epidemic were foreign toxins and also that the bacteria had some antibiotic resistance genes. Today, we’ll take a closer look at these genes by using different approaches and tools for protein sequence feature prediction.
 
 As was mentioned in the previous lab, one of the mechanisms of antibiotic resistance is the use of so-called efflux pumps in the cellular membrane. Transmembrane proteins have very characteristic properties in their sequences, which allow us to identify them and do some rough predictions on their structure (which parts are inside the membrane and which parts are in- and outside the cell). 
 
-In the last lab you found some non-matching genes in the bacterial genome you chose to examine. Four of these corresponded to antibiotic resistance genes and two to a toxin. If you did not find these six genes in the previous lab, use the files [AB_Resistance_GeneMarkS_proteins.fasta](AB_Resistance_GeneMarkS_proteins.fasta), [toxin_Bact1_aminoacids.fasta](toxin_Bact1_aminoacids.fasta), [toxin_Bact2_aminoacids.fasta](toxin_Bact2_aminoacids.fasta), and [toxin_Bact3_aminoacids.fasta](toxin_Bact3_aminoacids.fasta).
+In the previous lab you found some non-matching genes in the bacterial genome you chose to examine. Four of these corresponded to antibiotic resistance genes and two to a toxin. If you did not find these six genes in the previous lab, use the files [AB_Resistance_GeneMarkS_proteins.fasta](AB_Resistance_GeneMarkS_proteins.fasta), [toxin_Bact1_aminoacids.fasta](toxin_Bact1_aminoacids.fasta), [toxin_Bact2_aminoacids.fasta](toxin_Bact2_aminoacids.fasta), and [toxin_Bact3_aminoacids.fasta](toxin_Bact3_aminoacids.fasta).
 
 Run one of the tools from your [tools booklet](../biotoolsbooklet.md) to find out if any of the antibiotic resistance genes have a transmembrane efflux pump candidate. Note that you might have to translate the nucleotide sequence to an amino acid sequence for the tool to work.
 
