@@ -47,16 +47,14 @@ local computer account, download the fasta file and save it there.
 
 ### Questions
 
-#### Q1
+#### Q1 Which of the 3 unknown bacteria have you chosen to work with?
 
-Which of the 3 unknown bacteria have you chosen to work with?
 Open the fasta file in a text editor such as gedit. Alternatively, view it through the command
 line.
 
-#### Q2
+#### Q2 How is a fasta file organised? What information can be found in it? Is this a practical
+#### format? Why/why not?
 
-How is a fasta file organised? What information can be found in it? Is this a practical
-format? Why/why not?
 To understand the metabolism and life-cycle of an unknown species based on its DNA
 content, we have to study the functions of its genes. The first step for doing so is finding the
 gene sequences within the genome. Fortunately, there are tools that can find the genes inside
