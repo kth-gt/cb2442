@@ -57,7 +57,7 @@ A class of genes that has very important clinical implications is antibiotic-res
 
 You’ve asked for help from the experts at the sequencing center to characterize the antibiotic-resistance genes in your unknown bacteria. They’ve informed you that it is a multi-antibiotic-resistance operon known as mar. It’s mode of action is still unknown, but some things are already understood. The operon contains 4 protein-coding genes, marA, marB, marC and marR. We’re going to work more with these protein products in later labs. For now, let’s take a closer look at the marB genes.
 
-Download the file called [`marB.fasta`](marB.fasta), which contains marB-related proteins from several different bacteria.
+Download the file called [`MarB.fasta`](MarB.fasta), which contains marB-related proteins from several different bacteria.
 
 We’ll use online Blast again for pairwise sequence comparison. It would take too long to compare each pair of sequences, so we’ll focus on 3 pairs. For each pair you’ll have to choose between blastn, megablast and tblastx as the best tool for aligning them (by best, understand “the tool that gives the most information”). Justify all your answers with your own words as well as the dot-matrix and other pictures from the blast output that you find relevant.
 
