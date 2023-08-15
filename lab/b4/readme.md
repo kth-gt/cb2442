@@ -6,9 +6,9 @@ N.B! Before starting this lab make sure you are registered and logged into Galax
 
 Study these questions and bring written answers to the lab. See the “Practicals” document for more information.
 
-1. What is RNA sequencing? Is it actually RNA that is being sequenced?
+1. What is RNA sequencing (RNA-seq)? Is it actually RNA that is being sequenced?
 1. What is FPKM value? How is it defined and why is it used?
-1. If you have a total of 25M reads and 500 reads map to a specific gene of length 1.7kbp what would be the FPKM value of that gene? What if the gene were only 500 bp?
+1. If you have a total of 25M reads, and 500 reads map to a specific gene of length 1.7 kbp, what would be the FPKM value of that gene? What if the gene were only 500 bp?
 
 ## Instructions and questions
 
@@ -18,22 +18,18 @@ The data you have at hand is RNA sequencing data from three patients both before
 
 The main data you will be working with is mapped sequencing data in bam format. Before we start working on those, let us get a little bit informed about the process from raw sequencing data to mapped data and learn how to work in the Galaxy environment.
 
-Go to Canvas and save the relevant files from Lab 7 to your local computer. Go to https://usegalaxy.org/ or https://usegalaxy.eu and, from the tools panel, upload the file [sample.fastq](./sample.fastq). When the upload has finished, take a look at the data through the “view data” button.
+Go to https://usegalaxy.org/ or https://usegalaxy.eu and, from the tools panel, upload the file [sample.fastq](./sample.fastq). When the upload has finished, take a look at the data through the “view data” button.
 
-#### Q1
-
-Fastq files contain the sequencing data as it is delivered from the sequencing machine. How is the file organized?
+**Q1** Fastq files contain the sequencing data as it is delivered from the sequencing machine. How is the file organized?
 
 It is a good working practice to check the quality of your sequencing data before starting to work with it. A popular tool for that is FastQC. From the toolbox on the left, find the FastQC tool (you can either browse the tools or use the search field). Run it on your newly uploaded data (you can find more information about FastQC at the Babraham Bioinformatics web-page); when it has finished running, take a look at the results.
 
-#### Q2
-
-What kind of information can you find in the FastQC report? Does the file fail for any of the modules? If such is the case, is this failure expected?
+**Q2** What kind of information can you find in the FastQC report? Does the file fail for any of the modules? If such is the case, is this failure expected?
 
 The first step in an RNA-seq data analysis is to align the FASTQ files against a reference genome, which is in FASTA format. The resulting file from the mapping is a SAM (“Sequence Alignment/Map”) file. There are many tools available to map sequencing reads to a reference genome. Some of the more widely used tools include Tophat and STAR for RNA-seq data, and Bowtie and BWA for DNA data. The process of aligning sequences to a reference genome is a computationally heavy process. Fortunately, we have already carried out the alignment for you and you have the data files at your disposal in BAM format (BAM files are binary versions of SAM files, making them easier to read for the computer).
 
 Before starting any actual analysis, let us take a look at how SAM files are
-organized. Upload the sample.sam file to Galaxy and take a look at it. The beginning of the file starts with a header which, among other things, lists the chromosomal and/or contig names of the reference genome that the sequences were aligned to.
+organized. Upload the [sample.sam](./sample.sam) file to Galaxy and take a look at it. The beginning of the file starts with a header which, among other things, lists the chromosomal and/or contig names of the reference genome that the sequences were aligned to.
 
 #### Q3
 
