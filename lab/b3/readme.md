@@ -69,42 +69,26 @@ Now keep running iterations until the algorithm has converged, i.e. until very f
 
 **Q11** What is the best match now and what is its E-value? Why has it changed?
 
-Take approximately 10-20 matches from different (sub)species and create an unaligned FASTA file with these. Also include the original toxin sequence from your bacterium. Change each of the sequence titles in the FASTA file to the (sub)species' names, this will make the coming analysis much easier. Now we will build a phylogenetic tree of the sequences to get an idea of the evolutionary relationship of the toxin in the selected (sub)species. The field of phylogenetics has a wide range of bioinformatics tools available. Here we will use the online portal [www.phylogeny.fr]. Select “A la Carte” under “Phylogeny Analysis”. Here you can specify options for the different steps of the analysis. Select “ProtDist/FastDist + Neighbor” for construction of the phylogenetic tree and choose all other options as you wish. Create the workflow and paste in or upload your FASTA file with the toxins.
+Take approximately 10-20 matches from different (sub)species and create an unaligned FASTA file with these. Also include the original toxin sequence from your bacterium. Change each of the sequence titles in the FASTA file to the (sub)species' names, this will make the coming analysis much easier. Now we will build a phylogenetic tree of the sequences to get an idea of the evolutionary relationship of the toxin in the selected (sub)species. The field of phylogenetics has a wide range of bioinformatics tools available. Here we will use the online portal Phylogeny.fr [www.phylogeny.fr]. Select “A la Carte” under “Phylogeny Analysis”. Here you can specify options for the different steps of the analysis. Select “ProtDist/FastDist + Neighbor” for construction of the phylogenetic tree and choose all other options as you wish. Create the workflow and paste in or upload your FASTA file with the toxins.
  
 **Q12** Which multiple sequence alignment algorithm did you use? Why did you choose it over the others?
  
-#### Q13
-
-Which species has the closest related toxin according to your tree? Are there any other (sub)species sharing the youngest common ancestor of these two? Include the tree in your answer!
+**Q13** Which species has the closest related toxin according to your tree? Are there any other (sub)species sharing the most recent common ancestor of these two? Include the tree in your answer!
  
-#### Q14
+**Q14** Which genus (other than the one of our toxin) would you advise to investigate next?
 
-Which genus (other than the one of our toxin) would you advise to investigate next?
-
-#### Q15
-
-You used the Neighbor-Joining method for constructing the tree. In what way is that different from the UPGMA method that you used in the preparatory question?
+**Q15** You used the Neighbor-Joining method for constructing the tree. In what way is that different from the UPGMA method that you used in the preparatory question?
  
 Producing a nice looking tree is one thing, but, in order to draw any conclusions from it, a more important question is: how confident are we in the results?
 
-#### Q16
+**Q16** The Neighbor-Joining method you used here applies the “JTT model” for measuring distances between the protein sequences. That means a JTT matrix, similar to the PAM matrix (see Clair and Visick page 84) is used for scoring the alignment between a pair of sequences. Why is this measure better than simply counting what percentage of amino acids are different between the pair of sequences?
 
-The Neighbor-Joining method you used here applies the “JTT model” for measuring distances between the protein sequences. That means a JTT matrix, similar to the PAM matrix (see Clair and Visick page 84) is used for scoring the alignment between a pair of sequences. Why is this measure better than simply counting what percentage of amino acids are different between the pair of sequences?
+**Q17** What information can we deduce from the lengths of the branches?
 
-#### Q17
-
-What information can we deduce from the lengths of the branches?
-
-#### Q18
-
-How confident are we in the whole tree structure as an evolutionary tree for that matter? Is there a way to give statistical support to back up this confidence (or lack thereof)?
+**Q18** How confident are we in the whole tree structure as an evolutionary tree for that matter? Is there a way to give statistical support to back up this confidence (or lack thereof)?
 
 To obtain phylogenetic trees of species, it is common to look at conserved, rarely laterally transferred genes, like the rRNA genes.
 
-#### Q19
+**Q19** Would a phylogenetic tree based on rRNA gene sequences from the same bacterial species be similar to the one that you have just created? What do you think would be similar and what would change? Why?
 
-Would a phylogenetic tree based on rRNA gene sequences from the same bacterial species be similar to the one that you have just created? What do you think would be similar and what would change? Why?
-
-#### Q20
-
-A phylogenetic tree can be used to identify related bacterial species, which, in turn, may help us discover new treatment options for our disease. From a pharmacological standpoint, which tree would be most useful in this regard? Give an argument for both the tree based on the toxin and a tree based on rRNA gene sequences!
+**Q20** A phylogenetic tree can be used to identify related bacterial species, which, in turn, may help us discover new treatment options for our disease. From a pharmacological standpoint, which tree would be most useful in this regard? Give an argument for both the tree based on the toxin and a tree based on rRNA gene sequences!
