@@ -12,41 +12,29 @@
 
 Welcome to the second computer exercise in bioinformatics! In the previous bioinformatics lab, we learned about the epidemic of unknown bacteria. We have found genes in their recently sequenced genomes, and we saw how to use Blast to compare genes to databases in different ways. Today we will start off again by finding genes, but only of a particular kind: ribosomal RNA (rRNA) genes. Ribosomal rRNA is often used for identifying unknown bacteria at a species-level. Go to the [BioToolsBooklet](../biotoolsbooklet.md) and find a tool for identifying rRNA genes. Run your bacterial genome through it.
 
-#### Q1
-
-How many rRNA genes did you find? What subunit of the rRNA are they (last column)? How many of each are there?
+**Q1** How many rRNA genes did you find? What subunit of the rRNA are they (last column)? How many of each are there?
 
 Download the FASTA results and make a file with just the 16S rRNA gene. This is the subunit that is most commonly used for classification. You will use an online tool for classifying rRNA. Find a tool for doing this in the booklet or online and run it.
 
-#### Q2
-
-Is the classification entirely consistent (do all the matches agree with each other)? Does it have strong bootstrap support?
+**Q2** Is the classification entirely consistent (do all the matches agree with each other)? Does it have strong bootstrap support (in the case your tool gives bootstrap support)?
 
 Look up information on this genus online. Wikipedia might be enough, but look up other websites if you're not convinced.
 
-#### Q3
-
-Does it make sense that these patients are so sick? Justify your answers and include your sources.
+**Q3** Does it make sense that these patients are so sick? Justify your answers and include your sources.
 
 Now that you know a bit more about your bacteria, we can use this information to compare this new isolate to previously sequenced ones. This might give interesting clues on what is going on. Find in Canvas a collection of reference genomes for your bacterium of interest and download it.
 
-#### Q4
-
-Is it likely that very closely related bacterial species will have entire genes added or missing? Why/why not?
+**Q4** Is it likely that very closely related bacterial species will have entire genes added or missing? Why/why not?
 *Hint: consider mechanisms of horizontal gene transfer.*
 
 Let's try to see what distinguishes your new genome from others in the species. One way of finding this (albeit not necessarily the most efficient) is through Blast.
 
-#### Q5
-
-In which format is the reference genome, nucleotide or protein? What about the file containing the genes you found in the previous bioinformatics lab? In that case, which type of Blast is recommended?
+**Q5** In which format is the reference genome, nucleotide or protein? What about the file containing the genes you found in the previous bioinformatics lab? In that case, which type of Blast is recommended?
 
 Blast the genes that you found in the previous bioinformatics lab against the reference genome of the bacteria that you chose (reference genomes provided in this lab). Remember to choose a suitable E-value for your search.
 
-#### Q6
-
-Which genes do NOT find a good match from this database?
-*Hint: open the Blast result in a text editor and use ctrl+F to find empty headers (headers without any matches).* It’s recommended to use a “tabular” output format. See blast help section for how to choose format. Depending on the version of Blast, you might get the output in the form of:
+**Q6** Which genes do NOT find a good match from this database?
+*Hint: open the Blast result in a text editor and use ctrl+F to find empty headers (headers without any matches).* It’s recommended to use a “tabular” output format. See Blast help section for how to choose format. Depending on the version of Blast, you might get the output in the form of:
 
 ```verbatim
 # BLASTN 2.9.0+
@@ -59,17 +47,11 @@ Find these by searching “# 0” and take note of the query.
 
 Retrieve only the non-matching genes and make a separate fasta file with them. Submit these to online Blast.
 
-#### Q7
+**Q7** Which Blast program did you select? Did you change any parameters from the default values? Which and why?
 
-Which Blast program did you select? Did you change any parameters from the default values? Which and why?
+**Q8** What are the main Blast hits found? Do they explain the toxicity of this new strain of bacteria?
 
-#### Q8
-
-What are the main Blast hits found? Do they explain the toxicity of this new strain of bacteria?
-
-#### Q9
-
-From which organism do these genes seem to come from? Does this make sense? Why/why not?
+**Q9** From which organism do these genes seem to come from? Does this make sense? Why/why not?
 
 A class of genes that has very important clinical implications is antibiotic-resistance genes. Common mechanisms of antibiotic resistance are pumps that keep the drugs outside the bacterial cell or enzymes that break down the antibiotic, but bacteria can also mutate in a way that makes their own proteins immune to the antibiotics. 
 
