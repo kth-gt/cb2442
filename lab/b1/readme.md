@@ -55,7 +55,7 @@ line.
 To understand the metabolism and life-cycle of an unknown species based on its DNA
 content, we have to study the functions of its genes. The first step for doing so is finding the
 gene sequences within the genome. Fortunately, there are tools that can find the genes inside
-a genome, based on certain sequence characteristics. Check the Bioinformatics Tools booklet
+a genome, based on certain sequence characteristics. Check the [Bioinformatics Tools Booklet](../biotoolsbooklet.md)
 and look for online tools for gene finding.
 
 **Q3** Which tools did you find?
