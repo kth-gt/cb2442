@@ -43,7 +43,7 @@ prepared!
 
 Select one of the files [`bacteria1.fasta`](bacteria1.fasta), [`bacteria2.fasta`](bacteria2.fasta), or [`bacteria3.fasta`](bacteria3.fasta), which
 correspond to diseases 1, 2 and 3, respectively. Make a folder called bioinformatics in your
-local computer account, download one of the fasta files and save it there.  
+local computer account, download the fasta file and save it there.  
 
 ### Questions
 
