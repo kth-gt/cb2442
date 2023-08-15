@@ -27,75 +27,51 @@ As was mentioned in the previous lab, one of the mechanisms of antibiotic resist
 
 In the previous lab you found some non-matching genes in the bacterial genome you chose to examine. Four of these corresponded to antibiotic resistance genes and two to a toxin. If you did not find these six genes in the previous lab, use the files [AB_Resistance_GeneMarkS_proteins.fasta](AB_Resistance_GeneMarkS_proteins.fasta), [toxin_Bact1_aminoacids.fasta](toxin_Bact1_aminoacids.fasta), [toxin_Bact2_aminoacids.fasta](toxin_Bact2_aminoacids.fasta), and [toxin_Bact3_aminoacids.fasta](toxin_Bact3_aminoacids.fasta).
 
-Run one of the tools from your [tools booklet](../biotoolsbooklet.md) to find out if any of the antibiotic resistance genes have a transmembrane efflux pump candidate. Note that you might have to translate the nucleotide sequence to an amino acid sequence for the tool to work.
+Run one of the tools from the [Bioinformatics tools booklet](../biotoolsbooklet.md) to find out if any of the antibiotic resistance genes have a transmembrane efflux pump candidate. Note that you might have to translate the nucleotide sequence to an amino acid sequence for the tool to work.
 
-#### Q1
-
-Which tool did you use? Which of the genes had TM helices? What is the 2D structure of this candidate (e.g. how many TM helices are there; does the protein start/end inside/outside the cell)?
+**Q1** Which tool did you use? Which of the genes had TM helices? What is the 2D structure of this candidate (e.g. how many TM helices are there; does the protein start/end inside/outside the cell)?
 
 One way of finding out the function of a protein is to search the Pfam database, which contains information about the functionality of protein families and domains and their protein structure.
 
-#### Q2
+**Q2** What protein domain/family does your candidate match to? What is its functionality? 
 
-What protein domain/family does your candidate match to? What is its functionality? 
-
-#### Q3
-
-Do you think your candidate protein is an efflux pump? Why or why not?
+**Q3** Do you think your candidate protein is an efflux pump? Why or why not?
 
 Another way to increase antibiotic resistance is by up- or down-regulation of genes that influence the antibiotic pathway. Check all the 4 antibiotic resistance genes in Pfam to see if this mechanism is present in one or more of them.
 
-#### Q4
+**Q4** Which families/domains did you find in Pfam (for the other genes)? What are their functions?
 
-Which families/domains did you find in Pfam (for the other genes)? What are their functions?
-
-#### Q5
-
-Which of these domains play a role in gene regulation?
+**Q5** Which of these domains play a role in gene regulation?
 
 Another way to get more detailed information about proteins of interest is to search them against the UniProtKB database.
 
-#### Q6
-
-What is the difference between the Pfam and UniProtKB databases? When do you use which?
+**Q6** What is the difference between the Pfam and UniProtKB databases? When do you use which?
 
 We could go directly to the UniProtKB website and run a Blast search there, but there is actually a nice way to get to all protein information through the NCBI Blast search engine website:
 
 Run a Blast search on the antibiotic resistance genes against the “UniProtKB/SwissProt” database. For each protein, click on the accession number of your top hit and follow the link in the DBSOURCE section to the UniProtKB website.
 
-#### Q7
-
-Which domain is present in multiple (2 or more) proteins? How does this domain do its job?
+**Q7** Which domain is present in multiple (2 or more) proteins? How does this domain do its job?
 
 The fact that we observe this domain already multiple times in such a small set of proteins shows the power of using recurring protein domains to infer the functionality of (parts of) proteins.
 
-#### Q8
-
-How can we use the information we extracted about the antibiotic resistance proteins to improve the treatment of our patients?
+**Q8** How can we use the information we extracted about the antibiotic resistance proteins to improve the treatment of our patients?
 
 Now that we know more about the antibiotic resistance genes, it is time to focus our attention on the toxin. We can start by trying to find toxins from other bacteria that are related to the toxin you found as a non-matching gene in lab 5.
 
-#### Q9
+**Q9** How could finding related toxins help us to improve the treatment of our patients?
 
-How could finding related toxins help us to improve the treatment of our patients?
+We will use PSI-BLAST to look for distant relatives of your toxin in as many different species as possible. Run the first iteration of your PSI-BLAST search with a maximum of 50 target sequences against the nr database for the first gene of the toxin. Exclude the organism the toxin originates from and *Escherichia coli* from the BLAST search, this will help to get a more diverse set of related toxins in different organisms.
 
-We will use PSI-BLAST to look for distant relatives of your toxin in as many different species as possible. Run the first iteration of your PSI-BLAST search with a maximum of 50 target sequences against the nr database for the first gene of the toxin. Exclude the organism the toxin originates from and E. Coli from the BLAST search, this will help to get a more diverse set of related toxins in different organisms.
-
-#### Q10
-
-What is the best match and what is its E-value?
+**Q10** What is the best match and what is its E-value?
 
 Now keep running iterations until the algorithm has converged, i.e. until very few (< 2) new hits highlighted in yellow show up in the top 50.
 
-#### Q11
+**Q11** What is the best match now and what is its E-value? Why has it changed?
 
-What is the best match now and what is its E-value? Why has it changed?
-
-Take approximately 10-20 matches from different (sub)species and create an unaligned FASTA file with these. Also include the original toxin from your bacterium. Change each of the sequence titles in the FASTA file to the (sub)species' name, this will make the coming analysis much easier. Now we will build a phylogenetic tree of the sequences to get an idea of the evolutionary relationship of the toxin in the selected (sub)species. The field of phylogenetics has a wide range of bioinformatics tools available. Here we will use the online portal Phylogeny.fr [www.phylogeny.fr]. Select “A la Carte” under “Phylogeny Analysis”. Here you can specify options for the different steps of the analysis. Select “ProtDist/FastDist + Neighbor” for construction of the phylogenetic tree and choose all other options as you wish. Create the workflow and paste in or upload your FASTA file with the toxins.
+Take approximately 10-20 matches from different (sub)species and create an unaligned FASTA file with these. Also include the original toxin sequence from your bacterium. Change each of the sequence titles in the FASTA file to the (sub)species' names, this will make the coming analysis much easier. Now we will build a phylogenetic tree of the sequences to get an idea of the evolutionary relationship of the toxin in the selected (sub)species. The field of phylogenetics has a wide range of bioinformatics tools available. Here we will use the online portal Phylogeny.fr [www.phylogeny.fr]. Select “A la Carte” under “Phylogeny Analysis”. Here you can specify options for the different steps of the analysis. Select “ProtDist/FastDist + Neighbor” for construction of the phylogenetic tree and choose all other options as you wish. Create the workflow and paste in or upload your FASTA file with the toxins.
  
-#### Q12
-
-Which multiple sequence alignment algorithm did you use? Why did you choose it over the others?
+**Q12** Which multiple sequence alignment algorithm did you use? Why did you choose it over the others?
  
 #### Q13
 
