@@ -1,8 +1,6 @@
 # LAB B1: Gene finding, Blast and sequence alignment
 
-## LAB PREPARATION
-
-### The scenario
+## The scenario
 
 There is an outbreak of mysterious infectious diseases in your town. Doctors do not know
 what is causing it, but they do know it is spreading fast. Patients come into the hospital
@@ -28,7 +26,7 @@ bases, called contigs. A bioinformatician at the sequencing centre has already d
 work. It is now up to you and your colleagues to find out as much as possible about this
 pathogen. The patients are counting on you!
 
-### Preparation questions
+## Preparation questions
 
 We will start each lab discussing a few preparatory questions. You will not gain or lose points
 from them, but you might be called to discuss them in front of your classmates, so be
@@ -39,7 +37,7 @@ prepared!
 1. What does it mean to “align two sequences”? What is the goal?
 1. What is a p-value? How is that different from an e-value (expectation value) in BLAST?
 
-## Lab Instructions
+## Instructions and questions 
 
 Select one of the files [`bacteria1.fasta`](bacteria1.fasta), [`bacteria2.fasta`](bacteria2.fasta), or [`bacteria3.fasta`](bacteria3.fasta), which
 correspond to diseases 1, 2 and 3, respectively. Make a folder called bioinformatics in your
