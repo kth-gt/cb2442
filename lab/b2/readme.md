@@ -22,7 +22,7 @@ Look up information on this genus online. Wikipedia might be enough, but look up
 
 **Q3** Does it make sense that these patients are so sick? Justify your answers and include your sources.
 
-Now that you know a bit more about your bacteria, we can use this information to compare this new isolate to previously sequenced ones. This might give interesting clues on what is going on. Find in Canvas a collection of reference genomes for your bacterium of interest and download it.
+Now that you know a bit more about your bacteria, we can use this information to compare this new isolate to previously sequenced ones. This might give interesting clues on what is going on. Find in this folder a collection of reference genomes of which one should be your bacterium of interest and download it.
 
 **Q4** Is it likely that very closely related bacterial species will have entire genes added or missing? Why/why not?
 *Hint: consider mechanisms of horizontal gene transfer.*
@@ -63,44 +63,28 @@ We’ll use online Blast again for pairwise sequence comparison. It would take t
 
 Compare the first sequence, `gb|AF226275.1|:1823-2035`, with the second, `gb|CP003047.1|:1361810-1362022`.
 
-#### Q10
-
-Which Blast tool(s) did you pick? Using this, how closely related are these two proteins?
+**Q10** Which Blast tool(s) did you pick? Using this, how closely related are these two proteins?
 
 Now compare the first sequence with `gb|CP004887.1|:3422041-3422259`.
 
-#### Q11
-
-Which Blast tool(s) did you pick? Using this, how closely related are these two proteins? How does this answer change comparing different tools?
+**Q11** Which Blast tool(s) did you pick? Using this, how closely related are these two proteins? How does this answer change comparing different tools?
 
 Finally, compare the first sequence with `gi|629665248:741-914`.
 
-#### Q12
+**Q12** Which Blast tool(s) did you pick? Using this, how closely related are these two proteins? 
 
-Which Blast tool(s) did you pick? Using this, how closely related are these two proteins? 
+As you’ve noticed, doing pairwise sequence comparisons is quite slow. Fortunately, there are tools for comparing several proteins at the same time. Run this file through a multiple sequence alignment tool. Choose ClustalW format for the multiple alignment, it will make the next steps a little easier.
 
-As you’ve noticed, doing pairwise sequence comparison is quite slow. Fortunately, there are tools for comparing several proteins at the same time. Run this file through a multiple sequence alignment tool. Choose ClustalW format for the multiple alignment, it will make the next steps a little easier.
+**Q13** Which multiple sequence alignment tool did you choose? Do the results confirm that the sequences in this file are all related?  Justify your answer with your own words as well as copying parts of the alignment.
 
-#### Q13
+Keep this result output open and run one more multiple sequence alignment tool. Choose the same format as before.
 
-Which multiple sequence alignment tool did you choose? Do the results confirm that the sequences in this file are all related?  Justify your answer with your own words as well as copying parts of the alignment.
+**Q14** Which tool did you use now? Do you see any differences in the result comparing the two? Which tool seems better? Justify your answer with your own words as well as copying parts of the alignments.
 
-Keep this result output open and run one more multiple-alignment tool. Choose the same format as before.
+Now select a relatively conserved part of the multiple sequence alignment and use an online tool for creating a sequence logo.
 
-#### Q14
+**Q15** What remarkable characteristics do you see in your logo? Can you make any biological hypothesis about this? Include your logo in the answer.
 
-Which tool did you use now? Do you see any differences in the result comparing the two? Which tool seems better? Justify your answer with your own words as well as copying parts of the alignments.
+**Q16** Which sort of information is highlighted in each of these sequence comparison methods: pairwise alignment, multiple alignment and logo? Can you say in which situation you would pick each of these?
 
-Now select a relatively conserved part of the multiple alignment and use an online tool for creating a sequence logo.
-
-#### Q15
-
-What remarkable characteristics do you see in your logo? Can you make any biological hypothesis about this? Include your logo in the answer.
-
-#### Q16
-
-Which sort of information is highlighted in each of these sequence comparison methods: pairwise alignment, multiple alignment and logo? Can you say in which situation you would pick each of these?
-
-#### Q17
-
-From a biological perspective, why are there conserved regions or motifs?
+**Q17** From a biological perspective, why are there conserved regions or motifs?
