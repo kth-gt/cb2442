@@ -4,7 +4,7 @@ N.B! Before starting this lab make sure you are registered and logged into Galax
 
 ## Preparation questions
 
-Study these questions and bring written answers to the lab. See the [“Practicals” information](../readme.md) for more information.
+Study these questions and bring written answers to the lab. See the ["Practical information"](../readme.md) for more information.
 
 1. What is RNA sequencing (RNA-seq)? Is it actually RNA that is being sequenced?
 1. What is FPKM value? How is it defined and why is it used?
