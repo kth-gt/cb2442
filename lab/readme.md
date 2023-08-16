@@ -23,7 +23,7 @@ Here is how put your group in queue for assistance: Go to Applications  -> CSC -
 ## Lab reports
 Answers to all the questions should be submitted in a report in a pdf. Start by saving the report as a text file named <lab_name>_<student1_name>_<student2_name>.odt (example: LAB_B1_Lisa-Klasson_Linn-Bengtsson.odt), and export it as pdf once it is finished. Start all answers with the question number (Q1:, Q2:...). Make sure that you have answered all questions before submitting the report.
 
-To submit the lab report, use a web browser, log in to KTH Canvas (http://kth.instructure.com), and go to CB2442 Bioinformatics. Under assignments, you can find the current lab. Only one report has to be submitted per pair - in the comment window, please write the full name of your partner! Upload your report file by selecting "Browse". The lab report should be submitted no more than 2 weeks after the lab.
+To submit the lab report, go to the CB2442 Bioinformatics course on Canvas. Under Assignments, you can find the current lab. Only one report has to be submitted per pair - in the comment window, please write the full name of your partner! Upload your report file by selecting "Browse". The lab report should be submitted no more than 2 weeks after the lab.
 
 ## Tools
 You will use several different bioinformatic tools during the labs. Some of them will be run on online servers, and others on the command line. In all cases, instructions on how to run them will be found in a separate booklet: [Bioinformatics Tools Booklet](./biotoolsbooklet.md). In many cases, you won't be told what tool to use, just the task that needs to be done. Then it's up to you to find the right tool in the booklet
