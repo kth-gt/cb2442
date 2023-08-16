@@ -2,6 +2,8 @@
 
 ## Preparation questions
 
+Study these questions and bring written answers to the lab. See the ["Practical information"](../readme.md) for more information.
+
 1. Based on just the hydrophobicity/hydrophilicity of the amino acid side chains, which parts of the hypothetical membrane protein LIFIRDNDEPTLIF will be inside the membrane and which will be outside?
 1. Look up what the Hamming distance is and calculate the Hamming distance between the aligned sequences (where a "-" indicates a deletion):  
   
