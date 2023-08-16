@@ -2,7 +2,7 @@
 
 ## Preparation questions
 
-Study these questions and bring written answers to the lab. See the "Practical information" for more information.
+Study these questions and bring written answers to the lab. See the ["Practical information"](../readme.md) for more information.
 
 1. What is rRNA? Which organisms have this?
 2. How does Blast work?
