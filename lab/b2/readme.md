@@ -2,6 +2,8 @@
 
 ## Preparation questions
 
+Study these questions and bring written answers to the lab. See the "Practical information" for more information.
+
 1. What is rRNA? Which organisms have this?
 2. How does Blast work?
 3. What is “bootstrapping”? How does this procedure estimate the statistical support to the results of an analysis?
