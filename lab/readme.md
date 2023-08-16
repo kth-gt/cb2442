@@ -9,12 +9,12 @@ The bioinformatics labs are
 * [LAB B3](b3/)
 * [LAB B4](b4/)
 
-# Practical information regarding the bioinformatics labs
+## Practical information regarding the bioinformatics labs
 
-## Groups
+### Groups
 You are expected to work in pairs. Since the labs in this part of the course will form one continuous story, it is preferable that you stay with the same partner until the end. Not all pairs will be working on the same data sets, but the content of the exercises will be the same for all.
 
-## Preparation questions
+### Preparation questions
 Each laboratory exercise starts with preparation questions. You are expected to study these questions prior to coming to the lab and bring written answers to the questions to the lab. Before beginning the labs you will compare and discuss your answers with your partner and another group (that is, four people in each discussion group). After about ten minutes of discussion, groups will be picked randomly to present their consensus answer to a question.
 
 ## Assistance
