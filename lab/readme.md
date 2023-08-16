@@ -1,6 +1,6 @@
 # Bioinformatics Labs
 
-The bioinformatical labs of the course are stored in this directory. They are acompanied by a [Bioinformatics Tools Booklet](./biotoolsbooklet.md) containing descriptions of common command line tools for bioinformatical operations.
+The bioinformatical labs of the course are stored in this directory. They are accompanied by a [Bioinformatics Tools Booklet](./biotoolsbooklet.md) containing descriptions of common command line tools for bioinformatical operations.
 
 The bioinformatics labs are
 
