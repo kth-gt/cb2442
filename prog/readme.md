@@ -1,6 +1,11 @@
 # Programming Labs
 
-Here we store material for the bioinformatical labs of the course. We name the subdirectores PXX, where XX is the number of the lab.
+The programming labs of the course are stored in this directory.
 
-* [p1](p1/)
+The programming labs are
+
+* [LAB_P1](p1/)
+
+## Practical information regarding the programming labs
+
   
