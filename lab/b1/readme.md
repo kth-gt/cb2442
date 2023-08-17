@@ -54,7 +54,7 @@ To understand the metabolism and life-cycle of an unknown species based on its D
 content, we have to study the functions of its genes. The first step for doing so is finding the
 gene sequences within the genome. Fortunately, there are tools that can find the genes inside
 a genome, based on certain sequence characteristics. Check the [Bioinformatics Tools Booklet](../biotoolsbooklet.md)
-and look for online tools for gene finding.
+and look for tools for gene finding.
 
 **Q3** Which tools did you find?
 
@@ -64,19 +64,16 @@ to use in this assignment. It’s important to have the nucleotide sequences as 
 **Q4** Which tool did you choose? Why? Did you change any parameters from the default
 settings? Which, how, and why?
 
-Make a fasta file of all the candidate genes you’ve found. Make sure to erase all comments or
-other lines that don’t fit the fasta format.
+Now you have a fasta file of all the candidate genes you’ve found. 
 
 **Q5** How many genes did this tool find? Is this a good estimate for the number of genes in
-this organism? Why/why not?
+this organism? Why/why not? *Hint: check the [Bioinformatics Tools Booklet](../biotoolsbooklet.md) for commands that can count lines containing a pattern*
 
-Now download the total set of predicted genes. If this is not possible, select everything with
-the mouse, paste it to a plain text document and save it.
 Now that we have identified the genes (at least the most likely genes according to the gene
 finder you employed), we can start studying their functions. One approach for doing this is to
 compare these new sequences with annotated sequences from other organisms. A very popular
 tool for doing this is Blast. Check the [Bioinformatics Tools Booklet](../biotoolsbooklet.md) for instructions on how to
-use online Blast for nucleotides. Blast the first 5 genes you have found.
+use online Blast for nucleotides. Open the fasta file with the candidate genes and Blast the first 5 genes.
 
 **Q6** Which Blast variant have you chosen? Why? Did you change any parameters from the
 default settings? Which, how, and why?
@@ -116,10 +113,7 @@ Now that the database is ready, it's time to run nucleotide Blast.
 
 **Q13** Which command did you run? Describe what each part of it does.
 
-**Q14** From all the results you got, can you pick RNA polymerases within your bacterial
-genome? Give its position within the genome, together with its e-value, length and bit-score.  
-_Hint: You might get several hits for the same region, but take into account that a good hit
-should have more or less the same length as the sequence it is matching to!_
+**Q14** From all the results you got, pick 3 matches and give its e-value and bit-score.
 
 Now download the file [`fewer_polymerases.fasta`](fewer_polymerases.fasta). This file contains only 50 of the
 sequences from the polymerase database. Format a Blast database from this file, too, and
@@ -128,10 +122,9 @@ run Blast using it.
 **Q15** Which commands did you run? Are there any differences compared to what you did
 before? Did you get the same hits as you had before?
 
-Now look at the e-values and compare them to what you had before.
+Now look at the e-values and compare it to what you had before.
 
-**Q16** Is there any change between the e-values you had before and what you got now? How
-do you explain that?
+**Q16** Is there any change between the e-value you had before and what you got now? How do you expect the e-value to change with the size of the database? *Hint your result may or may not follow what is expected*
 
 Not all polymerases are the same. Let's compare a few of the ones in the database. You can
 find all of them in the smaller dataset. For this, you can go back to using online Blast. 
@@ -147,8 +140,6 @@ Compare the first two sequences in the file, `gi|328835344` and `gi|328835342`
 Now compare the first sequence, `gi|328835344`, with the one that has ID `gi|619834969`.
 
 **Q19** How similar are these sequences? Looking at the sequence headers, is this expected?
-
-For the final test, compare the first sequence to the one with ID `gi|627755269`.
 
 **Q20** Considering what you learned from statistics, but also your biological
 knowledge, is this match relevant? Why/why not?
