@@ -132,9 +132,10 @@ TMHMM is a tool for predicting transmembrane domains by inputting amino acid seq
 
 Philius is a tool for predicting transmembrane domains and signal peptides based on an amino acid sequence (fasta format is supported only by submitting it through an e-mail form). The output is a confidence measure of the sequence being transmembrane and a partitioning of your protein sequence into regions inside/outside the cell and regions inside the membrane, together with a confidence measure for each region (press the "show list" link next to "Predicted protein segments" to view these statistics).
 
-## RDP Classifier: http://rdp.cme.msu.edu/classifier/classifier.jsp 
+## Silva Classifier: https://www.arb-silva.de/aligner/
 
-The Ribosomal Database project is a tool for assigning phylogenety to ribosomal RNA sequences or subsequences. The 16S (SSU) of bacteria and archaea and the 23S (LSU) of fungi can be used. The RDP can take up to 50 thousand sequences at a time. In the results page, clicking on the “detailed view” option will give a bootstrap support to each level of classification. RDP never assigns a species to a sequence, stopping at the genus level.
+A rRNA database project with a comprehensive on-line resource for quality checked and aligned ribosomal RNA sequence data. Can be used as a tool for assigning phylogenety to ribosomal RNA sequences or subsequences, by checking the "Search and Classify" box. 
+
 
 ## RDP Hierarchy browser: http://rdp.cme.msu.edu/hierarchy/hb_intro.jsp
 
