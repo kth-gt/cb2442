@@ -14,11 +14,11 @@ Study these questions and bring written answers to the lab. See the ["Practical 
 
 Welcome to the second computer exercise in bioinformatics! In the previous bioinformatics lab, we learned about the epidemic of unknown bacteria. We have found genes in their recently sequenced genomes, and we saw how to use Blast to compare genes to databases in different ways. Today we will start off again by finding genes, but only of a particular kind: ribosomal RNA (rRNA) genes. Ribosomal rRNA is often used for identifying unknown bacteria at a species-level. Go to the [BioToolsBooklet](../biotoolsbooklet.md) and find a tool for identifying rRNA genes. Run your bacterial genome through it.
 
-**Q1** How many rRNA genes did you find? What subunit of the rRNA are they (last column)? How many of each are there?
+**Q1** How many rRNA genes did you find? What subunit of the rRNA are they (5S, 16S and 23S)? How many of each are there? **Hint: Use a flag when running that allows you to save the output file**
 
-Download the FASTA results and make a file with just the 16S rRNA gene. This is the subunit that is most commonly used for classification. You will use an online tool for classifying rRNA. Find a tool for doing this in the booklet or online and run it.
+Open the FASTA results and make a file with just the 16S rRNA genes. This is the subunit that is most commonly used for classification. You will use an online tool for classifying rRNA. Find a tool for doing this in the booklet and run it. **Hint: Check the "Search and Classify box". When the job is complete, press display classification and drag the headers to see the species**
 
-**Q2** Is the classification entirely consistent (do all the matches agree with each other)? Does it have strong bootstrap support (in the case your tool gives bootstrap support)?
+**Q2** Which matches (species) do you get? Is the classification entirely consistent (do all the matches agree with each other)? 
 
 Look up information on this genus online. Wikipedia might be enough, but look up other websites if you're not convinced.
 
@@ -35,8 +35,10 @@ Let's try to see what distinguishes your new genome from others in the species. 
 
 Blast the genes that you found in the previous bioinformatics lab against the reference genome of the bacteria that you chose (reference genomes provided in this lab). Remember to choose a suitable E-value for your search.
 
-**Q6** Which genes do NOT find a good match from this database?
-*Hint: open the Blast result in a text editor and use ctrl+F to find empty headers (headers without any matches).* It’s recommended to use a “tabular” output format. See Blast help section for how to choose format. Depending on the version of Blast, you might get the output in the form of:
+**Q6** Which genes do NOT find a good match from this database? Retrieve only the non-matching genes and make a separate fasta file with them. 
+**Hint: It’s recommended to use output format 7. See Blast help section for how to choose format. 
+
+ Depending on the version of Blast, you might get the output in the form of:
 
 ```verbatim
 # BLASTN 2.9.0+
@@ -45,9 +47,14 @@ Blast the genes that you found in the previous bioinformatics lab against the re
 # 0 hits found 
 ```
 
-Find these by searching “# 0” and take note of the query. 
+To create a file containing only genes that do not have a successful match, you can use grep with the flags B and w. B includes X numbers of lines before the "phrase" in the output file, and w keeps only the lines with the exact "phrase". Make sure to change X, "phrase" and the filenames to you desired ouput:
 
-Retrieve only the non-matching genes and make a separate fasta file with them. Submit these to online Blast.
+```bash
+grep -B X -w "phrase" result_from_blast.txt > output_file 
+```
+
+Submit the genes WITHOUT good matches to online Blast.
+
 
 **Q7** Which Blast program did you select? Did you change any parameters from the default values? Which and why?
 
