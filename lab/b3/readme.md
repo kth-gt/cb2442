@@ -33,25 +33,25 @@ Run one of the tools from the [Bioinformatics tools booklet](../biotoolsbooklet.
 
 **Q1** Which tool did you use? Which of the genes had TM helices? What is the 2D structure of this candidate (e.g. how many TM helices are there; does the protein start/end inside/outside the cell)?
 
-One way of finding out the function of a protein is to search the Pfam database, which contains information about the functionality of protein families and domains and their protein structure.
+One way of finding out the function of a protein is to search the InterPro database, which contains information about the functionality of protein families and domains and their protein structure. Upload any potential efflux pump candidates (genes with TM helices) to the InterPro website. 
 
 **Q2** What protein domain/family does your candidate match to? What is its functionality? 
 
 **Q3** Do you think your candidate protein is an efflux pump? Why or why not?
 
-Another way to increase antibiotic resistance is by up- or down-regulation of genes that influence the antibiotic pathway. Check all the 4 antibiotic resistance genes in Pfam to see if this mechanism is present in one or more of them.
+Another way to increase antibiotic resistance is by up- or down-regulation of genes that influence the antibiotic pathway. Check all the other antibiotic resistance genes in InterPro to see if this mechanism is present in one or more of them.
 
-**Q4** Which families/domains did you find in Pfam (for the other genes)? What are their functions?
+**Q4** Which families/domains did you find in InterPro (for the other genes)? What are their functions?
 
 **Q5** Which of these domains play a role in gene regulation?
 
 Another way to get more detailed information about proteins of interest is to search them against the UniProtKB database.
 
-**Q6** What is the difference between the Pfam and UniProtKB databases? When do you use which?
+**Q6** What is the difference between the InterPro and UniProtKB databases? When do you use which?
 
 We could go directly to the UniProtKB website and run a Blast search there, but there is actually a nice way to get to all protein information through the NCBI Blast search engine website:
 
-Run a Blast search on the antibiotic resistance genes against the “UniProtKB/SwissProt” database. For each protein, click on the accession number of your top hit and follow the link in the DBSOURCE section to the UniProtKB website.
+Run a Blast protein search (blastp) on the antibiotic resistance genes against the “UniProtKB/SwissProt” database for each protein serparately. Copy the first part of the accession number of your top hit (e.g. P0A2S4 not P0A2S4.1) and search on it in the UniProtKB website (uniprot.org) to get more information on the hit. **Hint: look under "Family & Domains"
 
 **Q7** Which domain is present in multiple (2 or more) proteins? How does this domain do its job?
 
@@ -63,7 +63,7 @@ Now that we know more about the antibiotic resistance genes, it is time to focus
 
 **Q9** How could finding related toxins help us to improve the treatment of our patients?
 
-We will use PSI-BLAST to look for distant relatives of your toxin in as many different species as possible. Run the first iteration of your PSI-BLAST search with a maximum of 50 target sequences against the nr database for the first gene of the toxin. Exclude the organism the toxin originates from and *Escherichia coli* from the BLAST search, this will help to get a more diverse set of related toxins in different organisms.
+We will use PSI-BLAST (a type of protein blast) to look for distant relatives of your toxin in as many different species as possible. Run the first iteration of your PSI-BLAST search with a maximum of 50 target sequences against the nr database for the first gene of the toxin. Exclude the organism the toxin originates from and *Escherichia coli* from the BLAST search, this will help to get a more diverse set of related toxins in different organisms.
 
 **Q10** What is the best match and what is its E-value?
 
