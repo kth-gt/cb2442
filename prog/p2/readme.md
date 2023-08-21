@@ -31,14 +31,13 @@ that takes the length of two sequences, `a` and `b`, as input, and outpus a (dyn
 To your aid, you have the function `gap()` that returns the penalty of a gap of one amino acid.
 Remember that in a Needleman-Wunch Algorithm, we initiate the dynamic programming matrix, $S$, is initiated as:
 
-$$S_{i0}=g \cdot i, \forall i,$$  
+$$S_{i0}=g \cdot i, \forall i,$$
+
 $$S_{0j}=g \cdot j, \forall j.$$
 
 Furthermore the trace matrix should be initited in such a way that the alignment, once it reaches the first colum or row, goes back to (0,0), i.e. if you follow the suggested notation of the module, you should set trace(x,y,1) = True for first column, and trace(x,y,2) = True for first row (except for 0,0)
 
 The function `initiate_global_dp` should return a tuple with the dynamic programming matrix and the trace matrix.
-
-
 
 ### Recursion
 
