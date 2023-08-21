@@ -18,7 +18,7 @@ You are expected to work in pairs. Since the labs in this part of the course wil
 Each laboratory exercise starts with preparation questions. You are expected to study these questions prior to coming to the lab and bring written answers to the questions to the lab. Before beginning the labs you will compare and discuss your answers with your partner and another group (that is, four people in each discussion group). After about ten minutes of discussion, groups will be picked randomly to present their consensus answer to a question.
 
 ### Assistance
-Here is how put your group in queue for assistance: Go to Applications  -> CSC - > SimaManager. Select bioinfo in the Sima course list and use the Queue button when you need assistance. You will see your position in the queue, and the lab assistants will do their best to help you as soon as possible. When you get help from an assistant, please remove yourself from the queue.
+To get assistance during the lab, go to this google sheets form and sign up: [Queue for Assistance](https://docs.google.com/spreadsheets/d/10UB6aqM1Ab7lfwCOIo22X8IuLEt_RcRNIXUQVEEg_ic/edit?usp=sharing) You will see your position in the queue, and the lab assistants will do their best to help you as soon as possible. 
 
 ### Lab reports
 Answers to all the questions should be submitted in a report in a pdf. Start by saving the report as a text file named <lab-name>_<student1-name>_<student2-name>.odt (example: LAB-B1_Lisa-Klasson_Linn-Bengtsson.odt), and export it as pdf once it is finished. Start all answers with the question number (Q1:, Q2:...). Make sure that you have answered all questions before submitting the report.
