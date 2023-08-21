@@ -50,7 +50,7 @@ def global_align(seqA,seqB):
 that fills in the rest of the dynamic programming matrix using the recursion:
 
 $$
-S_{ij}=\max\left\{
+S_{ij} = \max \left\{
 \begin{array}{ll}
 S_{i-1,j-1} & +d(a_i,b_j)\\
 S_{i-1,j} & +d(a_i,-)\\

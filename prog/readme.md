@@ -5,7 +5,7 @@ The programming labs of the course are stored in this directory.
 The programming labs are
 
 * [LAB_P1](p1/)
-* [LAB_P1](p2/)
+* [LAB_P2](p2/)
 * LAB_P3 (under development)
 * LAB_P4 (under development)
 
