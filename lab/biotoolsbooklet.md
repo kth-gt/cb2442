@@ -116,17 +116,17 @@ These three multiple sequence alignment tools are based in EBI. They run differe
 
 Weblogo is a tool for producing logos of conserved sequences based on short multiple alignments. The fasta or clustalw sequences are pasted or uploaded, and an image is generated of the chosen format and size.
 
-## Pfam: http://pfam.xfam.org/
+## InterPro: [http://pfam.xfam.org/](https://www.ebi.ac.uk/interpro/)
 
-Pfam is a large database of HMM representations of protein domain families, many of which have extensive annotation. You can search through it by providing an accession number (provided by e.g. online blast), keywords or an amino acid sequence.
+A resource that provides functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites. To classify proteins in this way, InterPro uses predictive models, known as signatures, provided by several collaborating databases (referred to as member databases) that collectively make up the InterPro consortium. You can search through it by providing an accession number (provided by e.g. online blast), keywords or an amino acid sequence.
 
 ## UniProtKB: http://www.uniprot.org/
 
 UniProtKB is a high-quality annotated protein database. The annotation is either done manually (collected in the SwissProt database) or automatically (TrEMBL database).
 
-## TMHMM: http://www.cbs.dtu.dk/services/TMHMM-2.0/
+## Deep TMHMM: [http://www.cbs.dtu.dk/services/TMHMM-2.0/](https://dtu.biolib.com/DeepTMHMM)
 
-TMHMM is a tool for predicting transmembrane domains by inputting amino acid sequences in fasta format. The output is a list of partitions of your protein sequence into regions inside/outside the cell and regions inside the membrane, together with a plot showing the probability for each amino acid to be placed in each type of region.
+Deep TMHMM is a tool for predicting transmembrane domains by inputting amino acid sequences in fasta format. The output is a list of partitions of your protein sequence into regions inside/outside the cell and regions inside the membrane, together with a plot showing the probability for each amino acid to be placed in each type of region.
 
 ## Philius: http://www.yeastrc.org/philius
 
