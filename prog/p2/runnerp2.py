@@ -1,8 +1,10 @@
 #! /bin/env python3
+# -*- coding: utf-8 -*-
+
 import labp2 as lab
 
 # This is a test suite for the first lab assignment.
-# It is executed by running "python runner.py" in the terminal.
+# It is executed by running "python runnerp2.py" in the terminal.
 def runner():
     S, trace, score = lab.global_align("GATTA","GCTAC")
     assert score == 4.0

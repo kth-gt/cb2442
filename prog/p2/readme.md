@@ -50,13 +50,15 @@ def global_align(seqA,seqB):
 
 that fills in the rest of the dynamic programming matrix using the recursion:
 
-$$S_{ij}=\max\left\{
+$$
+S_{ij}=\max\left\{
 \begin{array}{ll}
 S_{i-1,j-1} & +d(a_i,b_j)\\
 S_{i-1,j} & +d(a_i,-)\\
 S_{i,j-1} & +d(-,b_j)
 \end{array}
-\right.$$
+\right.
+$$
 
 Also, fill in the trace matrix, so that it follows the maximal paths through the matrix. I.e. set the trace to be
 
@@ -74,16 +76,16 @@ You can make an initial execution of your `dna2aa` function by running the ain f
 $ python labp2.py
 ```
 
-However ther final test of the code is done by executing the `runner.py` executable, which can be exected from command line as, 
+However ther final test of the code is done by executing the `runnerp2.py` executable, which can be exected from command line as,
 
 ```bash
-$ python runner.py
+$ python runnerp2.py
 ```
 
 or just
 
 ```bash
-$ ./runner.py
+$ ./runnerp2.py
 ```
 
 This executes the code in `labp2.py`, and validates the results against some known test vectors.

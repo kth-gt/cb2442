@@ -36,16 +36,16 @@ You can make an initial execution of your `dna2aa` function by running the Pytho
 $ python labp1.py
 ```
 
-However the final test of the code is done by executing the `runner.py` executable, which can be run from the Terminal by,
+However the final test of the code is done by executing the `runnerp1.py` executable, which can be run from the Terminal by,
 
 ```bash
-$ python runner.py
+$ python runnerp1.py
 ```
 
 or just
 
 ```bash
-$ ./runner.py
+$ ./runnerp1.py
 ```
 
 This executes the code in `labp1.py`, and validates the results against some known test vectors.
