@@ -116,9 +116,9 @@ These three multiple sequence alignment tools are based in EBI. They run differe
 
 Weblogo is a tool for producing logos of conserved sequences based on short multiple alignments. The fasta or clustalw sequences are pasted or uploaded, and an image is generated of the chosen format and size.
 
-## InterPro: [http://pfam.xfam.org/](https://www.ebi.ac.uk/interpro/)
+## InterPro/Pfam: [http://pfam.xfam.org/](https://www.ebi.ac.uk/interpro/)
 
-A resource that provides functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites. To classify proteins in this way, InterPro uses predictive models, known as signatures, provided by several collaborating databases (referred to as member databases) that collectively make up the InterPro consortium. You can search through it by providing an accession number (provided by e.g. online blast), keywords or an amino acid sequence.
+InterPro is a comprehensive bioinformatics resource that integrates data from various protein domain and family databases, and Pfam is one of the databases integrated into InterPro. Pfam is a specific protein domain and family database that uses Hidden Markov Models (HMMs) to represent protein domains and families, enabling the identification of conserved regions in protein sequences.
 
 ## UniProtKB: http://www.uniprot.org/
 
