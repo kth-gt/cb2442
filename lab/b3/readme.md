@@ -33,21 +33,21 @@ Run one of the tools from the [Bioinformatics tools booklet](../biotoolsbooklet.
 
 **Q1** Which tool did you use? Which of the genes had TM helices? What is the 2D structure of this candidate (e.g. how many TM helices are there; does the protein start/end inside/outside the cell)?
 
-One way of finding out the function of a protein is to search the InterPro database, which contains information about the functionality of protein families and domains and their protein structure. Upload any potential efflux pump candidates (genes with TM helices) to the InterPro website. 
+One way of finding out the function of a protein is to search the InterPro/Pfam database, which contains information about the functionality of protein families and domains and their protein structure. Upload any potential efflux pump candidates (genes with TM helices) to the InterPro website. 
 
 **Q2** What protein domain/family does your candidate match to? What is its functionality? 
 
 **Q3** Do you think your candidate protein is an efflux pump? Why or why not?
 
-Another way to increase antibiotic resistance is by up- or down-regulation of genes that influence the antibiotic pathway. Check all the other antibiotic resistance genes in InterPro to see if this mechanism is present in one or more of them.
+Another way to increase antibiotic resistance is by up- or down-regulation of genes that influence the antibiotic pathway. Check all the other antibiotic resistance genes in InterPro/Pfam to see if this mechanism is present in one or more of them.
 
-**Q4** Which families/domains did you find in InterPro (for the other genes)? What are their functions?
+**Q4** Which families/domains did you find in InterPro/Pfam (for the other genes)? What are their functions?
 
 **Q5** Which of these domains play a role in gene regulation?
 
 Another way to get more detailed information about proteins of interest is to search them against the UniProtKB database.
 
-**Q6** What is the difference between the InterPro and UniProtKB databases? When do you use which?
+**Q6** What is the difference between the InterPro/Pfam and UniProtKB databases? When do you use which?
 
 We could go directly to the UniProtKB website and run a Blast search there, but there is actually a nice way to get to all protein information through the NCBI Blast search engine website:
 
