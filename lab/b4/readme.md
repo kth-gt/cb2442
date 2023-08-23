@@ -69,7 +69,7 @@ expression testing results.
 
 **Q11** How many genes are found to be differentially expressed? How many of those have a higher expression in the untreated samples? *Hint: use the sort tool*
 
-Export the differential gene expression data to a text file. Download the Python script [volcano.py](./volcano.py). This is a script that creates a so-called volcano plot of the differential expression analysis. The plot shows the -log(p-value) against the log2(fold change) for all genes (the statistically significant genes are highlighted in red, according to an FDR threshold).
+Export the differential gene expression data to a text file by pressing the file on the right side and then the save/download symbol. Download the Python script [volcano.py](./volcano.py). This is a script that creates a so-called volcano plot of the differential expression analysis. The plot shows the -log(p-value) against the log2(fold change) for all genes (the statistically significant genes are highlighted in red, according to an FDR threshold).
 
 Open the volcano.py file in VS Code (or a text editor) and edit it to take the path to your downloaded file as input data and (optionally) change the FDR threshold (it is evident in the file where you need to change things).
 
