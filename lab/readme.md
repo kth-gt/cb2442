@@ -27,3 +27,7 @@ To submit the lab report, go to the CB2442 Bioinformatics course on Canvas. Unde
 
 ### Tools
 You will use several different bioinformatic tools during the labs. Some of them will be run on online servers, and others on the command line. In all cases, instructions on how to run them will be found in a separate booklet: [Bioinformatics Tools Booklet](./biotoolsbooklet.md). In many cases, you won't be told what tool to use, just the task that needs to be done. Then it's up to you to find the right tool in the booklet
+
+### Installing software
+You will need to install some software on your computer. See the [Sofware instalation instructions](./) 
+
