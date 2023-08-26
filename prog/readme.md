@@ -15,6 +15,9 @@ The programming labs are
 
 You are expected to work in pairs.
 
+### Assistance
+To get assistance during the lab, go to this google sheets form and sign up: [Queue for Assistance](https://docs.google.com/spreadsheets/d/10UB6aqM1Ab7lfwCOIo22X8IuLEt_RcRNIXUQVEEg_ic/edit?usp=sharing) You will see your position in the queue, and the lab assistants will do their best to help you as soon as possible.
+
 ### Peer discussion
 
 When your team is finished with the programming task (when your script seems to work as it should) you should find another team that is also ready and show and explain your respective code to each other. The idea here is that you should see that programming tasks can be solved in different ways, and get new ideas for how to solve programming problems.
