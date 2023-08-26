@@ -21,7 +21,7 @@ Each laboratory exercise starts with preparation questions. You are expected to 
 To get assistance during the lab, go to this google sheets form and sign up: [Queue for Assistance](https://docs.google.com/spreadsheets/d/10UB6aqM1Ab7lfwCOIo22X8IuLEt_RcRNIXUQVEEg_ic/edit?usp=sharing) You will see your position in the queue, and the lab assistants will do their best to help you as soon as possible. 
 
 ### Lab reports
-Answers to all the questions should be submitted in a report in a pdf. Start by saving the report as a text file named <lab-name>_<student1-name>_<student2-name>.odt (example: LAB-B1_Lisa-Klasson_Linn-Bengtsson.odt), and export it as pdf once it is finished. Start all answers with the question number (Q1:, Q2:...). Make sure that you have answered all questions before submitting the report.
+Answers to all the questions should be submitted in a report in a pdf. Start by saving the report as a text file named lab-name_student1-name_student2-name.odt (example: LAB-B1_Lisa-Klasson_Linn-Bengtsson.odt), and export it as pdf once it is finished. Start all answers with the question number (Q1:, Q2:...). Make sure that you have answered all questions before submitting the report.
 
 To submit the lab report, go to the CB2442 Bioinformatics course on Canvas. Under Assignments, you can find the current lab. Only one report has to be submitted per pair - in the comment window, please write the full name of your partner! Upload your report file by selecting "Browse". The lab report should be submitted no more than 2 weeks after the lab.
 
