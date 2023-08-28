@@ -21,9 +21,13 @@ Each laboratory exercise starts with preparation questions. You are expected to 
 To get assistance during the lab, go to this google sheets form and sign up: [Queue for Assistance](https://docs.google.com/spreadsheets/d/10UB6aqM1Ab7lfwCOIo22X8IuLEt_RcRNIXUQVEEg_ic/edit?usp=sharing) You will see your position in the queue, and the lab assistants will do their best to help you as soon as possible. 
 
 ### Lab reports
-Answers to all the questions should be submitted in a report in a pdf. Start by saving the report as a text file named <lab-name>_<student1-name>_<student2-name>.odt (example: LAB-B1_Lisa-Klasson_Linn-Bengtsson.odt), and export it as pdf once it is finished. Start all answers with the question number (Q1:, Q2:...). Make sure that you have answered all questions before submitting the report.
+Answers to all the questions should be submitted in a report in a pdf. Start by saving the report as a text file named lab-name_student1-name_student2-name.odt (example: LAB-B1_Lisa-Klasson_Linn-Bengtsson.odt), and export it as pdf once it is finished. Start all answers with the question number (Q1:, Q2:...). Make sure that you have answered all questions before submitting the report.
 
 To submit the lab report, go to the CB2442 Bioinformatics course on Canvas. Under Assignments, you can find the current lab. Only one report has to be submitted per pair - in the comment window, please write the full name of your partner! Upload your report file by selecting "Browse". The lab report should be submitted no more than 2 weeks after the lab.
 
 ### Tools
 You will use several different bioinformatic tools during the labs. Some of them will be run on online servers, and others on the command line. In all cases, instructions on how to run them will be found in a separate booklet: [Bioinformatics Tools Booklet](./biotoolsbooklet.md). In many cases, you won't be told what tool to use, just the task that needs to be done. Then it's up to you to find the right tool in the booklet
+
+### Installing software
+You will need to install some software on your computer. See the [software installation manual](./software_installation_manual.md).
+

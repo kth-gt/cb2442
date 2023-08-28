@@ -18,7 +18,7 @@ The data you have at hand is RNA sequencing data from three patients both before
 
 The main data you will be working with is mapped sequencing data in bam format. Before we start working on those, let us get a little bit informed about the process from raw sequencing data to mapped data and learn how to work in the Galaxy environment.
 
-Go to https://usegalaxy.org/ or https://usegalaxy.eu and, from the tools panel, upload the file [sample.fastq](./sample.fastq). When the upload has finished, take a look at the data through the “view data” button.
+Go to https://usegalaxy.org/ or https://usegalaxy.eu and, from the tools panel, upload the file [sample.fastq](./sample.fastq). When the upload has finished, take a look at the data through the “view data” button (the small eye symbol next to the file on the right side of the window.
 
 **Q1** Fastq files contain the sequencing data as it is delivered from the sequencing machine. How is the file organized?
 
@@ -54,7 +54,7 @@ Now it is time for the actual differential expression analysis. The idea is to c
 
 **Q7** What is a gene annotation? What information is in a GTF file?
 
-Open the Cuffdiff program. You need to supply it with the relevant files for each of the conditions and their names. Keep other parameters at default values. When it is set up, you should have three replicates for each condition. The program may take several minutes to run and creates many (~11) different files in the process. When the analysis is done, look through the output and delete those results that have no data. You should be left with four different results files, some of which we will look into in more detail. Cuffdiff reports results both on the gene level and on the isoform/transcript level[^1]. We will start by looking at the “transcript FPKM tracking” results.
+Open the Cuffdiff program. Go to condition and put "Untreated" and "Treated" as condition name 1 and 2. For each condition, supply it with the 3 relevant replicate bam-files. Keep other parameters at default values. The program may take several minutes to run and creates many (~11) different files in the process. When the analysis is done, look through the output and delete those results that have no data. You should be left with four different results files, some of which we will look into in more detail. Cuffdiff reports results both on the gene level and on the isoform/transcript level[^1]. We will start by looking at the “transcript FPKM tracking” results.
 
 [^1]: Isoforms arise from alternative splicing sites in eukaryote genomes. This means that the same gene can give rise to more than one transcript and, if it is protein coding, give rise to more than one protein [(see the wikipedia entry)](http://en.wikipedia.org/wiki/Gene_isoform).
 
@@ -62,14 +62,14 @@ Open the Cuffdiff program. You need to supply it with the relevant files for eac
 
 **Q9** What is miRNA?
 
-**Q10** Which transcripts have the highest expression in each condition? Are these numbers reasonable?
+**Q10** Which transcripts have the highest expression in each condition? Are these numbers reasonable? *Hint: use the sort tool for this too, on the same data*
 
 We now switch to the results on the gene level. Look into the gene differential
 expression testing results.
 
-**Q11** How many genes are found to be differentially expressed? How many of those have a higher expression in the untreated samples?
+**Q11** How many genes are found to be differentially expressed? How many of those have a higher expression in the untreated samples? *Hint: use the sort tool*
 
-Export the differential gene expression data to a text file. Download the Python script [volcano.py](./volcano.py). This is a script that creates a so-called volcano plot of the differential expression analysis. The plot shows the -log(p-value) against the log2(fold change) for all genes (the statistically significant genes are highlighted in red, according to an FDR threshold).
+Export the differential gene expression data to a text file by pressing the file on the right side and then the save/download symbol. Download the Python script [volcano.py](./volcano.py). This is a script that creates a so-called volcano plot of the differential expression analysis. The plot shows the -log(p-value) against the log2(fold change) for all genes (the statistically significant genes are highlighted in red, according to an FDR threshold).
 
 Open the volcano.py file in VS Code (or a text editor) and edit it to take the path to your downloaded file as input data and (optionally) change the FDR threshold (it is evident in the file where you need to change things).
 
