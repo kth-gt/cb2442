@@ -16,3 +16,5 @@ And the lecture slides:
 * [Protein Sequence Alignments](slides/Aligning_protein_sequences.pdf)
 * [Multiple Sequence Alignments](slides/Multiple_Sequence_Alignments.pdf)
 * [Sequence Retrieval](slides/Sequence_Retrieval.pdf)
+
+The programming naive alignment algorithm that was semonstrated under the intodctorly lecture can be found [here](code/naive.py)

@@ -10,7 +10,7 @@ match = 3
 mismatch = -1
 gap = -2
 
-
+# A scoring function for two letters.
 def match_score(letterA,letterB): # Score an individual alignment position
     if letterA == '-' and letterB == '-':
         return 0   # Irrelevant position
@@ -21,6 +21,7 @@ def match_score(letterA,letterB): # Score an individual alignment position
     else:
         return mismatch  # Mismatch
 
+# A function that give a global alignmen scor of two gapped sequences.
 def scoreSequences(a_seq,b_seq): # Score a alignment
     score, score_seq = 0, ""
     for a, b in zip(a_seq, b_seq):
@@ -29,6 +30,8 @@ def scoreSequences(a_seq,b_seq): # Score a alignment
         score_seq += f"{s:3}"
     return score, score_seq
 
+
+# Utility function that creates a gapped sequence from a sequence and a list of insertions.
 def getSeq(seq, inserts, alignment_length):
     out = ""
     for i,s in zip(inserts,seq):
@@ -40,6 +43,7 @@ def getSeq(seq, inserts, alignment_length):
 
 
 
+# Streamlit code setting up a webform
 st.set_page_config(layout="wide", page_icon="🎓", page_title="Naive Alignment Calculator")
 st.title("🎓 Naive Alignment Calculator")
 
@@ -69,18 +73,24 @@ m_a_box, m_b_box, m_score_seq_box, m_score_box = right.empty(), right.empty(), r
 
 
 if submit:
+    # execute an excaustive alignment algorithm
     m = - sys.maxsize
+    # Loop over all possible insertions in sequence a
     for a_inserts in itertools.product(list(range(len(a_seq))), repeat = len(a_seq)):
         a = getSeq(a_seq, a_inserts, alignment_length)
         a_box.text('  '.join(list(a)))
+        # Loop over all possible insertions in sequence b
         for b_inserts in itertools.product(list(range(len(b_seq))),repeat = len(b_seq)):
             b = getSeq(b_seq,b_inserts, alignment_length)
             # Update status text.
             b_box.text('  '.join(list(b)))
+            # Calculate the score of the alignment
             score, score_seq = scoreSequences(a, b)
+            # Output the score to the webform
             score_box.text(f"{score: >3}")
             score_seq_box.text(score_seq)
 
+            # Update the best alignment if we found a better one.
             if score > m:
                 m_a_box.text('  '.join(list(a)))
                 m_b_box.text('  '.join(list(b)))
