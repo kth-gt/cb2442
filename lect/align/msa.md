@@ -6,3 +6,6 @@ Before the lecture:
 * Watch the online lecture on [multiple sequence alignments](https://www.youtube.com/watch?v=mzRT9udYvY8), [slides](slides/Multiple_Sequence_Alignments.pdf)
 * Pose or answer a question in the appropriate canvas thread. I will edit the questions and post them on this [site](../qa/msa.md).
 
+## Code
+
+There is some code relating to this lecture that can be found, and executed, in [this notebook](code/msa.ipynb).
