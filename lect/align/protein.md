@@ -9,4 +9,4 @@ Before the lecture:
 
 ## Code
 
-There is some code relating to this lecture that can be found, and executed, in [this notebook](code/pairwise.ipynb).
+There is some code relating to this lecture that can be found, and executed, in [this notebook](https://mybinder.org/v2/gh/kth-gt/cb2442/main?labpath=lect%2Falign%2Fcode%2Fpairwise.ipynb).
