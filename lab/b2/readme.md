@@ -14,8 +14,6 @@ Study these questions and bring written answers to the lab. See the ["Practical 
 
 Welcome to the second computer exercise in bioinformatics! In the previous bioinformatics lab, we learned about the epidemic of unknown bacteria. We have found genes in their recently sequenced genomes, and we saw how to use Blast to compare genes to databases in different ways. Today we will start off again by finding genes, but only of a particular kind: ribosomal RNA (rRNA) genes. Ribosomal rRNA is often used for identifying unknown bacteria at a species-level. Go to the [BioToolsBooklet](../biotoolsbooklet.md) and find a tool for identifying rRNA genes. Run your bacterial genome through it.
 
-## OBS
-Please use the bacteria in this repository (B2) until stated otherwise!
 
 ## On barrnap installation
 If you are getting an error related to "name+" when running barrnap:
@@ -24,6 +22,8 @@ If you are getting an error related to "name+" when running barrnap:
 2. Go to the path, either through the terminal or through the user interface
 3. Open the source code named "barrnap" with a text editor
 4. Search for "name+" with the finder function, and delete the "+". It should just say "name".
+
+## Questions
 
 **Q1** How many rRNA genes did you find? What subunit of the rRNA are they (5S, 16S and 23S)? How many of each are there? **Hint: Use a flag when running that allows you to save the output file**
 
