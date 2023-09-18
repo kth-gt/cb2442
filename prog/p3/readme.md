@@ -3,7 +3,7 @@
 ## Introduction
 
 Your task is to code a Python program that calculates RPKM and also TPM
-(task #1), and that generates a scatter plot of RPM versus TPM (task
+(task #1), and that generates a scatter plot of RPKM versus TPM (task
 #2). There is also an optional third task (#3). You are given two input
 files, described below, and a code "skeleton" on which you should build
 your program. The output should be (1) a file that contains the ID or
@@ -142,17 +142,17 @@ your own and not use scipy.
 
 You can run your code by executing the command
 ```bash
-$ python labp3.py
+$ python labp3.py cds_lens.tsv read_counts.tsv > my_output_file.tsv
 ```
+Where my_output_file.tsv is the name of the file in which the RPKM and TPM values will be output. The name of the file with the scatterplot is set inside the labp3.py script with the plt.savefig() function.
 
-The final test of your code is done by running the runnerp3.py
-executable, which can be executed from command line as
+The first lines of the output file ("my_output_file.tsv") with RPKM and TPM should look like this. Use this to test if your implementation of the algorithms is correct. Note that here, RPKM and TPM values are presented with 3 decimals (in your implementation, you might have chosen a different handling of the decimals). 
+| #Gene_ID | RPKM | TPM |
+| ------ | ------ | ------ |
+| MA_10000213g0010.1  | 0.232 | 0.142 |
+| MA_10000405g0010.1  | 0.047 | 0.029 |
+| MA_1000049g0010.1   | 0.000 | 0.000 |
+| MA_10000516g0010.1  | 1.333 | 0.814 |
 
-```bash
-$ python runnerp3.py
-```
+The scatterplot should be in the png format. 
 
-This executes the code in labp3.py, and validates the results against
-some known test vectors. If you implemented the algorithm right, you
-will see your names appearing. Note that the runnerp3.py only tests the
-RPKM and TPM calculations, and not the scatterplot generation.
