@@ -59,6 +59,7 @@ this is not a set of high-confidence genes. The cds_lens.tsv file is a
 processed version of an actual annotation file (in the gff format). We
 did the processing for you so you can focus on the tasks #0, #1, and #2.
 The cds_lens.tsv file looks like this (rows 1-5 of 66,633):
+
 | #Gene_ID | Gene_len |
 | ------ | ------ |
 | MA_10000213g0010.1  | 738 |
@@ -147,6 +148,7 @@ $ python labp3.py cds_lens.tsv read_counts.tsv > my_output_file.tsv
 Where my_output_file.tsv is the name of the file in which the RPKM and TPM values will be output. The name of the file with the scatterplot is set inside the labp3.py script with the plt.savefig() function.
 
 The first lines of the output file ("my_output_file.tsv") with RPKM and TPM should look like this. Use this to test if your implementation of the algorithms is correct. Note that here, RPKM and TPM values are presented with 3 decimals (in your implementation, you might have chosen a different handling of the decimals). 
+
 | #Gene_ID | RPKM | TPM |
 | ------ | ------ | ------ |
 | MA_10000213g0010.1  | 0.232 | 0.142 |
