@@ -45,5 +45,4 @@ $ ./runner4.py
 This executes the `upgma` function in `labp4.py` using a couple of test inputs and validates the results.
 If you have implemented the function correctly, you will see your names appear.
 
-### Extra excercise
-
+Good luck with the lab!
