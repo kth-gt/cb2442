@@ -42,8 +42,8 @@ or just
 $ ./runner4.py
 ```
 
-This executes the code in `labp4.py`, and validates the results against some test examples.
-If you implemented the function right, you will see your names appearing.
+This executes the code in `labp4.py`, and validates the results against a couple of test examples.
+If you have implemented the function correctly, you will see your names appearing.
 
 ### Extra excercise
 
