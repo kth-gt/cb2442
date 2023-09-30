@@ -42,8 +42,8 @@ or just
 $ ./runner4.py
 ```
 
-This executes the code in `labp4.py`, and validates the results against a couple of test examples.
-If you have implemented the function correctly, you will see your names appearing.
+This executes the `upgma` function in `labp4.py` using a couple of test inputs and validates the results.
+If you have implemented the function correctly, you will see your names appear.
 
 ### Extra excercise
 
