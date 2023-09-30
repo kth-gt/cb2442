@@ -20,7 +20,7 @@ In the `labp4.py` file, modify the function
 ```python
 def upgma(dist_matr, names_list):
 ```
-that takes a pairwise distance matrix (a 2-dimensional [numpy array](https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp)) and a list of sequence names (a list) as input and returns a tree in newick format. Also, set the list `authors` to contain all the group members names.  
+that takes a pairwise distance matrix (a 2-dimensional [numpy array](https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp)) and a list of sequence names (a [list](https://www.w3schools.com/python/python_lists.asp)) as input and returns a tree in newick format. Also, set the list `authors` to contain all the group members names.  
 
 ### Test
 
