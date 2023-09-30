@@ -15,38 +15,35 @@ $ code .
 
 ### Implementation
 
-Add a python function to the file `labp1.py` named
+Modify in the `labp4.py` file the function
 
 ```python
-def dna2aa(dna_str):
+def upgma(dist_matr, names_list):
 ```
-
-that takes a dna sequence as input and returns an amino acid sequence. You may use the dictionary `codon2aa`. which translates tripplets of bases into amino acid symbols.
-Also, set the list `authors` to contain all the group members names.  
+that takes a pairwise distance matrix (a 2-dimensional numpy array) and a list of sequence names (a list) as input and returns a tree in newick format. Also, set the list `authors` to contain all the group members names.  
 
 ### Test
 
-You can make an initial execution of your `dna2aa` function by running the ain function of the python file itself by executing the line,
+You can make an initial execution of your `upgma` function by running the main function of the python file itself by executing the line,
 
 ```bash
-$ python3 labp1.py
+$ python3 labp4.py
 ```
 
-However ther final test of the code is done by executing the `runner.py` executable, which can be exected from command line as, 
+However, the final test of the code is done by executing the `runner4.py` executable, which can be executed from command line as, 
 
 ```bash
-$ python3 runner.py
+$ python3 runner4.py
 ```
 
 or just
 
 ```bash
-$ ./runner.py
+$ ./runner4.py
 ```
 
-This executes the code in `labp1.py`, and validates the results against some known test vectors.
-If you implemented the function right, you will see your names apearing.
+This executes the code in `labp4.py`, and validates the results against some test examples.
+If you implemented the function right, you will see your names appearing.
 
 ### Extra excercise
 
-Change the behaviour of `dna2aa` so that it tries all thre possible frames of translation, and selects the amino acid sequence that has the longest orf of the three alternatives.
