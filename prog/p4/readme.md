@@ -4,7 +4,7 @@ Hierarchical clustering is widely used in bioinformatics. In the CB2442 course, 
 
 ### Installation
 
-Begin with downloading the project to your local computer by using this [link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fkth-gt%2Fcb2442%2Ftree%2Fmain%2Fprog%2Fp1). 
+Begin with downloading the project to your local computer by using this [link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fkth-gt%2Fcb2442%2Ftree%2Fmain%2Fprog%2Fp4). 
 
 
 Unzip the files into a directory and open the directory in VScode. 
