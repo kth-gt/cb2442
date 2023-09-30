@@ -1,8 +1,6 @@
-# Programming Lab P1
+# Programming Lab P4 - Making a phylogenetic tree using UPGMA clustering
 
-This is an introductory lab for the programming part of the course.
-Your task is to write a function that can convert mRNA sequence to amino acid sequence.
-To your help you have a scaffold of python code that you should use as to validate your code and also to make sure you follow a standard that the TAs can automatically validate.
+Hierarchical clustering is widely used in bioinformatics. In the CB2442 course, you have encountered it both in the Sequence feature module and in the Phylogenetics module. In this lab, your task is to write a function that, given a pairwise distance matrix and a list of names of the corresponding objects (in this case, sequences), performs hierarchical clustering using the Unweighted Pair Group Method with Arithmetic Mean (UPGMA) method, and output the result as a tree in the [Newick](https://en.wikipedia.org/wiki/Newick_format#:~:text=In%20mathematics%2C%20Newick%20tree%20format,Maddison%2C%20Christopher%20Meacham%2C%20F.) format.
 
 ### Installation
 
