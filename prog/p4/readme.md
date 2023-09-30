@@ -1,4 +1,4 @@
-# Programming Lab P4 - Making a phylogenetic tree using UPGMA clustering
+# Programming Lab P4 - Making a tree using UPGMA clustering
 
 Hierarchical clustering is widely used in bioinformatics. In the CB2442 course, you have encountered it both in the Sequence feature module and in the Phylogenetics module. In this lab, your task is to write a function that, given a pairwise distance matrix and a list of names of the corresponding objects (in this case, sequences), performs hierarchical clustering using the Unweighted Pair Group Method with Arithmetic Mean (UPGMA) method, and output the result as a tree in the [Newick](https://en.wikipedia.org/wiki/Newick_format#:~:text=In%20mathematics%2C%20Newick%20tree%20format,Maddison%2C%20Christopher%20Meacham%2C%20F.) format.
 
