@@ -24,13 +24,13 @@ that takes a pairwise distance matrix (as a 2-dimensional [numpy array](https://
 
 ### Test
 
-You can make an initial execution of your `upgma` function by running the main function of the python file itself by executing the line,
+You can make an initial execution of your `upgma` function by running the main function of the python file itself by executing the line
 
 ```bash
 $ python3 labp4.py
 ```
 
-However, the final test of the code is done by executing the `runner4.py` executable, which can be executed from command line as, 
+However, the final test of the code is done by executing the `runner4.py` executable, which can be executed from command line as
 
 ```bash
 $ python3 runner4.py
