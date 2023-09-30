@@ -15,7 +15,7 @@ $ code .
 
 ### Implementation
 
-Modify in the `labp4.py` file the function
+In the `labp4.py` file, modify the function
 
 ```python
 def upgma(dist_matr, names_list):
