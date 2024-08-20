@@ -2,6 +2,5 @@
 
 Before the lecture:
 
-* Read Pages 39-42 of Chapter 3 in [St Clair & Visick](https://karbokhandeln.se/kemi/exploring-bioinformatics-a-project-based/)
-* Watch the online lecture on [introduction to alignments](https://youtu.be/aaXqaaMymOA).
-* Pose or answer a volontary question in the appropriate canvas thread.
+* Read Chapter 1 and 2 of [BIBook](https://www.kaell.se/bibook/pairwise/alignment_intro.html/)
+* Optionally: Watch the online lecture on [introduction to alignments](https://youtu.be/aaXqaaMymOA).
