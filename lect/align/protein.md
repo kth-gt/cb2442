@@ -2,11 +2,7 @@
 
 Before the lecture:
 
-* Read Chapter 5 in [St Clair & Visick](https://karbokhandeln.se/kemi/exploring-bioinformatics-a-project-based/)
-* Watch the online lecture on [protein sequence alignments](https://youtu.be/bIelmjRhWsw), [slides](slides/Aligning_protein_sequences.pdf).
-* Read [Eddy](https://www.nature.com/articles/nbt0804-1035)
-* Pose or answer a question in the appropriate canvas thread. I will edit the questions and post them on this [site](../qa/protein.md).
+* Read Chapter 9 and 10 of [BIBook](https://www.kaell.se/bibook/protein/matrix.html)
+* Optionally: Watch the online lecture on [protein sequence alignments](https://youtu.be/bIelmjRhWsw), [slides](slides/Aligning_protein_sequences.pdf).
+* Pose or answer at least one question in the appropriate Canvas thread. Alternatively, if you find any error in the book chapter report it by clicking on the "suggest an edit" or "open an issue" buttons on top of the book's top bar.
 
-## Code
-
-There is some code relating to this lecture that can be found, and executed, in [this notebook](https://mybinder.org/v2/gh/kth-gt/cb2442/main?labpath=lect%2Falign%2Fcode%2Fpairwise.ipynb).

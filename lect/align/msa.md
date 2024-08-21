@@ -2,11 +2,6 @@
 
 Before the lecture:
 
-* Read the section on Multiple Sequence Alignments (p67-69) in Chapter 4 in [St Clair & Visick](https://karbokhandeln.se/kemi/exploring-bioinformatics-a-project-based/)
-* Watch the online lecture on [multiple sequence alignments](https://www.youtube.com/watch?v=mzRT9udYvY8), [slides](slides/Multiple_Sequence_Alignments.pdf)
-* Execute the MSA code in [this notebook](https://mybinder.org/v2/gh/kth-gt/cb2442/main?labpath=lect%2Falign%2Fcode%2Fmsa.ipynb).
-* Pose or answer a question in the appropriate canvas thread.
-
-## Code
-
-There is some code relating to this lecture that can be found, and executed, in [this notebook](https://mybinder.org/v2/gh/kth-gt/cb2442/main?labpath=lect%2Falign%2Fcode%2Fmsa.ipynb).
+* Read Chapter 11 and 12 of [BIBook](https://www.kaell.se/bibook/msa/progressive.html)
+* Optionally: Watch the online lecture on [multiple sequence alignments](https://www.youtube.com/watch?v=mzRT9udYvY8), [slides](slides/Multiple_Sequence_Alignments.pdf).
+* Pose or answer at least one question in the appropriate Canvas thread. Alternatively, if you find any error in the book chapter report it by clicking on the "suggest an edit" or "open an issue" buttons on top of the book's top bar.
