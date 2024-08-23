@@ -57,20 +57,20 @@ S_{ij} = \max \begin{cases}
 \end{cases}
 $$
 
-#### What is \( d(a_i, b_j) \) in the Needleman-Wunsch Algorithm?
 
-- **\( a_i \)**: Character at position \( i \) in sequence \( A \).
-- **\( b_j \)**: Character at position \( j \) in sequence \( B \).
-- **\( d(a_i, b_j) \)**: Substitution cost or similarity score between characters \( a_i \) and \( b_j \).
+- **`a_i`**: Character at position `i` in sequence `A`.
+- **`b_j`**: Character at position `j` in sequence `B`.
+- **`d(a_i, b_j)`**: Substitution cost or similarity score between characters `a_i` and `b_j`.
 
-#### Score Types:
-- **Match**: \( d(a_i, b_j) \) is positive if \( a_i = b_j \).
-- **Mismatch**: \( d(a_i, b_j) \) is negative if \( a_i \neq b_j \).
-- **Gap Penalties**: Applied separately for gaps, typically negative.
+- **Match**: `d(a_i, b_j) > 0` when `a_i = b_j`.
+- **Mismatch**: `d(a_i, b_j) < 0` when `a_i ≠ b_j`.
+- **Gap Penalties**: Typically handled separately, often with a negative value.
 
-Example:
-- \( d(A, A) = +1 \) (match)
-- \( d(A, G) = -1 \) (mismatch)
+For example:
+- `d(A, A) = +1` (match)
+- `d(A, G) = -1` (mismatch)
+
+There is a `match_score` function in the code that determines these values.
 
 
 Also, fill in the trace matrix, so that it follows the maximal paths through the matrix. I.e. set the trace to be
