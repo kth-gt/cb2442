@@ -39,6 +39,42 @@ Furthermore the trace matrix should be initited in such a way that the alignment
 
 The function `initiate_global_dp` should return a tuple with the dynamic programming matrix and the trace matrix.
 
+
+#### Dynamic Programming Matrix \( S \):
+
+|   |   | G | C | A | T | G | C | U |
+|---|---|---|---|---|---|---|---|---|
+| **0** | 0 | g\(\cdot\)1 | g\(\cdot\)2 | g\(\cdot\)3 | g\(\cdot\)4 | g\(\cdot\)5 | g\(\cdot\)6 | g\(\cdot\)7 |
+| **G** | g\(\cdot\)1 |   |   |   |   |   |   |   |
+| **A** | g\(\cdot\)2 |   |   |   |   |   |   |   |
+| **T** | g\(\cdot\)3 |   |   |   |   |   |   |   |
+| **T** | g\(\cdot\)4 |   |   |   |   |   |   |   |
+| **A** | g\(\cdot\)5 |   |   |   |   |   |   |   |
+| **C** | g\(\cdot\)6 |   |   |   |   |   |   |   |
+| **A** | g\(\cdot\)7 |   |   |   |   |   |   |   |
+
+- `g` represents the gap penalty function `gap()`.
+
+#### Trace Matrix:
+
+|   |   | G | C | A | T | G | C | U |
+|---|---|---|---|---|---|---|---|---|
+| **0** | (F,F,F) | (F,F,T) | (F,F,T) | (F,F,T) | (F,F,T) | (F,F,T) | (F,F,T) | (F,F,T) |
+| **G** | (F,T,F) |   |   |   |   |   |   |   |
+| **A** | (F,T,F) |   |   |   |   |   |   |   |
+| **T** | (F,T,F) |   |   |   |   |   |   |   |
+| **T** | (F,T,F) |   |   |   |   |   |   |   |
+| **A** | (F,T,F) |   |   |   |   |   |   |   |
+| **C** | (F,T,F) |   |   |   |   |   |   |   |
+| **A** | (F,T,F) |   |   |   |   |   |   |   |
+
+- `(F,F,F)` indicates no match, insertion, or deletion at the origin.
+- `(F,F,T)` indicates a gap penalty applied in the first row (rightward insertion).
+- `(F,T,F)` indicates a gap penalty applied in the first column (downward deletion).
+
+####  NOTE:
+- The matrix size is `[len_str_a + 1, len_str_b + 1]`, meaning it has an extra row and column to account for the initial gap penalties at the start of the sequences.
+
 ### Recursion
 
 Now implement the function
