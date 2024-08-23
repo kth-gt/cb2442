@@ -110,7 +110,7 @@ Also, fill in the trace matrix, so that it follows the maximal paths through the
 
 * trace(x,y,0) indicates a match in x,y. This is represented as (T,F,F) --> True at position 0
 * trace(x,y,1) indicates an insert in x,y (fix column).  This is represented as (F, T, F) --> True at position 1
-* trace(x,y,2) indicates a delete in x,y (fix row). This is represented as (F, F, T) --> True at position 1
+* trace(x,y,2) indicates a delete in x,y (fix row). This is represented as (F, F, T) --> True at position 2
 
 The function should return the dynamic programming matrix, the trace matrix, and the score of the alignment
 
