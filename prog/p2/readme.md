@@ -51,6 +51,8 @@ The function `initiate_global_dp` should return a tuple with the dynamic program
 
 - `gap` represents the gap penalty function `gap()`.
 
+Think about whether the gap score should be positive or negative!
+
 #### Trace Matrix:
 
 
