@@ -72,7 +72,7 @@ It is shaped like the Score matrix `S` but with an extra dimension. This extra d
 - 
 
 #### NOTE:
-- The matrix size is `[len_str_a + 1, len_str_b + 1]`, meaning it has an extra row and column to account for the initial gap penalties at the start of the sequences.
+- The matrix size is `[len_str_a + 1, len_str_b + 1]`, meaning it has an extra row and column to account for the initial gap penalties at the start of the sequences. Be careful with this and make checks to ensure your indices are consistent with this! Think about what part of the matrix is filled, and which part is unfilled. Also, remember that Pythono starts its index counting at 0, unlike Matlab or Julia.
 
 ### Recursion
 
