@@ -50,14 +50,12 @@ def global_align(seqA,seqB):
 that fills in the rest of the dynamic programming matrix using the recursion:
 
 $$
-S_{ij} = \max \left\{ 
-\begin{array}{ll}
-S_{i-1,j-1} + d(a_i,b_j) & \text{(match/mismatch)} \\
-S_{i-1,j} + d(a_i,-) & \text{(deletion)} \\
-S_{i,j-1} + d(-,b_j) & \text{(insertion)}
-\end{array} \right.
+S_{ij} = \max \begin{cases}
+    S_{i-1,j-1} + d(a_i,b_j) & \text{(match/mismatch)} \\
+    S_{i-1,j} + d(a_i,-) & \text{(deletion)} \\
+    S_{i,j-1} + d(-,b_j) & \text{(insertion)}
+\end{cases}
 $$
-
 
 Also, fill in the trace matrix, so that it follows the maximal paths through the matrix. I.e. set the trace to be
 
