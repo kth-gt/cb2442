@@ -15,6 +15,13 @@ $ unzip 'kth-gt cb2442 main prog-p2.zip'
 $ code .
 ```
 
+### Good practices
+* Check that you understand the algorithms
+* Run the code regularly to catch bugs
+* Use print statements as a guide
+* Do not try to implement everything at once
+* Remember that Python starts its index counting at 0, e.g. with lists and strings
+
 ## Implementation
 
 ### Initiation
