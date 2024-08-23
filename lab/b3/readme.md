@@ -59,7 +59,7 @@ The fact that we observe this domain already multiple times in such a small set 
 
 **Q8** How can we use the information we extracted about the antibiotic resistance proteins to improve the treatment of our patients?
 
-Now that we know more about the antibiotic resistance genes, it is time to focus our attention on the toxin. We can start by trying to find toxins from other bacteria that are related to the toxin you found as a non-matching gene in lab 5.
+Now that we know more about the antibiotic resistance genes, it is time to focus our attention on the toxin. We can start by trying to find toxins from other bacteria that are related to the toxin you found as a non-matching gene in lab 2.
 
 **Q9** How could finding related toxins help us to improve the treatment of our patients?
 
