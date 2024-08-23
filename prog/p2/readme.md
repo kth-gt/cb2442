@@ -53,6 +53,7 @@ The function `initiate_global_dp` should return a tuple with the dynamic program
 
 #### Trace Matrix:
 
+
 |   |   | G | C | T |
 |---|---|---|---|---|
 | **0** | (F,F,F) | (F,F,T) | (F,F,T) | (F,F,T) |
@@ -60,9 +61,13 @@ The function `initiate_global_dp` should return a tuple with the dynamic program
 | **A** | (F,T,F) |   |   |   |
 | **T** | (F,T,F) |   |   |   |
 
-- `(F,F,F)` indicates no match, insertion, or deletion at the origin.
-- `(F,F,T)` indicates a gap penalty applied in the first row (rightward insertion).
-- `(F,T,F)` indicates a gap penalty applied in the first column (downward deletion).
+It is shaped like the Score matrix `S` but with an extra dimension. This extra dimension tells us if we had a match/mismatch, insertion or deletion, depending on the position of the "True".
+
+- `(F,F,F)` No True --> indicates no match, insertion, or deletion at the origin.
+- `(T,F,F)` True at position 0 --> indicates a match/mismatch penalty
+- `(F,T,F)` True at position 1 --> indicates a gap penalty applied in the first column (deletion).
+- `(F,F,T)` True at position 2 --> indicates a gap penalty applied in the first row (insertion). This is done because of how `S` was initialized
+- 
 
 #### NOTE:
 - The matrix size is `[len_str_a + 1, len_str_b + 1]`, meaning it has an extra row and column to account for the initial gap penalties at the start of the sequences.
