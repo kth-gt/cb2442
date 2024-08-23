@@ -72,7 +72,7 @@ It is shaped like the Score matrix `S` but with an extra dimension. This extra d
 - 
 
 #### NOTE:
-- The matrix size is `[len_str_a + 1, len_str_b + 1]`, meaning it has an extra row and column to account for the initial gap penalties at the start of the sequences. Be careful with this and make checks to ensure your indices are consistent with this! Think about what part of the matrix is filled, and which part is unfilled. Also, remember that Pythono starts its index counting at 0, unlike Matlab or Julia.
+- The matrix size is `[len_str_a + 1, len_str_b + 1]`, meaning it has an extra row and column to account for the initial gap penalties at the start of the sequences. Be careful with this and make checks to ensure your indices are consistent with this! Think about what part of the matrix is filled, and which part is unfilled. Also, remember that Python starts its index counting at 0, unlike Matlab or Julia.
 
 ### Recursion
 
@@ -95,11 +95,11 @@ $$
 
 - **`a_i`**: Character at position `i` in sequence `A`.
 - **`b_j`**: Character at position `j` in sequence `B`.
-- **`d(a_i, b_j)`**: Substitution cost or similarity score between characters `a_i` and `b_j`.
+- **`d(a_i, b_j)`**: Substitution cost between characters `a_i` and `b_j`.
 
-- **Match**: `d(a_i, b_j) > 0` when `a_i = b_j`.
-- **Mismatch**: `d(a_i, b_j) < 0` when `a_i ≠ b_j`.
-- **Gap Penalties**: Typically handled separately, often with a negative value.
+- **Match**: `d(a_i, b_j) > 0` when `a_i = b_j`. (`match_score function`)
+- **Mismatch**: `d(a_i, b_j) < 0` when `a_i ≠ b_j`. (`match_score function`)
+- **Gap Penalties**: `-` (gap function)
 
 For example:
 - `d(A, A) = +1` (match)
