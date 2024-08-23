@@ -51,7 +51,7 @@ Another way to get more detailed information about proteins of interest is to se
 
 We could go directly to the UniProtKB website and run a Blast search there, but there is actually a nice way to get to all protein information through the NCBI Blast search engine website:
 
-Run a Blast protein search (blastp) on the antibiotic resistance genes against the “UniProtKB/SwissProt” database for each protein serparately. Copy the first part of the accession number of your top hit (e.g. P0A2S4 not P0A2S4.1) and search on it in the UniProtKB website (uniprot.org) to get more information on the hit. **Hint: look under "Family & Domains"
+Run a Blast protein search (blastp) on the antibiotic resistance genes against the “UniProtKB/SwissProt” database for each protein serparately. Use the name and species of your top hit from blast protein and search for it in the UniProtKB website (uniprot.org) to get more information on the hit. **Hint: look under "Family & Domains"
 
 **Q7** Which domain is present in multiple (2 or more) proteins? How does this domain do its job?
 
