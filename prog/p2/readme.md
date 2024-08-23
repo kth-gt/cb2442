@@ -67,8 +67,8 @@ It is shaped like the Score matrix `S` but with an extra dimension. This extra d
 
 - `(F,F,F)` No True --> indicates no match, insertion, or deletion at the origin.
 - `(T,F,F)` True at position 0 --> indicates a match/mismatch penalty
-- `(F,T,F)` True at position 1 --> indicates a gap penalty applied in the first column (deletion).
-- `(F,F,T)` True at position 2 --> indicates a gap penalty applied in the first row (insertion). This is done because of how `S` was initialized
+- `(F,T,F)` True at position 1 --> indicates a gap penalty (insert). This is done in agreement with how `S` was initialized
+- `(F,F,T)` True at position 2 --> indicates a gap penalty (deletion)
 - 
 
 #### NOTE:
@@ -97,22 +97,20 @@ $$
 - **`b_j`**: Character at position `j` in sequence `B`.
 - **`d(a_i, b_j)`**: Substitution cost between characters `a_i` and `b_j`.
 
-- **Match**: `d(a_i, b_j) > 0` when `a_i = b_j`. (`match_score function`)
-- **Mismatch**: `d(a_i, b_j) < 0` when `a_i ≠ b_j`. (`match_score function`)
-- **Gap Penalties**: `-` (gap function)
+- **Match**: `d(a_i, b_j) > 0` when `a_i = b_j`. `match_score function`
+- **Mismatch**: `d(a_i, b_j) < 0` when `a_i ≠ b_j`. `match_score function`
+- **Gap Penalties**: `-` `gap function`
 
-For example:
+Example of match score function:
 - `d(A, A) = +1` (match)
 - `d(A, G) = -1` (mismatch)
 
-There is a `match_score` function in the code that determines these values.
-
-
+#### Trace Matrix
 Also, fill in the trace matrix, so that it follows the maximal paths through the matrix. I.e. set the trace to be
 
-* trace(x,y,0) indicates a match in x,y
-* trace(x,y,1) indicates an insert in x,y (fix column)
-* trace(x,y,2) indicates a delete in x,y (fix row)
+* trace(x,y,0) indicates a match in x,y. This is represented as (T,F,F) --> True at position 0
+* trace(x,y,1) indicates an insert in x,y (fix column).  This is represented as (F, T, F) --> True at position 1
+* trace(x,y,2) indicates a delete in x,y (fix row). This is represented as (F, F, T) --> True at position 1
 
 The function should return the dynamic programming matrix, the trace matrix, and the score of the alignment
 
