@@ -63,7 +63,7 @@ Now that we know more about the antibiotic resistance genes, it is time to focus
 
 **Q9** How could finding related toxins help us to improve the treatment of our patients?
 
-We will use PSI-BLAST (a type of protein blast) to look for distant relatives of your toxin in as many different species as possible. Run the first iteration of your PSI-BLAST search with a maximum of 50 target sequences against the nr database for the first gene of the toxin. Exclude the organism the toxin originates from and *Escherichia coli* from the BLAST search, this will help to get a more diverse set of related toxins in different organisms.
+We will use PSI-BLAST (a type of protein blast, https://www.ebi.ac.uk/jdispatcher/sss/psiblast) to look for distant relatives of your toxin in as many different species as possible. Run the first iteration of your PSI-BLAST search with a maximum of 50 alignments against the UniProitKB database for the first gene of the toxin. 
 
 **Q10** What is the best match and what is its E-value?
 
