@@ -16,7 +16,7 @@ The programming labs are
 You are expected to work in pairs.
 
 ### Assistance
-To get assistance during the lab, go to this google sheets form and sign up: [Queue for Assistance](https://docs.google.com/spreadsheets/d/10UB6aqM1Ab7lfwCOIo22X8IuLEt_RcRNIXUQVEEg_ic/edit?usp=sharing) You will see your position in the queue, and the lab assistants will do their best to help you as soon as possible.
+To get assistance during the lab, go to this google sheets form and sign up: [Queue for Assistance](https://queue.csc.kth.se/Queue/CB2442) You will see your position in the queue, and the lab assistants will do their best to help you as soon as possible.
 
 ### Peer discussion
 
