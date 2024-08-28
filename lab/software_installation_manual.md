@@ -47,7 +47,7 @@ First, [install a Conda distribution for your operating system](https://conda.io
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 
-and then follow the instructions for **installing Conda on Linux**.
+and then follow the instructions for **Miniconda Installation for KTH Ubuntu Rooms**.
 
 ### Creating the Conda Environment
 
