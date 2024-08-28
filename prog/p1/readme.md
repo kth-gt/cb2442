@@ -17,6 +17,8 @@ $ code .
 
 If you are not yet familiar with the VS Code software, watch for example this [short introduction video](https://code.visualstudio.com/docs/introvideos/basics). Note that you can run your code directly in VS Code and don't need to open a separate terminal window. You can run either the whole script by e.g. pressing the start symbol in the upper right corner or by typing `labp1.py` in the terminal window below the code window (if you don't see it, select "Terminal" in the "View" menu). You can also run Python in interactive mode by typing `python3` in the terminal window. This will give you a `>>>` prompt and now you can paste (or type) sections of the code that will be executed. Another way to do this is to mark a section of the code, right-click, and select "Run Python" / "Run Selection/Line in Python Terminal" (or press Shift+Enter). Don't forget to save every now and then.
 
+We suggest activating the "autosave" option.
+
 ### Implementation
 
 In the Python script file `labp1.py`, edit the function named
