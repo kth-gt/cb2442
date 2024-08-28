@@ -27,5 +27,5 @@ When your team is finished with the programming task (when your script seems to 
 When both groups have demonstrated their code (and potential remaining bugs have been fixed), you should contact a teaching assistant (TA) and go through your team’s code with the TA. If the TA finds your code working as it should (and only then), you should submit the script (.py file) to the CB2442 Bioinformatics course on Canvas (under Assignments, you will find the current lab). No additional lab report is needed. Due to the set-up of these exercises, it is important that you participate on-site. If you for some reason cannot participate on-site, contact the course responsible. In this case, you will be asked to conduct the lab remotely and will be asked to hand in a lab report.
 
 ### If working on your own computer
-You will need to install some software on your computer. See the [software installation manual](./software_installation_manual.md).
+You will need to install some software on your computer. See the [software installation manual](https://github.com/kth-gt/cb2442/blob/main/lab/software_installation_manual.md).
 If you work on your own computer you may want to install [VS Code](https://code.visualstudio.com/Download).
