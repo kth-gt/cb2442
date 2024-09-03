@@ -35,7 +35,7 @@ If you are getting an error related to "name+" when running barrnap:
 
 ## Questions
 
-**Q1** How many rRNA genes did you find? What subunit of the rRNA are they (5S, 16S and 23S)? How many of each are there? **Hint: Use a flag when running that allows you to save the output file**
+**Q1** Once you selected your rRNA identification tool from the booklet, apply it to the bacteria files from **lab B1** (not B2). How many rRNA genes did you find? What subunit of the rRNA are they (5S, 16S and 23S)? How many of each are there? **Hint: Use a flag when running that allows you to save the output file**
 
 Open the FASTA results and make a file with just the 16S rRNA genes. This is the subunit that is most commonly used for classification. You will use an online tool for classifying rRNA. Find a tool for doing this in the booklet and run it. **Hint: Check the "Search and Classify box". When the job is complete, press display classification and drag the headers to see the species**
 
