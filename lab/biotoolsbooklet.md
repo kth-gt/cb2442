@@ -104,6 +104,12 @@ Barrnap is available on Bioconda. To install it, run
 $ conda install -c bioconda barrnap 
 ```
 
+To run barrnap
+```bash
+$ barrnap input.fasta --outseq output.fasta
+```
+
+
 ## Multiple sequence aligners
 
 * [Mafft](http://www.ebi.ac.uk/Tools/msa/mafft/)
