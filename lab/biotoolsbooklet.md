@@ -73,7 +73,7 @@ where type is either prot (for a protein database) or nucl (for a nucleotide dat
 To run a BLAST Nucleotide search, type:
 
 ```bash
-$ blastn -query query_fasta_file -db database_name -e evalue_threshold -m output_format >output_file
+$ blastn -query query_fasta_file -db database_name -evalue threshold -outfmt 7 -out output_filename.txt
 ```
 
 The commands blasp, blastx, tblastn, and tblastx can be used analogously. To see all the options available for a given tool, type the name of the desired tool followed by the flag `-help`. Note that the default e-value threshold (10) is very high and will give many false positives. It is usually a good idea to use a much lower value, such as 10e-10.
