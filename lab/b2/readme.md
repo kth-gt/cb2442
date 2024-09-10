@@ -54,7 +54,7 @@ Let's try to see what distinguishes your new genome from others in the species. 
 
 **Q5** In which format is the reference genome, nucleotide or protein? What about the file containing the genes you found in the previous bioinformatics lab? In that case, which type of Blast is recommended?
 
-Blast the genes that you found in the previous bioinformatics lab against the reference genome of the bacteria that you chose (reference genomes provided in this lab). Remember to choose a suitable E-value for your search.
+Blast the genes that you found in the **previous bioinformatics lab** against the reference genome of the bacteria that you chose (reference genomes provided in this lab). Remember to choose a suitable E-value for your search.
 
 **Q6** Which genes do NOT find a good match from this database? Retrieve only the non-matching genes and make a separate fasta file with them. 
 **Hint: It’s recommended to use output format 7. See Blast help section for how to choose format. 
