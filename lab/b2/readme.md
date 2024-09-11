@@ -45,16 +45,16 @@ Look up information on this genus online. Wikipedia might be enough, but look up
 
 **Q3** Does it make sense that these patients are so sick? Justify your answers and include your sources.
 
-Now that you know a bit more about your bacteria, we can use this information to compare this new isolate to previously sequenced ones. This might give interesting clues on what is going on. Find in this folder a collection of reference genomes of which one should be your bacterium of interest and download it.
+Now that you know a bit more about your bacteria, we can use this information to compare this new isolate to previously sequenced ones. You can download these canonical bacteria in LAB_B2, they will be your database/reference. This might give interesting clues on what is going on with the bacteria in the LAB_B1. Please find **in this folder** a collection of reference genomes of which one should be your bacterium of interest (from B1).
 
 **Q4** Is it likely that very closely related bacterial species will have entire genes added or missing? Why/why not?
 *Hint: consider mechanisms of horizontal gene transfer.*
 
 Let's try to see what distinguishes your new genome from others in the species. One way of finding this (albeit not necessarily the most efficient) is through Blast.
 
-**Q5** In which format is the reference genome, nucleotide or protein? What about the file containing the genes you found in the previous bioinformatics lab? In that case, which type of Blast is recommended?
+**Q5** In which format is the reference genome, nucleotide or protein? What about the file containing the genes you found in the previous bioinformatics lab? In that case, which type of Blast is recommended? 
 
-Blast the genes that you found in the **previous bioinformatics lab** against the reference genome of the bacteria that you chose (reference genomes provided in this lab). Remember to choose a suitable E-value for your search.
+Blast the genes that you found in the **previous bioinformatics lab** (think about which file to use!) against the reference genome of the bacteria that you chose (reference genomes provided in this lab). Remember to choose a suitable E-value for your search.
 
 **Q6** Which genes do NOT find a good match from this database? Retrieve only the non-matching genes and make a separate fasta file with them. 
 **Hint: It’s recommended to use output format 7. See Blast help section for how to choose format. 
