@@ -53,7 +53,7 @@ We could go directly to the UniProtKB website and run a Blast search there, but 
 
 Run a Blast protein search (blastp) on the antibiotic resistance genes against the “UniProtKB/SwissProt” database for each protein serparately. Use the accession number (only the first part, without the version number (XXXX not XXXXX.1) or if you don't find it, the name and species of your top hit from blast protein and search for it in the UniProtKB website (uniprot.org) to get more information on the hit. **Hint: look under "Family & Domains"
 
-**Q7** Which domain is present in multiple (2 or more) proteins? How does this domain do its job?
+**Q7** Which domain is present in multiple (2 or more) proteins? How does this domain do its job? Hint: consider common protein domains and check for acronyms. Examples are SH2 (Src Homology), SH3, HTH (Helix-Turn-Helix), PH (Pleckstrin Homology), PAS domain, PDZ domain.
 
 The fact that we observe this domain already multiple times in such a small set of proteins shows the power of using recurring protein domains to infer the functionality of (parts of) proteins.
 
@@ -67,7 +67,7 @@ We will use PSI-BLAST (a type of protein blast, https://www.ebi.ac.uk/jdispatche
 
 **Q10** What is the best match and what is its E-value?
 
-Now keep running iterations until the algorithm has converged, i.e. until very few (< 2) new hits highlighted in yellow show up in the top 50.
+Now keep running iterations until the algorithm has converged, i.e. until very few (< 2) new hits show up in the top 50. Hint: search for "next iteration", and make sure you iterate on a new job (search for "view jobs"). Each job has its unique ID.
 
 **Q11** What is the best match now and what is its E-value? Why has it changed?
 
