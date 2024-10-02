@@ -67,7 +67,9 @@ For each other cluster:
 
 This gives you the average distance between the new cluster and the other cluster. 
 
-Repeat for every other cluster.
+
+
+To be more clear: If the new cluster consists of the original indices `[0,1]`, you start by computing the average distance between `0` and `2`, and then between `1` and `2` (where `2` is `other_cluster`). This average distance is a value that goes in the `updated_dist_matr` at the index `[new_cluster, other_cluster]`... Remember that the matrix is symmetric though! Repeat for every other cluster.
 
 
 ### Test
