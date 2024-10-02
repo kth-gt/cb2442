@@ -35,9 +35,9 @@ that takes a pairwise distance matrix (as a 2-dimensional [numpy array](https://
    - **While** there is more than one cluster in `cluster_list`:
      - **Find the pair of clusters with the smallest distance** in `updated_dist_matr`. Remember that each row/column represents a cluster!
      - **Merge Clusters**:
-       - Create a new cluster by combining the indices of the two closest clusters.
-       - Remove the clusters that you merged from `cluster_list`.
-       - Append the new merged cluster to `cluster_list`.
+       - Create a new cluster by combining the indices of the two closest clusters. `[0,1]`
+       - Remove the clusters that you merged from `cluster_list`.  `[[0], [1], [2], ...]` --> `[[2], ...]`
+       - Append the new merged cluster to `cluster_list`. `[[2], [0,1], ...]`
      - **Update `nwk_list`**:
        - Combine the Newick strings of the two clusters (e.g., `'(S1,S2)'`).
        - Remove the old entries from `nwk_list`.
@@ -45,7 +45,7 @@ that takes a pairwise distance matrix (as a 2-dimensional [numpy array](https://
      - **Update `updated_dist_matr`**:
        - Remove rows and columns of the merged clusters.
        - Add a new row and column for the new cluster initialized with zeros (this step is already done for you).
-       - Compute the average distances between the new cluster and the remaining clusters. This way you can fill the new row and column added previously.
+       - Compute the average distances between the new cluster and the remaining clusters. This way you can fill the new row and column added previously. If you find this tricky refer to the "updating the distance matrix" section.
 ### Debugging Tips
 - Make sure you use printing statements for the `cluster_list`, the `nwk_list`, and the `updated_dist_matr` to check they are changing according to your plan.
 - Think about what the smallest cluster distance means. Does it make sense to take the smallest distance for `i=j`?
