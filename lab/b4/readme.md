@@ -58,7 +58,7 @@ Open the Cuffdiff program. Go to condition and put "Untreated" and "Treated" as 
 
 [^1]: Isoforms arise from alternative splicing sites in eukaryote genomes. This means that the same gene can give rise to more than one transcript and, if it is protein coding, give rise to more than one protein [(see the wikipedia entry)](http://en.wikipedia.org/wiki/Gene_isoform).
 
-**Q8** What is the length of the longest and shortest transcripts in this dataset and what are the names of the transcripts? (The Filter and Sort programs can be helpful here)
+**Q8** What is the length of the longest and shortest transcripts in this dataset and what are the names of the transcripts? (The sorting tools, found in the Text Manipulation section or by using the search field, can be helpful here)
 
 **Q9** What is miRNA?
 
