@@ -1,16 +1,17 @@
 import filecmp
 import numpy as np
-import labp4 as lab
+import labp4_mod as lab
 
 # This is a test suite for labp4.
 # It is executed by running "python3 runnerp4.py" in the terminal.
 def runner():
+    print_details = False
     dist_matr = np.array([[0, 0.1, 0.2, 0.3],
                           [0.1, 0, 0.2, 0.3],
                           [0.2, 0.2, 0, 0.3],
                           [0.3, 0.3, 0.3, 0]])
     names_list = ['S1', 'S2', 'S3', 'S4']
-    nwk = lab.upgma(dist_matr,names_list)
+    nwk = lab.upgma(dist_matr,names_list, print_details)
     print('Tree 1:', nwk)
     ok = 0 
     if (nwk == '(S4,(S3,(S1,S2)));'):
@@ -33,7 +34,7 @@ def runner():
                           [0.4, 0.4, 0.35, 0, 0.45],
                           [0.4, 0.4, 0.1, 0.45, 0]])
     names_list = ['S1', 'S2', 'S3', 'S4', 'S5']
-    nwk = lab.upgma(dist_matr,names_list)
+    nwk = lab.upgma(dist_matr,names_list, print_details)
     print('Tree 2:', nwk)
     ok = 0 
     if (nwk == '(S4,((S3,S5),(S1,S2)));'):
