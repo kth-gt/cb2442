@@ -1,6 +1,6 @@
 import filecmp
 import numpy as np
-import labp4_mod as lab
+import labp4 as lab
 
 # This is a test suite for labp4.
 # It is executed by running "python3 runnerp4.py" in the terminal.
