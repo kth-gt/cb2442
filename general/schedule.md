@@ -34,21 +34,21 @@ phyl { background:#C9DAF8; color: black;}
 | 09-22  | 8-10         | FD5                                  | <sf>L11</sf>      | <sf>Protein features, Predictive discriminative models [K 13; MK 7.1-7.4, 7.6, 9.2-9.4, web resource]</sf>        | OE               |
 | 09-22  | 13-15        | FD5                                  | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                                              |                  |
 | 09-24  | 13-15        | FD5                                  | <sf>L12</sf>      | <sf>Clustering [MK 15.13, Sherlock]</sf>         | OE              |
-| 09-25  | 15-17         | FD5                                 | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                            |                |
+| 09-25  | 15-17         | FD5                                 | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
 |   |   |   |   |   |   |
-| 09-29  | 10-12        | FD5                                  | <phyl>L13</phyl>      | <phyl>Phylogenetic distance</phyl>                                                      | AA               |
-| 09-29  | 8-12         | Brun, Spelhallen, Karmosin           | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>                          | TAs              |
+| 09-29  | 10-12        | FD5                                  | <phyl>L13</phyl>      | <phyl>Phylogenetic distance [Kellis 26.1, 26.2, 26.3]</phyl>               | AA               |
+| 09-29  | 8-12         | Brun, Spelhallen, Karmosin           | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>        | TAs              |
 | 09-30  | 8-10         | FD5                                  | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
-| 10-01  | 10-12        | K2                                  | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [X p150-165]</phyl>                                | AA               |
-| 10-03  | 10-12         | FD5                                  | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [X p150-165]</phyl>                              | AA               |
+| 10-01  | 10-12        | K2                                  | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [X p150-165]</phyl>                   | AA               |
+| 10-03  | 10-12         | FD5                                  | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [X p150-165]</phyl>                  | AA               |
 |   |   |   |   |   |   |
-| 10-07  | 8-12         | Gul, Grå, Karmosin, Magenta          | <oth>LAB_P4</oth>   | <oth>Programming phylogenetics</oth>                                                           | TAs              |
-| 10-08  | 8-10        | B2                                  | <oth>L16</oth>      | <oth>Questions &amp; Answers session</oth>                                                     | AA, OE, LK       |
-| 10-09  | 8-12         | Gul, Brun, Sporthallen               | <oth>LAB_B4</oth>   | <oth>RNA-seq, differential gene expression</oth>                                               | TAs                 |
+| 10-07  | 8-12         | Gul, Grå, Karmosin, Magenta          | <oth>LAB_P4</oth>   | <oth>Programming phylogenetics</oth>                                         | TAs              |
+| 10-08  | 8-10        | B2                                  | <oth>L16</oth>      | <oth>Questions &amp; Answers session</oth>                                     | AA, OE, LK       |
+| 10-09  | 8-12         | Gul, Brun, Sporthallen               | <oth>LAB_B4</oth>   | <oth>RNA-seq, differential gene expression</oth>                             | TAs                 |
 |   |   |   |   |   |   |
-| 10-21  | 14:00-18:00  | B2, E1, M2, V3                       | <oth>Exam</oth>     | <oth></oth>                                                                                   |                  |
+| 10-21  | 14:00-18:00  | B2, E1, M2, V3                       | <oth>Exam</oth>     | <oth></oth>                                                                  |                  |
 |   |   |   |   |   |   |
-| 12-18  | 14:00-18:00  | M38, Q31, Q33-34                     | <oth>Re-exam</oth>  | <oth></oth>                                                                                   |                  |
+| 12-18  | 14:00-18:00  | M38, Q31, Q33-34                     | <oth>Re-exam</oth>  | <oth></oth>                                                                  |                  |
 
 **Convocations**
 
