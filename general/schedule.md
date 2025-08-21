@@ -38,13 +38,13 @@ phyl { background:#C9DAF8; color: black;}
 |   |   |   |   |   |   |
 | 09-29  | 10-12        | FD5                                  | <phyl>L13</phyl>      | <phyl>Phylogenetic distance [SV 6, 7]</phyl>                                                      | AA               |
 | 09-29  | 8-12         | Brun, Spelhallen, Karmosin           | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>                          | TAs              |
-| 09-30  | 8-10         | FD5                                 | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                            |                |
-| 10-01  | 8-10        | FR4                                  | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [SV 6, 7, X p150-165]</phyl>                                | AA               |
+| 09-30  | 8-10         | FD5                                  | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
+| 10-01  | 10-12        | K2                                  | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [SV 6, 7, X p150-165]</phyl>                                | AA               |
 | 10-03  | 10-12         | FD5                                  | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [SV 6, 7, X p150-165]</phyl>                              | AA               |
 |   |   |   |   |   |   |
 | 10-07  | 8-12         | Gul, Grå, Karmosin, Magenta          | <oth>LAB_P4</oth>   | <oth>Programming phylogenetics</oth>                                                           | TAs              |
+| 10-08  | 8-10        | B2                                  | <oth>L16</oth>      | <oth>Questions &amp; Answers session</oth>                                                     | AA, OE, LK       |
 | 10-09  | 8-12         | Gul, Brun, Sporthallen               | <oth>LAB_B4</oth>   | <oth>RNA-seq, differential gene expression</oth>                                               | TAs                 |
-| 10-10  | 10-12        | FD5                                  | <oth>L16</oth>      | <oth>Questions &amp; Answers session</oth>                                                     | AA, OE, LK       |
 |   |   |   |   |   |   |
 | 10-21  | 14:00-18:00  | B2, E1, M2, V3                       | <oth>Exam</oth>     | <oth></oth>                                                                                   |                  |
 |   |   |   |   |   |   |
