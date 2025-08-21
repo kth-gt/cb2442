@@ -19,7 +19,7 @@ phyl { background:#C9DAF8; color: black;}
 | 09-01  | 13-17        | Grön, Grå, Karmosin, Vit, Magenta    | <oth>LAB_P2</oth>   | <oth>Programming alignments</oth>                                         | TAs              |
 | 09-03  | 13-15        | FD5                                  | <ali>L5</ali>       | <ali>Multiple sequence alignments (MSA) [LK 11,13]</ali>                   | LK               |
 | 09-04  | 8-10         | FD5                                  | <sf>L6</sf>       | <sf>Genome assembly, prokaryotic gene prediction [MK 5.2; MK 9.2-9.5; Pop]</sf> | OE       |
-| 09-05  | 8-10         | FD5                                  | <ali>L7</ali>       | <ali>Sequence retrieval, BLAST [K 15]</ali>                               | LK               |
+| 09-05  | 8-10         | FD5                                  | <ali>L7</ali>       | <ali>Sequence retrieval, BLAST [LK 15]</ali>                               | LK               |
 |   |   |   |   |   |   |
 | 09-08  | 8-12         | Spelhallen, Grå, Karmosin, Magenta    | <oth>LAB_B1</oth>  | <oth>Gene finding, Blast and alignment</oth>                              | TAs              |
 | 09-08  | 13-17        | Röd, Brun, Grå, Magenta              | <oth>LAB_B2</oth>   | <oth>rRNA finding, taxonomic classification, MSA</oth>                    |                  |
@@ -39,8 +39,8 @@ phyl { background:#C9DAF8; color: black;}
 | 09-29  | 10-12        | FD5                                  | <phyl>L13</phyl>      | <phyl>Phylogenetic distance [MK 26.1, 26.2, 26.3]</phyl>               | AA               |
 | 09-29  | 8-12         | Brun, Spelhallen, Karmosin           | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>        | TAs              |
 | 09-30  | 8-10         | FD5                                  | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
-| 10-01  | 10-12        | K2                                  | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [X p150-165]</phyl>                   | AA               |
-| 10-03  | 10-12         | FD5                                  | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [X p150-165]</phyl>                  | AA               |
+| 10-01  | 10-12        | K2                                  | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [JX p150-165]</phyl>                   | AA               |
+| 10-03  | 10-12         | FD5                                  | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [JX p150-165]</phyl>                  | AA               |
 |   |   |   |   |   |   |
 | 10-07  | 8-12         | Gul, Grå, Karmosin, Magenta          | <oth>LAB_P4</oth>   | <oth>Programming phylogenetics</oth>                                         | TAs              |
 | 10-08  | 8-10        | B2                                  | <oth>L16</oth>      | <oth>Questions &amp; Answers session</oth>                                     | AA, OE, LK       |
@@ -69,3 +69,4 @@ phyl { background:#C9DAF8; color: black;}
 
 * LK: ["Bioinformatics for Biotechnology students", Lukas Käll](https://www.kaell.se/bibook)
 * MK: ["Computational Biology - Genomes, Networks, and Evolution. Manolis Kellis, et al."](https://commons.libretexts.org/book/bio-40877)
+* JX: Jin Xiong. Essential Bioinformatics. ISBN:9780511806087
