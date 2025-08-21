@@ -3,14 +3,14 @@
 <style>
 oth { background:#D9EAD3; color: black;}
 cncl { background:#FF5050; color: black;}
-ali { background:#DD6B00; color: black;}
+ali { background:#FFCC00; color: black;}
 sf { background:#F4CCCC; color: black;}
 phyl { background:#C9DAF8; color: black;}
 </style>
 
 | Date   | Time         | Place                                | Activity                                                    | Content                                                                                                                     | Responsible      |
 |--------|--------------|--------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------|
-| 08-26  | 8-10         | FD5                                  | <sf>L1</sf>       | <sf>Introduction to course; Genome features [SV 1, 2]</sf>              | AA, OE, LK; OE   |
+| 08-26  | 8-10         | FD5                                  | <oth>L1</oth>       | <oth>Introduction to course;</oth> <sf>Genome features [SV 1, 2]</sf>              | AA, OE, LK; OE   |
 | 08-28  | 8-10         | FD5                                  | <ali>L2</ali>       | <ali>Introduction to alignments [K 1,2]</ali>                             | LK               |
 | 08-29  | 8-12         | Sporthallen, Grå, Karmosin, Magenta  | <oth>LAB_P1</oth>   | <oth>Python programming intro</oth>                                       | TAs              |
 | 08-29  | 15-17        | FD5                                  | <ali>L3</ali>       | <ali>Algorithms for pairwise alignments [K 3,5,7]</ali>                   | LK               |
@@ -38,6 +38,7 @@ phyl { background:#C9DAF8; color: black;}
 |   |   |   |   |   |   |
 | 09-29  | 10-12        | FD5                                  | <phyl>L13</phyl>      | <phyl>Phylogenetic distance [SV 6, 7]</phyl>                                                      | AA               |
 | 09-29  | 8-12         | Brun, Spelhallen, Karmosin           | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>                          | TAs              |
+| 09-30  | 8-10         | FD5                                 | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                            |                |
 | 10-01  | 8-10        | FR4                                  | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [SV 6, 7, X p150-165]</phyl>                                | AA               |
 | 10-03  | 10-12         | FD5                                  | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [SV 6, 7, X p150-165]</phyl>                              | AA               |
 |   |   |   |   |   |   |
