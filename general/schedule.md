@@ -33,7 +33,7 @@ phyl { background:#C9DAF8; color: black;}
 |   |   |   |   |   |   |
 | 09-22  | 8-10         | FD5                                  | <sf>L11</sf>      | <sf>Protein features, Predictive discriminative models [LK 13; MK 7.1-7.4, 7.6, 9.2-9.4, web resource]</sf>        | OE               |
 | 09-22  | 13-15        | FD5                                  | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                                              |                  |
-| 09-24  | 13-15        | FD5                                  | <sf>L12</sf>      | <sf>Clustering [MK 15.13, Sherlock]</sf>         | OE              |
+| 09-24  | 13-15        | FD5                                  | <sf>L12</sf>      | <sf>Clustering [MK 15.3, Sherlock]</sf>         | OE              |
 | 09-25  | 15-17         | FD5                                 | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
 |   |   |   |   |   |   |
 | 09-29  | 10-12        | FD5                                  | <phyl>L13</phyl>      | <phyl>Phylogenetic distance [MK 26.1, 26.2, 26.3]</phyl>               | AA               |
