@@ -8,7 +8,7 @@ sf { background:#F4CCCC; color: black;}
 phyl { background:#C9DAF8; color: black;}
 </style>
 
-| Date   | Time         | Place                                | Activity                                                    | Content                                                                                                                     | Responsible      |
+| Date--   | Time         | Place                                | Activity                                                    | Content                                                                                                                     | Responsible      |
 |--------|--------------|--------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------|
 | 08-26  | 8-10         | FD5                                  | <oth>L1</oth>       | <oth>Introduction to course;</oth> <sf>Genome features</sf>              | AA, OE, LK; OE   |
 | 08-28  | 8-10         | FD5                                  | <ali>L2</ali>       | <ali>Introduction to alignments [LK 1,2]</ali>                             | LK               |
