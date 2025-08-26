@@ -18,7 +18,7 @@ phyl { background:#C9DAF8; color: black;}
 | 09-01  | 8-10         | FD5                                  | <ali>L4</ali>       | <ali>Protein sequence alignments [LK 9, Eddy]</ali>                        | LK               |
 | 09-01  | 13-17        | Grön, Grå, Karmosin, Vit, Magenta    | <oth>LAB_P2</oth>   | <oth>Programming alignments</oth>                                         | TAs              |
 | 09-03  | 13-15        | FD5                                  | <ali>L5</ali>       | <ali>Multiple sequence alignments (MSA) [LK 11,13]</ali>                   | LK               |
-| 09-04  | 8-10         | FD5                                  | <sf>L6</sf>       | <sf>Genome assembly, prokaryotic gene prediction [MK 5.2; MK 9.2-9.5; Pop]</sf> | OE       |
+| 09-04  | 8-10         | FD5                                  | <cncl>L6</cncl>       | <cncl>Reserve, TBA if needed</cncl> | OE       |
 | 09-05  | 8-10         | FD5                                  | <ali>L7</ali>       | <ali>Sequence retrieval, BLAST [LK 15]</ali>                               | LK               |
 |   |   |   |   |   |   |
 | 09-08  | 8-12         | Spelhallen, Grå, Karmosin, Magenta    | <oth>LAB_B1</oth>  | <oth>Gene finding, Blast and alignment</oth>                              | TAs              |
