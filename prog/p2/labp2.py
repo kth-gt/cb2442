@@ -16,6 +16,12 @@ def initiate_global_dp(m,n):
     #   trace(x,y,1) indicates an insert in x,y (fix column)
     #   trace(x,y,2) indicates a delete in x,y (fix row)
     trace = np.zeros((m+1, n+1, 3), dtype=np.bool8) # An (m+1)*(n+1)*3 boolean matrix, initiated with (False,False,False)
+
+    # HINT: try printing S and trace. 
+    # trace is difficult to visualize out of the box with numpy, so use the function pretty_trace(trace) for a better result!
+
+
+    
     # First initiate the origin (0,0) here:
 
     # Now, fill in the first row and the first column of the matrix
@@ -71,6 +77,15 @@ def print_dynamic(seqA,seqB,dpm):
             print ('{:5.1f}'.format(dpm[i,j]), end="")
         print()
     print()
+
+def pretty_trace(trace):
+    m, n, _ = trace.shape
+    str_cells = [[str(tuple(trace[i, j])).replace("True", "T").replace("False", "F")
+                  for j in range(n)] for i in range(m)]
+    col_widths = [max(len(str_cells[i][j]) for i in range(m)) for j in range(n)]
+    for i in range(m):
+        row_str = " ".join(f"{str_cells[i][j]:>{col_widths[j]}}" for j in range(n))
+        print(row_str)
 
 # Format an alignment by inserting gaps in sequences given a trace matrix
 def format_alignment(seqA, seqB, trace, start_from = None):
