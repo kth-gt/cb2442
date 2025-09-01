@@ -65,10 +65,10 @@ Think about whether the gap score should be positive or negative!
 
 |   |   | G | C | T |
 |---|---|---|---|---|
-| **0** | (F,F,F) | (F,F,T) | (F,F,T) | (F,F,T) |
-| **G** | (F,T,F) |   |   |   |
-| **A** | (F,T,F) |   |   |   |
-| **T** | (F,T,F) |   |   |   |
+| **0** | (F,F,F) | (F,T,F) | (F,T,F) | (F,T,F) |
+| **G** | (F,F,T) |   |   |   |
+| **A** | (F,F,T) |   |   |   |
+| **T** | (F,F,T) |   |   |   |
 
 It is shaped like the Score matrix `S` but with an extra dimension. This extra dimension tells us if we had a match/mismatch, insertion or deletion, depending on the position of the "True".
 
