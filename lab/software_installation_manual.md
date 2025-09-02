@@ -5,8 +5,11 @@ If you're in the Ubuntu rooms at KTH, follow these steps to install Miniconda in
 1. Go to the [KTH IT support page for Ubuntu installations](https://intra.kth.se/en/it/programvara-o-system/programvara/installera/kth-ubuntu/personal-1.811003) and download the Miniconda installer suitable for Linux. Check out the "Miniconda – minimal conda environment" section.
 
     ```bash
+    # Get the latest release of Miniconda for linux
     wget 'https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh'
-    md5sum -c <(echo "bec6203dbb2f53011e974e9bf4d46e93 *Miniconda3-latest-Linux-x86_64.sh")
+    # Next, check the SHA256 checksum of the downloaded file
+    # Should say 'OK'. If not, check if there is a newer version at https://repo.anaconda.com/miniconda/ and use the new SHA256 checksum (the long string of letters and numbers)
+    echo "dda3629462ba1cfa72eb74535214c2e315c77f1cfb0f02046537e99f1bf64abc *Miniconda3-latest-Linux-x86_64.sh" | sha256sum -c
     bash Miniconda3-latest-Linux-x86_64.sh -b -p "$HOME/miniconda3"
     ```
 
