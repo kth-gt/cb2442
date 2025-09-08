@@ -101,7 +101,7 @@ Barrnap is a tool for finding ribosomal RNA in nucleotide sequences. It can take
 Barrnap is available on Bioconda. To install it, run
 
 ```bash
-$ conda install -c bioconda barrnap 
+$ conda install -c bioconda barrnap=0.9
 ```
 
 To run barrnap
