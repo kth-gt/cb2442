@@ -33,10 +33,10 @@ organized. Upload the [sample.sam](./sample.sam) file to Galaxy and take a look 
 
 **Q3** Why are there more chromosomes/contigs in the reference genome than there are in the actual human genome? *Hint: Using the name of one or more of the contigs, see if you can find any information on it on the internet!*
 
-Now, look at how the aligned sequences are organized in the SAM file. The first column contains the sequence names, the second column contains the SAM flags, and the third column contains the chromosome that each read was aligned to, followed by the actual location on the chromosome in the fourth column. Further on you can see the actual sequence, quality score, and a list of additional attributes.
+Now, scroll down and look at how the aligned sequences are organized in the SAM file. The first column contains the sequence names, the second column contains the SAM flags (numbers with alignment information for the reads), and the third column contains the chromosome that each read was aligned to, followed by the actual location on the chromosome in the fourth column. Further on you can see the actual sequence, quality score, and a list of additional attributes.
 
-**Q4** Find up to six different SAM flags in your file and explain their meaning.
-*Hint:* https://broadinstitute.github.io/picard/explain-flags.html
+**Q4** Find six different SAM flags in your file and explain their meaning.
+*Hint:* here they are short numbers with 2-3 digits such as 163, look up their meanings at https://broadinstitute.github.io/picard/explain-flags.html
 
 Note on paired-end data: Today, RNA-seq is often paired-end, which means that transcripts are sequenced from both ends. Paired-end sequencing typically results in more robust alignments and variant calling.
 
@@ -64,14 +64,14 @@ Open the Cuffdiff program. Go to condition and put "Untreated" and "Treated" as 
 
 **Q10** Which transcripts have the highest expression in each condition? Are these numbers reasonable? *Hint: use the sort tool for this too, on the same data*
 
-We now switch to the results on the gene level. Look into the gene differential
+We now switch to the results on the **gene** level. Look into the gene differential
 expression testing results.
 
-**Q11** How many genes are found to be differentially expressed? How many of those have a higher expression in the untreated samples? *Hint: use the sort tool*
+**Q11** How many genes are found to be differentially expressed? How many of those have a higher expression in the untreated samples? *Hint: use the sort tool on column 14 as the p-values may contain characters that mess up the sorting*
 
-Export the differential gene expression data to a text file by pressing the file on the right side and then the save/download symbol. Download the Python script [volcano.py](./volcano.py). This is a script that creates a so-called volcano plot of the differential expression analysis. The plot shows the -log(p-value) against the log2(fold change) for all genes (the statistically significant genes are highlighted in red, according to an FDR threshold).
+Now make a so-called volcano plot of the differential expression analysis. The plot shows the -log10(p-value) against the log2(fold change) for all genes. You can make this using the volcano.py script in this folder, or using the volcano plot tool in Galaxy (by selecting the relevant file and filling in the fields for which columns and significance threshold to use. Also label points based on significance).
 
-Open the volcano.py file in VS Code (or a text editor) and edit it to take the path to your downloaded file as input data and (optionally) change the FDR threshold (it is evident in the file where you need to change things).
+To use the python script, export the differential gene expression data to a text file by pressing the file on the right side and then the save/download symbol. Download the Python script [volcano.py](./volcano.py), open it in VS Code (or a text editor) and edit it to take the path to your downloaded file as input data and (optionally) change the FDR threshold (it is evident in the file where you need to change things, the statistically significant genes will be highlighted in red, according to the threshold).
 
 Before running the script, activate your Conda environment and install the necessary dependencies:
 
