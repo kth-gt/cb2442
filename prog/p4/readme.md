@@ -83,7 +83,7 @@ $ python3 labp4.py
 However, the final test of the code is done by executing the `runner4.py` executable, which can be executed from command line as
 
 ```bash
-$ python3 runner4.py
+$ python3 runnerp4.py
 ```
 
 or just
