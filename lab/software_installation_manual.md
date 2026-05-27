@@ -2,7 +2,7 @@
 
 If you're in the Ubuntu rooms at KTH, follow these steps to install Miniconda in your personal folder and add it to your `$PATH`:
 
-1. Go to the [KTH IT support page for Ubuntu installations](https://intra.kth.se/en/it/programvara-o-system/programvara/installera/kth-ubuntu/personal-1.811003) and download the Miniconda installer suitable for Linux. Check out the "Miniconda – minimal conda environment" section.
+1. Run this in the terminal
 
     ```bash
     # Get the latest release of Miniconda for linux
