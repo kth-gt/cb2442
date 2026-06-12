@@ -37,7 +37,7 @@ that takes a pairwise distance matrix (as a 2-dimensional [numpy array](https://
      - **Merge Clusters**:
        - Create a new cluster by combining the indices of the two closest clusters. `[0,1]`
        - Remove the clusters that you merged from `cluster_list`.  `[[0], [1], [2], ...]` --> `[[2], ...]`
-       - Append the new merged cluster to `cluster_list`. `[[2], [0,1], ...]`
+       - Append the new merged cluster to `cluster_list`. `[[2], ..., [0,1]]`
      - **Update `nwk_list`**:
        - Combine the Newick strings of the two clusters (e.g., `'(S1,S2)'`).
        - Remove the old entries from `nwk_list`.
