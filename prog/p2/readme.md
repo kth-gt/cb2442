@@ -34,9 +34,9 @@ Add a python function to the file `labp2.py` named
 def initiate_global_dp(len_str_a, len_str_b):
 ```
 
-that takes the length of two sequences, `a` and `b`, as input, and outpus a (dynamic programming) matrix of dimentions `[len_str_a,len_str_b]` as well as a tracer matrix, both initiated to perform a Needleman-Wunsch global alignment. 
+that takes the length of two sequences, `a` and `b`, as input, and outputs a (dynamic programming) matrix of dimentions `[len_str_a,len_str_b]` as well as a tracer matrix, both initiated to perform a Needleman-Wunsch global alignment. 
 To your aid, you have the function `gap()` that returns the penalty of a gap of one amino acid.
-Remember that in a Needleman-Wunch Algorithm, we initiate the dynamic programming matrix, $S$, is initiated as:
+Remember that in a Needleman-Wunch Algorithm, we initiate the dynamic programming matrix, $S$, as:
 
 $$S_{i0}=g \cdot i, \forall i,$$
 
