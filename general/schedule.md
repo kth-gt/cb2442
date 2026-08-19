@@ -24,17 +24,17 @@ phyl { background:#C9DAF8; color: black;}
 |   |   |   |   |   |   |
 | 08-31  | 8-12         | Gul, Orange, Spelhallen, …           | <oth>LAB_P2</oth>   | <oth>Programming alignments</oth>                                         | TAs              |
 | 09-02  | 10-12        | FD5                                  | <ali>L4</ali>       | <ali>Protein sequence alignments [LK 9, Eddy]</ali>                        | LK               |
-| 09-03  | 10-12        | B1                                   | <ali>L5</ali>       | <ali>Multiple sequence alignments (MSA) [LK 11,13]</ali>                   | LK               |
+| 09-03  | 10-12        | B1                                   | <ali>L5</ali>       | <ali>Multiple sequence alignments (MSA) [LK 11,14]</ali>                   | LK               |
 | 09-04  | 8-10         | M1                                   | <sf>L6</sf>         | <sf>Genome assembly, prokaryotic gene prediction [MK 5.2; MK 9.2-9.5; Pop]</sf>  | OE        |
-| 09-04  | 10-12        | FD5                                  | <ali>L7</ali>       | <ali>Sequence retrieval, BLAST [LK 15]</ali>                               | LK               |
+| 09-04  | 10-12        | FD5                                  | <ali>L7</ali>       | <ali>Sequence retrieval, BLAST [LK 16]</ali>                               | LK               |
 |   |   |   |   |   |   |
 | 09-07  | 8-12         | Gul, Röd, Spelhallen, …              | <oth>LAB_B1</oth>   | <oth>Gene finding, Blast and alignment</oth>                              | TAs              |
 | 09-08  | 15-17        | FR4                                  | <sf>L8</sf>         | <sf>Gene expression, RNA-seq [MK 15.2, Deshpande]</sf>                 | OE              |
 | 09-09  | 8-12         | Grå, Grön, Karmosin, …               | <oth>LAB_B2</oth>   | <oth>rRNA finding, taxonomic classification, MSA</oth>                    | TAs              |
 | 09-10  | 10-12        | D2                                   | <sf>L9</sf>         | <sf>Sequence motifs and logos, PSSMs [MK 17.1, 17.2, 18.3]</sf>                                  | OE               |
 |   |   |   |   |   |   |
-| 09-14  | 10-12        | FR4                                  | <sf>L10</sf>      | <sf>Hidden Markov models, Key applications of HMMs [LK 13, MK 7.1-7.4, 7.6, 9.2-9.4, 16.2, web resource]</sf>     | OE               |
-| 09-15  | 10-12        | M1                                   | <sf>L11</sf>      | <sf>Protein features, Predictive discriminative models [LK 13; MK 7.1-7.4, 7.6, 9.2-9.4, web resource]</sf>        | OE               |
+| 09-14  | 10-12        | FR4                                  | <sf>L10</sf>      | <sf>Hidden Markov models, Key applications of HMMs [LK 14, MK 7.1-7.4, 7.6, 9.2-9.4, 16.2, web resource]</sf>     | OE               |
+| 09-15  | 10-12        | M1                                   | <sf>L11</sf>      | <sf>Protein features, Predictive discriminative models [LK 14; MK 7.1-7.4, 7.6, 9.2-9.4, web resource]</sf>        | OE               |
 | 09-17  | 8-12         | Grå, Grön, Karmosin, …               | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>        | TAs              |
 | 09-18  | 15-17        | FR4                                  | <sf>L12</sf>      | <sf>Clustering [MK 15.3, Sherlock]</sf>         | OE              |
 |   |   |   |   |   |   |
