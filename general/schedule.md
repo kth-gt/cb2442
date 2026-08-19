@@ -73,7 +73,7 @@ phyl { background:#C9DAF8; color: black;}
 
 ## Literature
 
-* LK: ["Bioinformatics for Biotechnology students", Lukas Käll](https://www.kaell.se/bibook)
+* LK: ["Bioinformatics for Biotechnology students", Lukas Käll](https://statisticalbiotechnology.github.io/bibook)
 * MK: ["Computational Biology - Genomes, Networks, and Evolution. Manolis Kellis, et al."](https://commons.libretexts.org/book/bio-40877)
 * JX: Jin Xiong. Essential Bioinformatics. ISBN:9780511806087
 * SV: TBA

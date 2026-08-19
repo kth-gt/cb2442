@@ -56,7 +56,7 @@ Now it is time for the actual differential expression analysis. The idea is to c
 
 Open the Cuffdiff program. Go to condition and put "Untreated" and "Treated" as condition name 1 and 2. For each condition, supply it with the 3 relevant replicate bam-files. Keep other parameters at default values. The program may take several minutes to run and creates many (~11) different files in the process. When the analysis is done, look through the output and delete those results that have no data. You should be left with four different results files, some of which we will look into in more detail. Cuffdiff reports results both on the gene level and on the isoform/transcript level[^1]. We will start by looking at the “transcript FPKM tracking” results.
 
-[^1]: Isoforms arise from alternative splicing sites in eukaryote genomes. This means that the same gene can give rise to more than one transcript and, if it is protein coding, give rise to more than one protein [(see the wikipedia entry)](http://en.wikipedia.org/wiki/Gene_isoform).
+[^1]: Isoforms arise from alternative splicing sites in eukaryote genomes. This means that the same gene can give rise to more than one transcript and, if it is protein coding, give rise to more than one protein [(see the wikipedia entry)](https://en.wikipedia.org/wiki/Gene_isoform).
 
 **Q8** What is the length of the longest and shortest transcripts in this dataset and what are the names of the transcripts? (The sorting tools, found in the Text Manipulation section or by using the search field, can be helpful here)
 

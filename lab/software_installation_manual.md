@@ -6,7 +6,7 @@ If you're in the Ubuntu rooms at KTH, follow these steps to install Miniconda in
 
     ```bash
     # Get the latest release of Miniconda for linux
-    wget 'https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh'
+    wget 'https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh'
     # Next, check the SHA256 checksum of the downloaded file
     # Should say 'OK'. If not, check if there is a newer version at https://repo.anaconda.com/miniconda/ and use the new SHA256 checksum (the long string of letters and numbers)
     echo "dda3629462ba1cfa72eb74535214c2e315c77f1cfb0f02046537e99f1bf64abc *Miniconda3-latest-Linux-x86_64.sh" | sha256sum -c
@@ -34,17 +34,17 @@ We will explore several bioinformatics tools during the lab sessions. Some tools
 
 ## Setting up Conda
 
-[Conda](https://conda.io/) is a popular package manager and sandboxing environment for data science software, including many bioinformatics tools. We recommend that you set up a Conda environment by following the steps listed below to make it easier to install the software that you will need for the computer labs.
+[Conda](https://docs.conda.io/en/latest/) is a popular package manager and sandboxing environment for data science software, including many bioinformatics tools. We recommend that you set up a Conda environment by following the steps listed below to make it easier to install the software that you will need for the computer labs.
 
 ### For Windows Users
 
 If you are using a Windows computer, you are encouraged to use a **Windows Subsystem for Linux (WSL)** shell, as some of the tools that we will work with are not available for Windows. 
 
-- [Follow the instructions for WSL before proceeding.](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+- [Follow the instructions for WSL before proceeding.](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 ### Installing Conda (Windows and Linux)
 
-First, [install a Conda distribution for your operating system](https://conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation). If you are using a Windows computer with WSL, you can download the installer by typing in your WSL shell:
+First, [install a Conda distribution for your operating system](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation). If you are using a Windows computer with WSL, you can download the installer by typing in your WSL shell:
 
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh

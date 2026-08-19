@@ -37,9 +37,11 @@ Prodigal is available on Bioconda. To install it, run
 $ conda install -c bioconda prodigal 
 ```
 
-## GenScan: http://hollywood.mit.edu/GENSCAN.html
+## GenScan
 
 GenScan is a web-based tool for finding genes and exons in nucleotide sequences. It is meant for vertebrates and certain plants. If the sequences to be scanned are too large, it is possible to download GenScan and run it from the command line.
+
+Note that the GenScan web server at MIT is no longer available.
 
 ## BLAST: Basic Local Alignment Search Tool
 Blast is a tool for comparing sequences to each other. This can be used simply to compare two sequences or to compare a sequence of interest against a very large database. The standard usage of blast is to compare against a database. The Blast suite includes many different tools, the main ones are:
@@ -84,7 +86,7 @@ BLAST+ is available on Bioconda. To install it, run:
 $ conda install -c bioconda blast 
 ```
 
-## tRNAscan: http://lowelab.ucsc.edu/tRNAscan-SE/
+## tRNAscan: https://trna.ucsc.edu/tRNAscan-SE/
 
 tRNAscan is a tool for identifying transfer RNA in nucleotide sequences. It can be run online or downloaded to be run locally.
 
@@ -112,29 +114,29 @@ $ barrnap input.fasta --outseq output.fasta
 
 ## Multiple sequence aligners
 
-* [Mafft](http://www.ebi.ac.uk/Tools/msa/mafft/)
-* [Muscle](http://www.ebi.ac.uk/Tools/msa/muscle/)
-* [Kalign](http://www.ebi.ac.uk/Tools/msa/kalign/)
+* [Mafft](https://www.ebi.ac.uk/jdispatcher/msa/mafft)
+* [Muscle](https://www.ebi.ac.uk/jdispatcher/msa/muscle)
+* [Kalign](https://www.ebi.ac.uk/jdispatcher/msa/kalign)
 
 These three multiple sequence alignment tools are based in EBI. They run different algorithms in the background, but the user interface is always the same. The sequences to be aligned are pasted on a window or uploaded from a file. Protein and nucleotide sequences are acceptable, in a variety of formats. Several output formats can also be chosen. The most used ones are Fasta and ClustalW. In the clustalw option, you can choose to colour amino acids according to their chemical properties, facilitating the visualization of the alignment.
 
-## Weblogo: http://weblogo.berkeley.edu/logo.cgi
+## Weblogo: https://weblogo.threeplusone.com/
 
 Weblogo is a tool for producing logos of conserved sequences based on short multiple alignments. The fasta or clustalw sequences are pasted or uploaded, and an image is generated of the chosen format and size.
 
-## InterPro/Pfam: [http://pfam.xfam.org/](https://www.ebi.ac.uk/interpro/)
+## InterPro/Pfam: https://www.ebi.ac.uk/interpro/
 
 InterPro is a comprehensive bioinformatics resource that integrates data from various protein domain and family databases, and Pfam is one of the databases integrated into InterPro. Pfam is a specific protein domain and family database that uses Hidden Markov Models (HMMs) to represent protein domains and families, enabling the identification of conserved regions in protein sequences.
 
-## UniProtKB: http://www.uniprot.org/
+## UniProtKB: https://www.uniprot.org/
 
 UniProtKB is a high-quality annotated protein database. The annotation is either done manually (collected in the SwissProt database) or automatically (TrEMBL database).
 
-## Deep TMHMM: [http://www.cbs.dtu.dk/services/TMHMM-2.0/](https://dtu.biolib.com/DeepTMHMM)
+## Deep TMHMM: https://dtu.biolib.com/DeepTMHMM
 
 Deep TMHMM is a tool for predicting transmembrane domains by inputting amino acid sequences in fasta format. The output is a list of partitions of your protein sequence into regions inside/outside the cell and regions inside the membrane, together with a plot showing the probability for each amino acid to be placed in each type of region.
 
-## Philius: http://www.yeastrc.org/philius
+## Philius: https://www.yeastrc.org/philius
 
 Philius is a tool for predicting transmembrane domains and signal peptides based on an amino acid sequence (fasta format is supported only by submitting it through an e-mail form). The output is a confidence measure of the sequence being transmembrane and a partitioning of your protein sequence into regions inside/outside the cell and regions inside the membrane, together with a confidence measure for each region (press the "show list" link next to "Predicted protein segments" to view these statistics).
 
@@ -143,9 +145,11 @@ Philius is a tool for predicting transmembrane domains and signal peptides based
 A rRNA database project with a comprehensive on-line resource for quality checked and aligned ribosomal RNA sequence data. Can be used as a tool for assigning phylogenety to ribosomal RNA sequences or subsequences, by checking the "Search and Classify" box. 
 
 
-## RDP Hierarchy browser: http://rdp.cme.msu.edu/hierarchy/hb_intro.jsp
+## RDP Hierarchy browser
 
 This tool helps you to obtain the ribosomal RNA sequences of many different species out of the Ribosomal Database project. You can search and select the organisms of interest and download their rRNA sequences, which could for example be used for a phylogenetic analysis. For most organisms multiple rRNA sequences are listed, just pick one of them if you want to make a phylogenetic tree.
+
+Note that the Ribosomal Database Project has been retired and its web service is no longer available.
 
 ## Galaxy: https://usegalaxy.org/
 
@@ -156,17 +160,17 @@ When you need to execute the same tool on a number of datasets, there is an opti
 
 Most/all of the tools available in Galaxy are also available as open source software to be run from the command line. While that may be the ‘standard’ way to run these tools the Galaxy environment is a great platform to get familiar with the programs, data files and the results. 
 
-A good place to start to learn about galaxy is [Galaxy 101](https://usegalaxy.org/u/aun1/p/galaxy101)
+A good place to start to learn about galaxy is [Galaxy 101](https://usegalaxy.org/published/page?id=924b1a46d03eaf1e)
 
 Following is a short list of the tools in Galaxy, some of which you will be using through Galaxy in the labs:
 
-* [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+* [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 is a practical tool that allows you to check various quality aspects of your sequencing data prior to any downstream analsysis. The input format for FastQC is sequencing data in the fastq format.
-* [STAR](https://code.google.com/p/rna-star/)
+* [STAR](https://github.com/alexdobin/STAR)
 is an ultrafast RNA sequencing aligner. It takes in sequencing data in fastq format and aligns the sequences to a reference genome. The output is a list of aligned sequences in SAM/BAM format.
 * [Picard Tools](https://broadinstitute.github.io/picard/command-line-overview.html)
 is an extensive toolbox that allows various quality checks, analysis and manipulation of aligned sequencing data, usually in BAM or SAM format.
-* [SAM tools](http://samtools.sourceforge.net/samtools.shtml)
+* [SAM tools](https://www.htslib.org/doc/samtools.html)
 is an extensive toolbox that allows various quality checks, analysis and manipulation of aligned sequencing data, usually in BAM or SAM format.
-* [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/cuffdiff/)
+* [Cufflinks](https://cole-trapnell-lab.github.io/cufflinks/cuffdiff/)
 is a transcript assembler that is it assembles aligned reads into transcripts, i.e introns and exons. It also handles the job of calculating FPKM values for transcripts, both novel and known (annotated) ones. Furthermore, cufflinks includes a module called cuffdiff that calculates differential expression between two (or more) groups.
