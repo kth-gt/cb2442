@@ -1,10 +1,12 @@
 # Schedule
 
 <!--
-  HT26. Rooms and dates taken from KTH Social 2026-08-18
-  (https://www.kth.se/social/course/CB2442/calendar/).
-  NOTE: the computer-lab room lists were truncated in the export ("…"),
-  the missing rooms need to be filled in from KTH Social.
+  HT26. Rooms and dates follow the TimeEdit bookings as of 2026-08-21, after
+  the re-organisation agreed with OE.
+  NOTE: the computer-lab room lists were truncated in the KTH Social export
+  ("…"), the missing rooms need to be filled in.
+  NOTE: L6 (Genome assembly, prokaryotic gene prediction) has been dropped,
+  so the lecture numbering has a gap at L6.
 -->
 
 <style>
@@ -19,17 +21,15 @@ phyl { background:#C9DAF8; color: black;}
 |--------|--------------|--------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------|
 | 08-24  | 8-10         | FR4                                  | <oth>L1</oth>       | <oth>Introduction to course;</oth> <sf>Genome features [SV 1, 2]</sf>     | AA, OE, LK; OE   |
 | 08-26  | 13-17        | Brun, Grå, Karmosin, …               | <oth>LAB_P1</oth>   | <oth>Python programming intro</oth>                                       | TAs              |
-| 08-27  | 8-10         | FR4                                  | <ali>L2</ali>       | <ali>Introduction to alignments [LK 1,2]</ali>                             | LK               |
-| 08-28  | 13-15        | FR4                                  | <ali>L3</ali>       | <ali>Algorithms for pairwise alignments [LK 3,5,7]</ali>                   | LK               |
+| 08-27  | 8-10         | FR4                                  | <ali>L2</ali>       | <ali>Introduction to alignments [LK 1-2]</ali>                             | LK               |
+| 08-28  | 13-15        | FR4                                  | <ali>L3</ali>       | <ali>Algorithms for pairwise alignments [LK 3-8]</ali>                   | LK               |
 |   |   |   |   |   |   |
 | 08-31  | 8-12         | Gul, Orange, Spelhallen, …           | <oth>LAB_P2</oth>   | <oth>Programming alignments</oth>                                         | TAs              |
-| 09-02  | 10-12        | FD5                                  | <ali>L4</ali>       | <ali>Protein sequence alignments [LK 9, Eddy]</ali>                        | LK               |
-| 09-03  | 10-12        | B1                                   | <ali>L5</ali>       | <ali>Multiple sequence alignments (MSA) [LK 11,14]</ali>                   | LK               |
-| 09-04  | 8-10         | M1                                   | <sf>L6</sf>         | <sf>Genome assembly, prokaryotic gene prediction [MK 5.2; MK 9.2-9.5; Pop]</sf>  | OE        |
-| 09-04  | 10-12        | FD5                                  | <ali>L7</ali>       | <ali>Sequence retrieval, BLAST [LK 16]</ali>                               | LK               |
+| 09-02  | 10-12        | FD5                                  | <ali>L4</ali>       | <ali>Protein sequence alignments [LK 9-10, Eddy]</ali>                        | LK               |
+| 09-04  | 8-10         | M1                                   | <ali>L5</ali>       | <ali>Multiple sequence alignments (MSA) [LK 11-15]</ali>                   | LK               |
 |   |   |   |   |   |   |
 | 09-07  | 8-12         | Gul, Röd, Spelhallen, …              | <oth>LAB_B1</oth>   | <oth>Gene finding, Blast and alignment</oth>                              | TAs              |
-| 09-08  | 15-17        | FR4                                  | <sf>L8</sf>         | <sf>Gene expression, RNA-seq [MK 15.2, Deshpande]</sf>                 | OE              |
+| 09-07  | 15-17        | K1                                   | <ali>L7</ali>       | <ali>Sequence retrieval, BLAST [LK 16-17]</ali>                               | LK               |
 | 09-09  | 8-12         | Grå, Grön, Karmosin, …               | <oth>LAB_B2</oth>   | <oth>rRNA finding, taxonomic classification, MSA</oth>                    | TAs              |
 | 09-10  | 10-12        | D2                                   | <sf>L9</sf>         | <sf>Sequence motifs and logos, PSSMs [MK 17.1, 17.2, 18.3]</sf>                                  | OE               |
 |   |   |   |   |   |   |
@@ -38,10 +38,10 @@ phyl { background:#C9DAF8; color: black;}
 | 09-17  | 8-12         | Grå, Grön, Karmosin, …               | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>        | TAs              |
 | 09-18  | 15-17        | FR4                                  | <sf>L12</sf>      | <sf>Clustering [MK 15.3, Sherlock]</sf>         | OE              |
 |   |   |   |   |   |   |
-| 09-21  | 10-12        | FR4                                  | <phyl>L13</phyl>      | <phyl>Phylogenetic distance [SV 6, 7]</phyl>               | AA               |
+| 09-21  | 10-12        | FR4                                  | <sf>L8</sf>         | <sf>Gene expression, RNA-seq [MK 15.2, Deshpande]</sf>                 | OE              |
 | 09-21  | 13-17        | Grå, Grön, Magenta, …                | <oth>LAB_P3</oth>   | <oth>Programming RNA-seq analysis</oth>                                  | TAs              |
-| 09-23  | 10-12        | Q1                                   | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [SV 6, 7, JX p150-165]</phyl>                   | AA               |
-| 09-24  | 8-10         | FR4                                  | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
+| 09-23  | 10-12        | Q1                                   | <phyl>L13</phyl>      | <phyl>Phylogenetic distance [SV 6, 7]</phyl>               | AA               |
+| 09-24  | 8-10         | FR4                                  | <phyl>L14</phyl>       | <phyl>Phylogenetic tree algorithms I [SV 6, 7, JX p150-165]</phyl>                   | AA               |
 |   |   |   |   |   |   |
 | 09-29  | 13-15        | M1                                   | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [SV 6, 7, JX p150-165]</phyl>                  | AA               |
 | 09-30  | 13-17        | Karmosin, Spelhallen, Sporthallen, … | <oth>LAB_P4</oth>   | <oth>Programming phylogenetics</oth>                                         | TAs              |
@@ -73,7 +73,7 @@ phyl { background:#C9DAF8; color: black;}
 
 ## Literature
 
-* LK: ["Bioinformatics for Biotechnology students", Lukas Käll](https://statisticalbiotechnology.github.io/bibook)
+* LK: ["Bioinformatics for Biotechnology students", Lukas Käll](https://www.kaell.se/bibook)
 * MK: ["Computational Biology - Genomes, Networks, and Evolution. Manolis Kellis, et al."](https://commons.libretexts.org/book/bio-40877)
 * JX: Jin Xiong. Essential Bioinformatics. ISBN:9780511806087
 * SV: TBA
