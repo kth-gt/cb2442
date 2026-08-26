@@ -13,6 +13,12 @@ $ unzip 'kth-gt cb2442 main prog-p1.zip'
 $ code .
 ```
 
+The project folder contains a `.vscode` directory that switches off VS Code's
+AI assistant (Copilot chat and inline suggestions) for this workspace. Please
+leave it in place: the point of the lab is that you write the code yourself.
+If you also want to turn the AI features off for VS Code as a whole, see the
+[software installation manual](../../lab/software_installation_manual.md#turning-off-the-ai-assistant-copilot).
+
 ### VSCode
 
 If you are not yet familiar with the VS Code software, watch for example this [short introduction video](https://code.visualstudio.com/docs/introvideos/basics). Note that you can run your code directly in VS Code and don't need to open a separate terminal window. You can run either the whole script by e.g. pressing the start symbol in the upper right corner or by typing `labp1.py` in the terminal window below the code window (if you don't see it, select "Terminal" in the "View" menu). You can also run Python in interactive mode by typing `python3` in the terminal window. This will give you a `>>>` prompt and now you can paste (or type) sections of the code that will be executed. Another way to do this is to mark a section of the code, right-click, and select "Run Python" / "Run Selection/Line in Python Terminal" (or press Shift+Enter). Don't forget to save every now and then.

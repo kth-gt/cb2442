@@ -9,9 +9,15 @@ Begin with downloading the project to your local computer by using this [link](h
 
 Unzip the files into a directory and open the directory in VScode. 
 ```bash
-$ unzip 'kth-gt cb2442 main prog-p1.zip'
+$ unzip 'kth-gt cb2442 main prog-p4.zip'
 $ code .
 ```
+
+The project folder contains a `.vscode` directory that switches off VS Code's
+AI assistant (Copilot chat and inline suggestions) for this workspace. Please
+leave it in place: the point of the lab is that you write the code yourself.
+If you also want to turn the AI features off for VS Code as a whole, see the
+[software installation manual](../../lab/software_installation_manual.md#turning-off-the-ai-assistant-copilot).
 
 ### Implementation
 

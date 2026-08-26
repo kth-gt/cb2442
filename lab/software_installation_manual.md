@@ -93,5 +93,33 @@ Visual Studio Code (often referred to as VS Code) is a free and open-source code
    sudo apt install code
    ```
 
+### Turning off the AI assistant (Copilot)
+
+Recent versions of VS Code ship with GitHub Copilot built in, so it is not
+enough to avoid installing an extension. In this course you are supposed to
+write the code yourself, so please switch the AI features off:
+
+1. Open the Command Palette with `Ctrl+Shift+P` (`Cmd+Shift+P` on macOS).
+2. Run **Chat: Hide AI Features**.
+
+This hides the chat view and the inline code suggestions, and disables the
+Copilot extensions. The setting survives VS Code updates. If you prefer to
+edit your settings file directly (`Ctrl+Shift+P` -> **Preferences: Open User
+Settings (JSON)**), the equivalent is:
+
+```json
+{
+    "chat.disableAIFeatures": true,
+    "github.copilot.enable": {
+        "*": false
+    }
+}
+```
+
+The programming lab folders (`prog/p1` - `prog/p4`) already contain a
+`.vscode/settings.json` with these settings, so the AI features are off when
+you open one of those folders even if you skip the steps above. Do not remove
+that file.
+
 ### If problems persist:
 Sometimes there are compatibility issues that we may be unaware of. If this is the case, consider using the computer provided in the computer lab rooms.

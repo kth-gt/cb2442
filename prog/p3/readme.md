@@ -85,7 +85,7 @@ $ conda install matplotlib
 ```
 
 Instructions regarding the use of Miniconda - and hence the conda
-command - in this course are [here](../lab/software_installation_manual.md)
+command - in this course are [here](../../lab/software_installation_manual.md)
 
 (b) download the project files to your local computer by using this [link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fkth-gt%2Fcb2442%2Ftree%2Fmain%2Fprog%2Fp3).
 
@@ -94,6 +94,12 @@ Unzip the files into a directory and open the directory in VScode.
 $ unzip 'kth-gt cb2442 main prog-p3.zip'
 $ code .
 ```
+
+The project folder contains a `.vscode` directory that switches off VS Code's
+AI assistant (Copilot chat and inline suggestions) for this workspace. Please
+leave it in place: the point of the lab is that you write the code yourself.
+If you also want to turn the AI features off for VS Code as a whole, see the
+[software installation manual](../../lab/software_installation_manual.md#turning-off-the-ai-assistant-copilot).
 
 ## Implementation
 

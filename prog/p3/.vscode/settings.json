@@ -1,0 +1,10 @@
+{
+    // This course is about learning to write the code yourself, so the
+    // AI assistant features of VS Code (Copilot, chat, inline suggestions)
+    // are turned off for this workspace.
+    "chat.disableAIFeatures": true,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": false
+}
