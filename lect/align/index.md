@@ -37,7 +37,7 @@ Read Eddy, S.R. [Where did the BLOSUM62 alignment score matrix come from?](https
 
 ## Before L5
 
-Read the following chapters of the book:
+Read the following chapters of the book: 
 
 * Chapter 11: [Multiple Sequence Alignments](https://www.kaell.se/bibook/msa/progressive), with code in [chapter 12](https://www.kaell.se/bibook/msa/msa)
 * Chapter 13: [Sequence Logos](https://www.kaell.se/bibook/msa/seqlogo)
