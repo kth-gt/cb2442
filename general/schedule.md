@@ -3,8 +3,9 @@
 <!--
   HT26. Rooms and dates follow the TimeEdit bookings as of 2026-08-21, after
   the re-organisation agreed with OE.
-  NOTE: the computer-lab room lists were truncated in the KTH Social export
-  ("…"), the missing rooms need to be filled in.
+  NOTE: lab rooms come from the TimeEdit feed, which lists them in full --
+  the KTH Social calendar truncates them. LAB_B4 (10-06) and the 10-08
+  reserve still end in "…" because they are not in the feed yet.
   NOTE: L6 (Genome assembly, prokaryotic gene prediction) has been dropped,
   so the lecture numbering has a gap at L6.
 -->
@@ -17,44 +18,44 @@ sf { background:#F4CCCC; color: black;}
 phyl { background:#C9DAF8; color: black;}
 </style>
 
-| Date--   | Time         | Place                                | Activity                                                    | Content                                                                                                                     | Responsible      |
-|--------|--------------|--------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------|
-| 08-24  | 8-10         | FR4                                  | <oth>L1</oth>       | <oth>Introduction to course;</oth> <sf>Genome features [SV 1, 2]</sf>     | AA, OE, LK; OE   |
-| 08-26  | 13-17        | Brun, Grå, Karmosin, …               | <oth>LAB_P1</oth>   | <oth>Python programming intro</oth>                                       | TAs              |
-| 08-27  | 8-10         | FR4                                  | <ali>L2</ali>       | <ali>Introduction to alignments [LK 1-2]</ali>                             | LK               |
-| 08-28  | 13-15        | FR4                                  | <ali>L3</ali>       | <ali>📝 Algorithms for pairwise alignments [LK 3-8]</ali>                   | LK               |
-|   |   |   |   |   |   |
-| 08-31  | 8-12         | Gul, Orange, Spelhallen, …           | <oth>LAB_P2</oth>   | <oth>Programming alignments</oth>                                         | TAs              |
-| 09-02  | 10-12        | FD5                                  | <ali>L4</ali>       | <ali>📝 Protein sequence alignments [LK 9-10, Eddy]</ali>                        | LK               |
-| 09-04  | 8-10         | M1                                   | <ali>L5</ali>       | <ali>📝 Multiple sequence alignments (MSA) [LK 11-15]</ali>                   | LK               |
-|   |   |   |   |   |   |
-| 09-07  | 8-12         | Gul, Röd, Spelhallen, …              | <oth>LAB_B1</oth>   | <oth>Gene finding, Blast and alignment</oth>                              | TAs              |
-| 09-07  | 15-17        | K1                                   | <ali>L7</ali>       | <ali>📝 Sequence retrieval, BLAST [LK 16-17]</ali>                               | LK               |
-| 09-09  | 8-12         | Grå, Grön, Karmosin, …               | <oth>LAB_B2</oth>   | <oth>rRNA finding, taxonomic classification, MSA</oth>                    | TAs              |
-| 09-10  | 10-12        | D2                                   | <sf>L8</sf>         | <sf>📝 Gene expression, RNA-seq [MK 15.2, Deshpande]</sf>                 | OE              |
-|   |   |   |   |   |   |
-| 09-14  | 10-12        | FR4                                  | <sf>L9</sf>         | <sf>Sequence motifs and logos, PSSMs [MK 17.1, 17.2, 18.3]</sf>                                  | OE               |
-| 09-15  | 10-12        | M1                                   | <sf>L10</sf>      | <sf>Hidden Markov models, Key applications of HMMs [LK 14, MK 7.1-7.4, 7.6, 9.2-9.4, 16.2, web resource]</sf>     | OE               |
-| 09-17  | 8-12         | Grå, Grön, Karmosin, …               | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>        | TAs              |
-| 09-18  | 15-17        | FR4                                  | <sf>L11</sf>      | <sf>Protein features, Predictive discriminative models [LK 14; MK 7.1-7.4, 7.6, 9.2-9.4, web resource]</sf>        | OE               |
-|   |   |   |   |   |   |
-| 09-21  | 10-12        | FR4                                  | <sf>L12</sf>      | <sf>📝 Clustering [MK 15.3, Sherlock]</sf>         | OE              |
-| 09-21  | 13-17        | Grå, Grön, Magenta, …                | <oth>LAB_P3</oth>   | <oth>Programming RNA-seq analysis</oth>                                  | TAs              |
-| 09-23  | 10-12        | Q1                                   | <phyl>L13</phyl>      | <phyl>📝 Phylogenetic distance [SV 6, 7]</phyl>               | AA               |
-| 09-24  | 8-10         | FR4                                  | <phyl>L14</phyl>       | <phyl>📝 Phylogenetic tree algorithms I [SV 6, 7, JX p150-165]</phyl>                   | AA               |
-|   |   |   |   |   |   |
-| 09-29  | 13-15        | M1                                   | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [SV 6, 7, JX p150-165]</phyl>                  | AA               |
-| 09-30  | 13-17        | Karmosin, Spelhallen, Sporthallen, … | <oth>LAB_P4</oth>   | <oth>Programming phylogenetics</oth>                                         | TAs              |
-| 10-01  | 13-15        | M1                                   | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
-| 10-02  | 13-15        | FR4                                  | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
-|   |   |   |   |   |   |
-| 10-06  | 8-12         | Grå, Gul, Karmosin, …                | <oth>LAB_B4</oth>   | <oth>RNA-seq, differential gene expression</oth>                             | TAs                 |
-| 10-08  | 8-12         | Grön, Spelhallen, Sporthallen, …     | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
-| 10-09  | 13-15        | FR4                                  | <oth>L16</oth>      | <oth>Questions &amp; Answers session</oth>                                     | AA, OE, LK       |
-|   |   |   |   |   |   |
-| 10-19  | 08:00-12:00  | FA32, FB51, FB55, …                  | <oth>Exam</oth>     | <oth></oth>                                                                  |                  |
-|   |   |   |   |   |   |
-| 12-17  | 08:00-12:00  | FP22                                 | <oth>Re-exam</oth>  | <oth></oth>                                                                  |                  |
+| Date--   | Time         | Place                                                      | Activity                                                    | Content                                                                                                                     | Responsible      |
+|--------|--------------|------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------|
+| 08-24  | 8-10         | FR4                                                        | <oth>L1</oth>       | <oth>Introduction to course;</oth> <sf>Genome features [SV 1, 2]</sf>     | AA, OE, LK; OE   |
+| 08-26  | 13-17        | Brun, Grå, Karmosin, Magenta, Spelhallen, Sporthallen, Vit | <oth>LAB_P1</oth>   | <oth>Python programming intro</oth>                                       | TAs              |
+| 08-27  | 8-10         | FR4                                                        | <ali>L2</ali>       | <ali>Introduction to alignments [LK 1-2]</ali>                             | LK               |
+| 08-28  | 13-15        | FR4                                                        | <ali>L3</ali>       | <ali>📝 Algorithms for pairwise alignments [LK 3-8]</ali>                   | LK               |
+|   |   |                                                            |   |   |   |
+| 08-31  | 8-12         | Gul, Orange, Spelhallen, Sporthallen                       | <oth>LAB_P2</oth>   | <oth>Programming alignments</oth>                                         | TAs              |
+| 09-02  | 10-12        | FD5                                                        | <ali>L4</ali>       | <ali>📝 Protein sequence alignments [LK 9-10, Eddy]</ali>                        | LK               |
+| 09-04  | 8-10         | M1                                                         | <ali>L5</ali>       | <ali>📝 Multiple sequence alignments (MSA) [LK 11-15]</ali>                   | LK               |
+|   |   |                                                            |   |   |   |
+| 09-07  | 8-12         | Gul, Röd, Spelhallen, Sporthallen, Vit                     | <oth>LAB_B1</oth>   | <oth>Gene finding, Blast and alignment</oth>                              | TAs              |
+| 09-07  | 15-17        | K1                                                         | <ali>L7</ali>       | <ali>📝 Sequence retrieval, BLAST [LK 16-17]</ali>                               | LK               |
+| 09-09  | 8-12         | Grå, Grön, Karmosin, Magenta, Spelhallen, Vit              | <oth>LAB_B2</oth>   | <oth>rRNA finding, taxonomic classification, MSA</oth>                    | TAs              |
+| 09-10  | 10-12        | D2                                                         | <sf>L8</sf>         | <sf>📝 Gene expression, RNA-seq [MK 15.2, Deshpande]</sf>                 | OE              |
+|   |   |                                                            |   |   |   |
+| 09-14  | 10-12        | FR4                                                        | <sf>L9</sf>         | <sf>Sequence motifs and logos, PSSMs [MK 17.1, 17.2, 18.3]</sf>                                  | OE               |
+| 09-15  | 10-12        | M1                                                         | <sf>L10</sf>      | <sf>Hidden Markov models, Key applications of HMMs [LK 14, MK 7.1-7.4, 7.6, 9.2-9.4, 16.2, web resource]</sf>     | OE               |
+| 09-17  | 8-12         | Grå, Grön, Karmosin, Spelhallen, Sporthallen, Vit          | <oth>LAB_B3</oth>   | <oth>Protein sequence feature prediction, MSA and phylogenetics</oth>        | TAs              |
+| 09-18  | 15-17        | FR4                                                        | <sf>L11</sf>      | <sf>Protein features, Predictive discriminative models [LK 14; MK 7.1-7.4, 7.6, 9.2-9.4, web resource]</sf>        | OE               |
+|   |   |                                                            |   |   |   |
+| 09-21  | 10-12        | FR4                                                        | <sf>L12</sf>      | <sf>📝 Clustering [MK 15.3, Sherlock]</sf>         | OE              |
+| 09-21  | 13-17        | Grå, Grön, Magenta, Spelhallen, Sporthallen, Vit           | <oth>LAB_P3</oth>   | <oth>Programming RNA-seq analysis</oth>                                  | TAs              |
+| 09-23  | 10-12        | Q1                                                         | <phyl>L13</phyl>      | <phyl>📝 Phylogenetic distance [SV 6, 7]</phyl>               | AA               |
+| 09-24  | 8-10         | FR4                                                        | <phyl>L14</phyl>       | <phyl>📝 Phylogenetic tree algorithms I [SV 6, 7, JX p150-165]</phyl>                   | AA               |
+|   |   |                                                            |   |   |   |
+| 09-29  | 13-15        | M1                                                         | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [SV 6, 7, JX p150-165]</phyl>                  | AA               |
+| 09-30  | 13-17        | Karmosin, Spelhallen, Sporthallen, Vit                     | <oth>LAB_P4</oth>   | <oth>Programming phylogenetics</oth>                                         | TAs              |
+| 10-01  | 13-15        | M1                                                         | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
+| 10-02  | 13-15        | FR4                                                        | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
+|   |   |                                                            |   |   |   |
+| 10-06  | 8-12         | Grå, Gul, Karmosin, …                                      | <oth>LAB_B4</oth>   | <oth>RNA-seq, differential gene expression</oth>                             | TAs                 |
+| 10-08  | 8-12         | Grön, Spelhallen, Sporthallen, …                           | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
+| 10-09  | 13-15        | FR4                                                        | <oth>L16</oth>      | <oth>Questions &amp; Answers session</oth>                                     | AA, OE, LK       |
+|   |   |                                                            |   |   |   |
+| 10-19  | 08:00-12:00  | FA32, FB51, FB55, …                                        | <oth>Exam</oth>     | <oth></oth>                                                                  |                  |
+|   |   |                                                            |   |   |   |
+| 12-17  | 08:00-12:00  | FP22                                                       | <oth>Re-exam</oth>  | <oth></oth>                                                                  |                  |
 
 ## Type of Convocation
 

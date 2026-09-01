@@ -15,8 +15,9 @@ body.markdown-body { box-sizing: border-box; max-width: 1012px; margin: 0 auto; 
 <!--
   HT26. Rooms and dates follow the TimeEdit bookings as of 2026-08-21, after
   the re-organisation agreed with OE.
-  NOTE: the computer-lab room lists were truncated in the KTH Social export
-  ("…"), the missing rooms need to be filled in.
+  NOTE: lab rooms come from the TimeEdit feed, which lists them in full --
+  the KTH Social calendar truncates them. LAB_B4 (10-06) and the 10-08
+  reserve still end in "…" because they are not in the feed yet.
   NOTE: L6 (Genome assembly, prokaryotic gene prediction) has been dropped,
   so the lecture numbering has a gap at L6.
 -->
@@ -29,7 +30,7 @@ phyl { background:#C9DAF8; color: black;}
 </style>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Date--</th>
 <th>Time</th>
 <th>Place</th>
@@ -39,7 +40,7 @@ phyl { background:#C9DAF8; color: black;}
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>08-24</td>
 <td>8-10</td>
 <td>FR4</td>
@@ -47,15 +48,15 @@ phyl { background:#C9DAF8; color: black;}
 <td><oth>Introduction to course;</oth> <sf>Genome features [SV 1, 2]</sf></td>
 <td>AA, OE, LK; OE</td>
 </tr>
-<tr class="even">
+<tr>
 <td>08-26</td>
 <td>13-17</td>
-<td>Brun, Grå, Karmosin, …</td>
+<td>Brun, Grå, Karmosin, Magenta, Spelhallen, Sporthallen, Vit</td>
 <td><oth>LAB_P1</oth></td>
 <td><oth>Python programming intro</oth></td>
 <td>TAs</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>08-27</td>
 <td>8-10</td>
 <td>FR4</td>
@@ -63,7 +64,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><ali>Introduction to alignments [LK 1-2]</ali></td>
 <td>LK</td>
 </tr>
-<tr class="even">
+<tr>
 <td>08-28</td>
 <td>13-15</td>
 <td>FR4</td>
@@ -71,7 +72,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><ali>📝 Algorithms for pairwise alignments [LK 3-8]</ali></td>
 <td>LK</td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -79,15 +80,15 @@ phyl { background:#C9DAF8; color: black;}
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>08-31</td>
 <td>8-12</td>
-<td>Gul, Orange, Spelhallen, …</td>
+<td>Gul, Orange, Spelhallen, Sporthallen</td>
 <td><oth>LAB_P2</oth></td>
 <td><oth>Programming alignments</oth></td>
 <td>TAs</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>09-02</td>
 <td>10-12</td>
 <td>FD5</td>
@@ -95,7 +96,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><ali>📝 Protein sequence alignments [LK 9-10, Eddy]</ali></td>
 <td>LK</td>
 </tr>
-<tr class="even">
+<tr>
 <td>09-04</td>
 <td>8-10</td>
 <td>M1</td>
@@ -103,7 +104,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><ali>📝 Multiple sequence alignments (MSA) [LK 11-15]</ali></td>
 <td>LK</td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -111,15 +112,15 @@ phyl { background:#C9DAF8; color: black;}
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>09-07</td>
 <td>8-12</td>
-<td>Gul, Röd, Spelhallen, …</td>
+<td>Gul, Röd, Spelhallen, Sporthallen, Vit</td>
 <td><oth>LAB_B1</oth></td>
 <td><oth>Gene finding, Blast and alignment</oth></td>
 <td>TAs</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>09-07</td>
 <td>15-17</td>
 <td>K1</td>
@@ -127,15 +128,15 @@ phyl { background:#C9DAF8; color: black;}
 <td><ali>📝 Sequence retrieval, BLAST [LK 16-17]</ali></td>
 <td>LK</td>
 </tr>
-<tr class="even">
+<tr>
 <td>09-09</td>
 <td>8-12</td>
-<td>Grå, Grön, Karmosin, …</td>
+<td>Grå, Grön, Karmosin, Magenta, Spelhallen, Vit</td>
 <td><oth>LAB_B2</oth></td>
 <td><oth>rRNA finding, taxonomic classification, MSA</oth></td>
 <td>TAs</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>09-10</td>
 <td>10-12</td>
 <td>D2</td>
@@ -143,7 +144,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><sf>📝 Gene expression, RNA-seq [MK 15.2, Deshpande]</sf></td>
 <td>OE</td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -151,7 +152,7 @@ phyl { background:#C9DAF8; color: black;}
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>09-14</td>
 <td>10-12</td>
 <td>FR4</td>
@@ -159,7 +160,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><sf>Sequence motifs and logos, PSSMs [MK 17.1, 17.2, 18.3]</sf></td>
 <td>OE</td>
 </tr>
-<tr class="even">
+<tr>
 <td>09-15</td>
 <td>10-12</td>
 <td>M1</td>
@@ -167,15 +168,15 @@ phyl { background:#C9DAF8; color: black;}
 <td><sf>Hidden Markov models, Key applications of HMMs [LK 14, MK 7.1-7.4, 7.6, 9.2-9.4, 16.2, web resource]</sf></td>
 <td>OE</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>09-17</td>
 <td>8-12</td>
-<td>Grå, Grön, Karmosin, …</td>
+<td>Grå, Grön, Karmosin, Spelhallen, Sporthallen, Vit</td>
 <td><oth>LAB_B3</oth></td>
 <td><oth>Protein sequence feature prediction, MSA and phylogenetics</oth></td>
 <td>TAs</td>
 </tr>
-<tr class="even">
+<tr>
 <td>09-18</td>
 <td>15-17</td>
 <td>FR4</td>
@@ -183,7 +184,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><sf>Protein features, Predictive discriminative models [LK 14; MK 7.1-7.4, 7.6, 9.2-9.4, web resource]</sf></td>
 <td>OE</td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -191,7 +192,7 @@ phyl { background:#C9DAF8; color: black;}
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>09-21</td>
 <td>10-12</td>
 <td>FR4</td>
@@ -199,15 +200,15 @@ phyl { background:#C9DAF8; color: black;}
 <td><sf>📝 Clustering [MK 15.3, Sherlock]</sf></td>
 <td>OE</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>09-21</td>
 <td>13-17</td>
-<td>Grå, Grön, Magenta, …</td>
+<td>Grå, Grön, Magenta, Spelhallen, Sporthallen, Vit</td>
 <td><oth>LAB_P3</oth></td>
 <td><oth>Programming RNA-seq analysis</oth></td>
 <td>TAs</td>
 </tr>
-<tr class="even">
+<tr>
 <td>09-23</td>
 <td>10-12</td>
 <td>Q1</td>
@@ -215,7 +216,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><phyl>📝 Phylogenetic distance [SV 6, 7]</phyl></td>
 <td>AA</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>09-24</td>
 <td>8-10</td>
 <td>FR4</td>
@@ -223,7 +224,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><phyl>📝 Phylogenetic tree algorithms I [SV 6, 7, JX p150-165]</phyl></td>
 <td>AA</td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -231,7 +232,7 @@ phyl { background:#C9DAF8; color: black;}
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>09-29</td>
 <td>13-15</td>
 <td>M1</td>
@@ -239,15 +240,15 @@ phyl { background:#C9DAF8; color: black;}
 <td><phyl>Phylogenetic tree algorithms II [SV 6, 7, JX p150-165]</phyl></td>
 <td>AA</td>
 </tr>
-<tr class="even">
+<tr>
 <td>09-30</td>
 <td>13-17</td>
-<td>Karmosin, Spelhallen, Sporthallen, …</td>
+<td>Karmosin, Spelhallen, Sporthallen, Vit</td>
 <td><oth>LAB_P4</oth></td>
 <td><oth>Programming phylogenetics</oth></td>
 <td>TAs</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10-01</td>
 <td>13-15</td>
 <td>M1</td>
@@ -255,7 +256,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><cncl>Reserve, TBA if needed</cncl></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>10-02</td>
 <td>13-15</td>
 <td>FR4</td>
@@ -263,7 +264,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><cncl>Reserve, TBA if needed</cncl></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -271,7 +272,7 @@ phyl { background:#C9DAF8; color: black;}
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>10-06</td>
 <td>8-12</td>
 <td>Grå, Gul, Karmosin, …</td>
@@ -279,7 +280,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><oth>RNA-seq, differential gene expression</oth></td>
 <td>TAs</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10-08</td>
 <td>8-12</td>
 <td>Grön, Spelhallen, Sporthallen, …</td>
@@ -287,7 +288,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><cncl>Reserve, TBA if needed</cncl></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>10-09</td>
 <td>13-15</td>
 <td>FR4</td>
@@ -295,7 +296,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><oth>Questions &amp; Answers session</oth></td>
 <td>AA, OE, LK</td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -303,7 +304,7 @@ phyl { background:#C9DAF8; color: black;}
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>10-19</td>
 <td>08:00-12:00</td>
 <td>FA32, FB51, FB55, …</td>
@@ -311,7 +312,7 @@ phyl { background:#C9DAF8; color: black;}
 <td><oth></oth></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -319,7 +320,7 @@ phyl { background:#C9DAF8; color: black;}
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>12-17</td>
 <td>08:00-12:00</td>
 <td>FP22</td>
