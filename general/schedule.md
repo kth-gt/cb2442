@@ -41,12 +41,12 @@ phyl { background:#C9DAF8; color: black;}
 |   |   |                                                            |   |   |   |
 | 09-21  | 10-12        | FR4                                                        | <sf>L12</sf>      | <sf>📝 Clustering [MK 15.3, Sherlock]</sf>         | OE              |
 | 09-21  | 13-17        | Grå, Grön, Magenta, Spelhallen, Sporthallen, Vit           | <oth>LAB_P3</oth>   | <oth>Programming RNA-seq analysis</oth>                                  | TAs              |
-| 09-23  | 10-12        | Q1                                                         | <phyl>L13</phyl>      | <phyl>📝 Phylogenetic distance [SV 6, 7]</phyl>               | AA               |
-| 09-24  | 8-10         | FR4                                                        | <phyl>L14</phyl>       | <phyl>📝 Phylogenetic tree algorithms I [SV 6, 7, JX p150-165]</phyl>                   | AA               |
+| 09-23  | 10-12        | Q1                                                         | <phyl>L13</phyl>      | <phyl>📝 Phylogenetics: Introduction</phyl>               | AA               |
+| 09-24  | 8-10         | FR4                                                        | <cncl></cncl>         | <cncl>Cancelled</cncl>                                        |                  |
 |   |   |                                                            |   |   |   |
-| 09-29  | 13-15        | M1                                                         | <phyl>L15</phyl>     | <phyl>Phylogenetic tree algorithms II [SV 6, 7, JX p150-165]</phyl>                  | AA               |
+| 09-29  | 13-15        | M1                                                         | <phyl>L14</phyl>     | <phyl>📝 Phylogenetics: Tree inference and evaluation</phyl>                   | AA               |
 | 09-30  | 13-17        | Karmosin, Spelhallen, Sporthallen, Vit                     | <oth>LAB_P4</oth>   | <oth>Programming phylogenetics</oth>                                         | TAs              |
-| 10-01  | 13-15        | M1                                                         | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
+| 10-01  | 13-15        | M1                                                         | <phyl>L15</phyl>         | <phyl>Phylogenetics: Remaining exercises</phyl>                  | AA             |
 | 10-02  | 13-15        | FR4                                                        | <cncl></cncl>         | <cncl>Reserve, TBA if needed</cncl>                                        |                |
 |   |   |                                                            |   |   |   |
 | 10-06  | 8-12         | Grå, Gul, Karmosin, …                                      | <oth>LAB_B4</oth>   | <oth>RNA-seq, differential gene expression</oth>                             | TAs                 |
