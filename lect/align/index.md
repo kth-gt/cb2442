@@ -14,9 +14,9 @@ All preparatory reading is in the course book, [Bioinformatics for Biotechnology
 
 Read the following chapters of the book:
 
-* Chapter 3: [Needleman-Wunsch Algorithm: Global Alignment](https://www.kaell.se/bibook/pairwise/needleman), with code in [chapter 4](https://www.kaell.se/bibook/pairwise/nw-code)
-* Chapter 5: [Smith-Waterman Algorithm: Local Alignment](https://www.kaell.se/bibook/pairwise/waterman), with code in [chapter 6](https://www.kaell.se/bibook/pairwise/sw-code)
-* Chapter 7: [Semi-global Alignment](https://www.kaell.se/bibook/pairwise/semi), with code in [chapter 8](https://www.kaell.se/bibook/pairwise/sg-code)
+* Chapter 1.3: [Needleman-Wunsch Algorithm: Global Alignment](https://www.kaell.se/bibook/alignment/pairwise/needleman), with code in [chapter 1.4](https://www.kaell.se/bibook/alignment/pairwise/nw-code)
+* Chapter 1.5: [Smith-Waterman Algorithm: Local Alignment](https://www.kaell.se/bibook/alignment/pairwise/waterman), with code in [chapter 1.6](https://www.kaell.se/bibook/alignment/pairwise/sw-code)
+* Chapter 1.7: [Semi-global Alignment](https://www.kaell.se/bibook/alignment/pairwise/semi), with code in [chapter 1.8](https://www.kaell.se/bibook/alignment/pairwise/sg-code)
 
 ## At L3 (in class)
 
@@ -27,7 +27,7 @@ Read the following chapters of the book:
 
 Read the following chapter of the book:
 
-* Chapter 9: [Aligning Proteins](https://www.kaell.se/bibook/protein/matrix), with code in [chapter 10](https://www.kaell.se/bibook/protein/prot-code)
+* Chapter 1.9: [Aligning Proteins](https://www.kaell.se/bibook/alignment/protein/matrix), with code in [chapter 1.10](https://www.kaell.se/bibook/alignment/protein/prot-code)
 
 Read Eddy, S.R. [Where did the BLOSUM62 alignment score matrix come from?](https://doi.org/10.1038/nbt0804-1035) Nat Biotechnol 22, 1035–1036 (2004)
 
@@ -39,9 +39,9 @@ Read Eddy, S.R. [Where did the BLOSUM62 alignment score matrix come from?](https
 
 Read the following chapters of the book: 
 
-* Chapter 11: [Multiple Sequence Alignments](https://www.kaell.se/bibook/msa/progressive), with code in [chapter 12](https://www.kaell.se/bibook/msa/msa)
-* Chapter 13: [Sequence Logos](https://www.kaell.se/bibook/msa/seqlogo)
-* Chapter 14: [Profile Hidden Markov Models](https://www.kaell.se/bibook/msa/profilehmm), with code in [chapter 15](https://www.kaell.se/bibook/msa/viterbi)
+* Chapter 1.11: [Multiple Sequence Alignments](https://www.kaell.se/bibook/alignment/msa/progressive), with code in [chapter 1.12](https://www.kaell.se/bibook/alignment/msa/msa)
+* Chapter 1.13: [Sequence Logos](https://www.kaell.se/bibook/alignment/msa/seqlogo)
+* Chapter 1.14: [Profile Hidden Markov Models](https://www.kaell.se/bibook/alignment/msa/profilehmm), with code in [chapter 1.15](https://www.kaell.se/bibook/alignment/msa/viterbi)
 
 ## At L5 (in class)
 
@@ -52,7 +52,7 @@ Read the following chapters of the book:
 
 Read the following chapter of the book:
 
-* Chapter 16: [The BLAST Algorithm for Sequence Retrieval](https://www.kaell.se/bibook/retrieval/blast), with code in [chapter 17](https://www.kaell.se/bibook/retrieval/blast-code)
+* Chapter 1.16: [The BLAST Algorithm for Sequence Retrieval](https://www.kaell.se/bibook/alignment/retrieval/blast), with code in [chapter 1.17](https://www.kaell.se/bibook/alignment/retrieval/blast-code)
 
 Try to BLAST a sequence yourself — enter e.g. "APEPTIDETHATILIKE", or your own name, into [NCBI's BLAST webserver](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch)
 
